@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+<wml>
+<template>
+<do label="Top" type="accept">
+<go href="#contents"/>
+</do>
+</template>
+<card id="copyright">
+<onevent type="ontimer">
+<go href="#title"/>
+</onevent>
+<timer value="20"/>
+<p align="center">
+Copyright 
+&copy; 2004<br/>
+by
+Philip Chu.
+</p>
+<p>
+Do not distribute without permission.
+</p>
+</card>
+<card title="Résumé" id="title">
+<onevent type="ontimer">
+<go href="#contents"/>
+</onevent>
+<timer value="20"/>
+<p align="center">Philip Chu</p>
+<p>
+<small>Huntington Beach,
+CA</small>
+</p>
+<p align="left">
+<small>resume@technicat.com</small>
+</p>
+<p align="left">
+<small>http://www.technicat.com/</small>
+</p>
+</card>
+<card title="Résumé" id="contents">
+<select>
+<option onpick="#summary">Summary</option>
+<option onpick="#professional">Professional</option>
+<option onpick="#academic">Academic</option>
+</select>
+</card>
+<card title="summary" id="summary">
+<select>
+<option onpick="#career">Career</option>
+<option onpick="#education">Education</option>
+</select>
+</card>
+<card title="career" id="career">
+    Two decades of software development experience in a variety of roles, with projects
+    spanning interactive
+    entertainment#interactive entertainment, wireless
+    internet#wireless/internet, computer
+    graphics#computer graphics,
+ semiconductors#semicondutors and
+    defense#government/defense.
+</card>
+<card title="education" id="education">
+    Bachelors degree in computer science and engineering from the
+    Massachusetts Institute of Technologyhttp://www.mit.edu/ and a masters degree in
+    computer science from Johns Hopkins Universityhttp://www.jhu.edu/.
+</card>
+</wml>
