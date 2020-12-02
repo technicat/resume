@@ -1,5 +1,5 @@
 ifdef::env-github[]
-:imagesdir: https://github.com/technicat/technicat/blob/master/images
+:imagesdir: https://github.com/technicat/resume/blob/master/images
 endif::[]
 
 :toc:
