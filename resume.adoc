@@ -115,7 +115,7 @@ image:https://github.com/technicat/technicat/blob/master/images/sts61.jpg[ST,70,
 === Massachusetts Institute of Technology
 _1989-1990 Cambridge, Massachusetts_
 
-Developed simulators and sample applications for https://en.wikipedia.org/wiki/Content-addressable_memory[content-addressable memory], the https://www.semanticscholar.org/paper/The-MIT-database-accelerator%3A-2K-TRIT-circuit-Wade-Osler/8265f5f166e20d9bd60ad71fa62f873519fe4a0c[Database Accelerator] and fContent Addressable Parallel Processor, at the https://www.mtl.mit.edu/[Microsystems Technology Laboratory], running on Macintoshes and Unix workstations.
+Developed simulators and sample applications for https://en.wikipedia.org/wiki/Content-addressable_memory[content-addressable memory], the https://www.semanticscholar.org/paper/The-MIT-database-accelerator%3A-2K-TRIT-circuit-Wade-Osler/8265f5f166e20d9bd60ad71fa62f873519fe4a0c[Database Accelerator] and Content Addressable Parallel Processor, at the https://www.mtl.mit.edu/[Microsystems Technology Laboratory], running on Macintoshes and Unix workstations.
 
 === http://ti.com/[Texas Instruments]
 _1988 — 1989 Dallas, Texas_
