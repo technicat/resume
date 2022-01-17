@@ -212,7 +212,7 @@
       "name": "Tech Deck: Bare Knuckle Grind",
       "description": "skateboarding game",
       "highlights": [
-        "Created installers for bundles with Tech Deck figures. Implemented shadows, video, wrangled with artists who put stuff anywhere."
+        "Created installers for bundles with Tech Deck figures. Implemented shadows, video, build system."
       ],
       "keywords": [
         "video game",
@@ -361,6 +361,25 @@
       ],
       "entity": "Texas Instruments",
       "type": "VLSI CAD tool"
+    },
+    {
+      "name": "Multello",
+      "description": "multiprocessor reversi game",
+      "highlights": [
+        "Implemented a reversi game in Multilisp, running on a 33-processor computer, for my bachelors thesis."
+      ],
+      "keywords": [
+        "parallel processing",
+        "game",
+        "Lisp"
+      ],
+      "startDate": "1988-01-01",
+      "endDate": "1989-05-31",
+      "roles": [
+        "programmer"
+      ],
+      "entity": "Massachusetts Institute of Technology",
+      "type": "multiprocessor game"
     }
   ],
   "education": [
