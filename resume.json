@@ -1,0 +1,452 @@
+{
+  "meta": {
+    "theme": "elegant"
+  },
+  "basics": {
+    "name": "Phil Chu",
+    "label": "Programmer",
+    "image": "",
+    "url": "http://technicat.com",
+    "summary": "A résumé created with jsonresume.org",
+    "location": {
+      "city": "Las Vegas",
+      "countryCode": "US",
+      "region": "Nevada"
+    },
+    "profiles": [
+      {
+        "network": "Ghost",
+        "username": "philchu",
+        "url": "https://philchu.ghost.io/"
+      },
+      {
+        "network": "Github",
+        "username": "technicat",
+        "url": "https://github.com/technicat"
+      },
+      {
+        "network": "Itch.io",
+        "username": "technicat",
+        "url": "https://technicat.itchio.com/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Technicat LLC",
+      "position": "President",
+      "url": "http://technicat.com",
+      "startDate": "2000-01-01",
+      "summary": "Consulting and contract software development",
+      "highlights": [
+        "Self-published apps and games"
+      ]
+    },
+    {
+      "name": "previous",
+      "position": "working for the man",
+      "startDate": "1988-06-01",
+      "endDate": "2001-06-01",
+      "summary": "salaried jobs",
+      "highlights": [
+        "Texas Instruments, BBN, SAIC, Nichimen Graphics, Hyper Entertainment, Digital Chameleon, Neomar, Interval Logic, NASA, MIT, Space Telescope Science Institute"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Talk Dim Sum",
+      "description": "Your dim sum companion",
+      "highlights": [
+        "On Itch.io and the App Store"
+      ],
+      "keywords": [
+        "iOS",
+        "Swift",
+        "dim sum"
+      ],
+      "startDate": "2014-01-01",
+      "url": "http://talkdimsum.com/",
+      "roles": [
+        "Everything"
+      ],
+      "entity": "Technicat",
+      "type": "app"
+    },
+    {
+      "name": "HyperBowl",
+      "description": "Unity reimplementation of the classic bowling game, licensed from Hyper Entertainment",
+      "highlights": [
+        "Currently on Itch.io, Steam, and the App Store"
+      ],
+      "keywords": [
+        "video game",
+        "Unity"
+      ],
+      "startDate": "2008-12-01",
+      "endDate": "2019-12-01",
+      "url": "http://hyperbowl.rocks/",
+      "roles": [
+        "Everything"
+      ],
+      "entity": "Technicat",
+      "type": "game"
+    },
+    {
+      "name": "Cinefex iPad Edition",
+      "description": "iPad reader for Cinefex visual effects magazine",
+      "highlights": [
+        "fixed/updated/optimized in-app purchases, user interface, video"
+      ],
+      "keywords": [
+        "iOS",
+        "visual effects"
+      ],
+      "startDate": "2016-04-01",
+      "url": "http://cinefex.com/",
+      "roles": [
+        "developer"
+      ],
+      "entity": "Cinefex",
+      "type": "app"
+    },
+    {
+      "name": "Emo-Ray vs. the Intergalactic Teddy Bears",
+      "description": "Playstation Home driving/shooting game",
+      "highlights": [
+        "collision physics"
+      ],
+      "keywords": [
+        "Playstation 3",
+        "Playstation Hone",
+        "virtual world"
+      ],
+      "startDate": "2011-09-01",
+      "endDate": "2011-12-01",
+      "roles": [
+        "programmer"
+      ],
+      "entity": "Heavy Water",
+      "type": "game"
+    },
+    {
+      "name": "RC Rally",
+      "description": "Playstation Home racing game",
+      "highlights": [
+        "user interface"
+      ],
+      "keywords": [
+        "Playstation 3",
+        "virtual world"
+      ],
+      "startDate": "2011-09-01",
+      "endDate": "2011-12-01",
+      "roles": [
+        "developer"
+      ],
+      "entity": "Heavy Water",
+      "type": "game"
+    },
+    {
+      "name": "Blue Mars",
+      "description": "a metaverse",
+      "highlights": [
+        "user interface, documentation, developer support, localization"
+      ],
+      "keywords": [
+        "CryEngine",
+        "virtual world",
+        "metaverse"
+      ],
+      "startDate": "2007-09-01",
+      "endDate": "2011-01-01",
+      "url": "http://bluemars.com/",
+      "roles": [
+        "developer"
+      ],
+      "entity": "Avatar Reality",
+      "type": "metaverse"
+    },
+    {
+      "name": "Nendo",
+      "description": "3D graphics modeler",
+      "highlights": [
+        "Updated for Windows XP"
+      ],
+      "keywords": [
+        "3D",
+        "OpenGL",
+        "Windows"
+      ],
+      "startDate": "2007-04-01",
+      "endDate": "2007-05-31",
+      "roles": [
+        "developer"
+      ],
+      "entity": "Izware",
+      "type": "3D modeler"
+    },
+    {
+      "name": "Darkwatch",
+      "description": "vampire western for Playstation 2 and Xbox",
+      "highlights": [
+        "HUD, multiplayer, audio support"
+      ],
+      "keywords": [
+        "video game",
+        "Xbox",
+        "Playstation 2"
+      ],
+      "startDate": "2006-09-01",
+      "endDate": "2007-05-31",
+      "roles": [
+        "programmer"
+      ],
+      "entity": "High Moon Studios",
+      "type": "video game",
+      "url": "https://www.mobygames.com/game/darkwatch"
+    },
+    {
+      "name": "Tech Deck: Bare Knuckle Grind",
+      "description": "skateboarding game",
+      "highlights": [
+        "Created installers for bundles with Tech Deck figures. Implemented shadows, video, wrangled with artists who put stuff anywhere."
+      ],
+      "keywords": [
+        "video game",
+        "Windows",
+        "Renderware"
+      ],
+      "startDate": "2003-12-01",
+      "endDate": "2004-05-31",
+      "roles": [
+        "programmer"
+      ],
+      "entity": "Visionscape Interactive",
+      "type": "video game"
+    },
+    {
+      "name": "HyperBowl",
+      "description": "arcade game",
+      "highlights": [
+        "Took over for the original lead programmer, updated attraction version of HyperBowl for localization, new lanes, optimization, new graphics cards, arcade and PC support."
+      ],
+      "keywords": [
+        "video game",
+        "Windows",
+        "arcade",
+        "attraction"
+      ],
+      "startDate": "2001-01-01",
+      "endDate": "2001-06-31",
+      "roles": [
+        "programmer"
+      ],
+      "entity": "Hyper Entertainment",
+      "type": "video game"
+    },
+    {
+      "name": "Neomar",
+      "description": "WAP browser",
+      "highlights": [
+        "Implemented HTTP proxy for the Neomar WAP gateway, supporting the Neomar mobile web browser on Blackberry pagers and Palm devices, launched on the Motient service."
+      ],
+      "keywords": [
+        "WAP",
+        "HTTP",
+        "mobile"
+      ],
+      "startDate": "1999-12-01",
+      "endDate": "2001-07-31",
+      "roles": [
+        "programmer"
+      ],
+      "entity": "Neomar",
+      "type": "web backend"
+    },
+    {
+      "name": "Leverage for Planning",
+      "description": "supply chain planning software for semiconductor fabs",
+      "highlights": [
+        "Updated software to TclPro (for performance)."
+      ],
+      "keywords": [
+        "Tcl"
+      ],
+      "startDate": "1998-12-01",
+      "endDate": "1999-05-31",
+      "roles": [
+        "programmer"
+      ],
+      "entity": "Interval Logic",
+      "type": "enterprise software"
+    },
+    {
+      "name": "Leverage for Scheduling",
+      "description": "supply chain scheduling software for semiconductor fabs",
+      "highlights": [
+        "Managed subgroup reponsible for installation, XML interoperability, and some other stuff I can't remember. Took over the UI at some point just to get rid of Swing thread issues."
+      ],
+      "keywords": [
+        "Java",
+        "XML"
+      ],
+      "startDate": "1999-06-01",
+      "endDate": "1999-12-31",
+      "roles": [
+        "programmer"
+      ],
+      "entity": "Interval Logic",
+      "type": "enterprise software"
+    },
+    {
+      "name": "N-World",
+      "description": "3D modeling and animation package",
+      "highlights": [
+        "Ported from IrisGL to OpenGL, then from Irix to Windows NT. Manager of core software group."
+      ],
+      "keywords": [
+        "OpenGL",
+        "Irix",
+        "Windows"
+      ],
+      "startDate": "1995-12-01",
+      "endDate": "1997-06-31",
+      "roles": [
+        "programmer"
+      ],
+      "entity": "Nichimen Graphics",
+      "type": "graphics software"
+    },
+    {
+      "name": "ORBIS",
+      "description": "submarine simulation",
+      "highlights": [
+        "Incorporated multiplayer network capability in a submarine simulator, participated in two wide area networked wargames."
+      ],
+      "keywords": [
+        "Distributed Interactive Simulation",
+        "Lisp",
+        "C++"
+      ],
+      "startDate": "1992-12-01",
+      "endDate": "1993-12-31",
+      "roles": [
+        "programmer"
+      ],
+      "entity": "Johns Hopkins Applied Physics Laboratory",
+      "type": "simulation software"
+    },
+    {
+      "name": "DROID",
+      "description": "VLSI synthesis and layout tool",
+      "highlights": [
+        "Optimized and added technology libraries. Used in designing new Texas Instruments chips."
+      ],
+      "keywords": [
+        "VLSI",
+        "CAD",
+        "Lisp"
+      ],
+      "startDate": "1988-06-01",
+      "endDate": "1989-09-31",
+      "roles": [
+        "programmer"
+      ],
+      "entity": "Texas Instruments",
+      "type": "VLSI CAD tool"
+    }
+  ],
+  "education": [
+    {
+      "institution": "Massachusetts Institute of Technology",
+      "url": "https://mit.edu/",
+      "area": "Computer Science and Engineering",
+      "studyType": "SB",
+      "startDate": "1984-09-01",
+      "endDate": "1988-05-01"
+    },
+    {
+      "institution": "Johns Hopkins University",
+      "url": "https://jhu.edu/",
+      "area": "Computer Science",
+      "studyType": "MS",
+      "endDate": "1993-12-01",
+      "startDate": "1991-09-01"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Learn Unity 2014 for iOS Game Development",
+      "publisher": "Apress",
+      "releaseDate": "2013-06-01",
+      "url": "https://www.amazon.com/Learn-Unity-Development-Technology-Action/dp/1430248750"
+    },
+    {
+      "name": "Technicat on Software",
+      "publisher": "self"
+    }
+  ],
+  "skills": [
+    {
+      "name": "App Development",
+      "level": "Experienced",
+      "keywords": [
+        "Swift",
+        "Objective-C",
+        "Flutter",
+        "Xamarin"
+      ]
+    },
+    {
+      "name": "Game Development",
+      "level": "Experienced",
+      "keywords": [
+        "CryEngine",
+        "Qube",
+        "Renderware",
+        "Scaleform",
+        "Unity",
+        "Unreal",
+        "Lua",
+        "C",
+        "C++",
+        "C#"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "native speaker"
+    },
+    {
+      "language": "Cantonese",
+      "fluency": "just food"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Cats",
+      "keywords": [
+        "cat cafe",
+        "adoption"
+      ]
+    },
+    {
+      "name": "Reading",
+      "keywords": [
+        "graphic novels",
+        "scifi"
+      ]
+    },
+    {
+      "name": "Viewing",
+      "keywords": [
+        "kdrama",
+        "scifi",
+        "MMA"
+      ]
+    }
+  ]
+}

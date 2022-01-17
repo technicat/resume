@@ -1,2 +1,8 @@
+Versions of my résumé
 
-An asciidoc version of my resume.
+My [résumé](https://registry.jsonresume.org/technicat) in [JSON Resume](https://jsonresume.org/)
+
+In asciidoc
+
+In xml
+
