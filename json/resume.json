@@ -15,19 +15,9 @@
     },
     "profiles": [
       {
-        "network": "Ghost",
-        "username": "philchu",
-        "url": "https://philchu.ghost.io/"
-      },
-      {
         "network": "Github",
         "username": "technicat",
         "url": "https://github.com/technicat"
-      },
-      {
-        "network": "Itch.io",
-        "username": "technicat",
-        "url": "https://technicat.itchio.com/"
       }
     ]
   },
