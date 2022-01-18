@@ -160,25 +160,6 @@
       "type": "metaverse"
     },
     {
-      "name": "Nendo",
-      "description": "3D graphics modeler",
-      "highlights": [
-        "Updated for Windows XP"
-      ],
-      "keywords": [
-        "3D",
-        "OpenGL",
-        "Windows"
-      ],
-      "startDate": "2007-04-01",
-      "endDate": "2007-05-31",
-      "roles": [
-        "developer"
-      ],
-      "entity": "Izware",
-      "type": "3D modeler"
-    },
-    {
       "name": "Darkwatch",
       "description": "vampire western for Playstation 2 and Xbox",
       "highlights": [
@@ -259,33 +240,17 @@
       "type": "web backend"
     },
     {
-      "name": "Leverage for Planning",
-      "description": "supply chain planning software for semiconductor fabs",
-      "highlights": [
-        "Updated software to TclPro (for performance)."
-      ],
-      "keywords": [
-        "Tcl"
-      ],
-      "startDate": "1998-12-01",
-      "endDate": "1999-05-31",
-      "roles": [
-        "programmer"
-      ],
-      "entity": "Interval Logic",
-      "type": "enterprise software"
-    },
-    {
       "name": "Leverage for Scheduling",
       "description": "supply chain scheduling software for semiconductor fabs",
       "highlights": [
-        "Managed subgroup reponsible for installation, XML interoperability, and some other stuff I can't remember. Took over the UI at some point just to get rid of Swing thread issues."
+        "Managed group reponsible for installation, XML interoperability, and user interface."
       ],
       "keywords": [
+        "Tcl",
         "Java",
         "XML"
       ],
-      "startDate": "1999-06-01",
+      "startDate": "1998-11-01",
       "endDate": "1999-12-31",
       "roles": [
         "programmer"
@@ -333,45 +298,8 @@
       "url":"https://www.jhuapl.edu/Content/techdigest/pdf/V23-N04/23-04-Higgins.pdf",
       "entity": "Johns Hopkins Applied Physics Laboratory",
       "type": "simulation software"
-    },
-    {
-      "name": "DROID",
-      "description": "VLSI synthesis and layout tool",
-      "highlights": [
-        "Optimized and added technology libraries. Used in designing new Texas Instruments chips."
-      ],
-      "keywords": [
-        "VLSI",
-        "CAD",
-        "Lisp"
-      ],
-      "startDate": "1988-06-01",
-      "endDate": "1989-09-31",
-      "roles": [
-        "programmer"
-      ],
-      "entity": "Texas Instruments",
-      "type": "VLSI CAD tool"
-    },
-    {
-      "name": "Multello",
-      "description": "multiprocessor reversi game",
-      "highlights": [
-        "Implemented a reversi game in Multilisp, running on a 33-processor computer, for my bachelors thesis."
-      ],
-      "keywords": [
-        "parallel processing",
-        "game",
-        "Lisp"
-      ],
-      "startDate": "1988-01-01",
-      "endDate": "1989-05-31",
-      "roles": [
-        "programmer"
-      ],
-      "entity": "Massachusetts Institute of Technology",
-      "type": "multiprocessor game"
     }
+   
   ],
   "education": [
     {
@@ -397,6 +325,12 @@
       "publisher": "Apress",
       "releaseDate": "2013-06-01",
       "url": "https://www.amazon.com/Learn-Unity-Development-Technology-Action/dp/1430248750"
+    },
+    {
+      "name": "Technicat on Software",
+      "publisher": "self",
+      "releaseDate": "2015-01-01",
+      "url": "http://technicat.itchio.com/"
     }
   ],
   "skills": [
