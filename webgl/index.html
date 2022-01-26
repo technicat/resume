@@ -1,0 +1,87 @@
+<html>
+
+<head>
+	<title>Phil's WebGl Resume</title>
+	<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+
+	  <link href="style.css" rel="stylesheet" type="text/css">
+	  <link href="menu.css" rel="stylesheet" type="text/css">
+
+	<script language="javascript" type="text/javascript" src="modernizr.custom.40469.js"></script>
+	<script type="text/javascript" src="glMatrix.js"></script>
+	<script type="text/javascript" src="webGl.js"></script>
+	<script type="text/javascript" src="webGlInit.js"></script>
+	<script type="text/javascript" src="lineObjects.js"></script>
+	<script type="text/javascript" src="textRenderer.js"></script>
+	<script type="text/javascript" src="startScreen.js"></script>
+	<script type="text/javascript" src="main.js"></script>
+	<script type="text/javascript" src="mobilecheck.js"></script>
+
+	<script id="shaderFs" type="fragmentSource">
+		
+		precision mediump float;
+		varying vec4 vColor;
+		
+		void main(void) {
+			gl_FragColor = vColor;
+		}
+	</script>
+
+	<script id="shaderVs" type="vertexSource">
+		
+		uniform mat4 uViewMatrix;
+		uniform mat4 uProjectionMatrix;
+
+		attribute vec3 aVertexPosition;
+		attribute vec4 aVertexColor;
+		
+		varying vec4 vColor;
+		
+		void main(void) {
+			vColor = aVertexColor;
+			gl_Position = uProjectionMatrix * uViewMatrix * vec4(aVertexPosition, 1.0);
+		}
+	</script>
+
+	<link rel="icon" href="../Doc3D.jpg"/>
+	<style type="text/css">
+		body {
+		    overflow:hidden;
+		}
+		div {
+			color: rgb(255,0,0);
+		} 
+		button {
+			width: 100px;
+			height: 100px;
+			font-size: 400%;
+		}
+		.upperRight {
+	 		position: fixed;
+	 		right: 10px;
+	 		top: 10px
+		}
+		.upperLeft {
+			position: fixed;
+	 		left: 10px;
+	 		top: 10px
+		}
+	</style>
+
+<body onload="webGLStart(); ">
+	<canvas id="webGlCanvas" style="border: none;" class="mainView"></canvas>
+
+	<div class="leftButton" id="leftButton" style="visibility:hidden;"></div>
+	<div class="rightButton" id="rightButton" style="visibility:hidden;"></div>
+	<div class="upButton" id="upButton" style="visibility:hidden;"></div>
+
+	<a href="../webgl.html" target="_blank" style='visibility:hidden' id="mobileInfo">
+		<div class="upperLeft"></div>
+	</a>
+
+	<div style='visibility:hidden' class="" id="nowebgl"> 
+	    It looks like your browser can't support this.<br/>
+	    <a href="http://www.google.com/chrome/" target="_blank">Click here to download a browser which can</a>
+	</div>
+	<br/>
+</body>
