@@ -1,3 +1,5 @@
+Adapted from:
+
 <img src="http://bgibbonsweb.github.io/webgltitle.jpg"/>
 
 # webglresume
