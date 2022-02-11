@@ -336,29 +336,32 @@
   ],
   "skills": [
     {
-      "name": "App Development",
+      "name": "Programming",
       "level": "Experienced",
       "keywords": [
-        "Swift",
+        "6502",
+        "BASIC",
+        "C",
+        "C++",
+        "C#",
+        "Dart",
+        "Java",
+        "Javascript",
+        "Lisp",
+        "Lua",
         "Objective-C",
-        "Flutter",
-        "Xamarin"
+        "Perl",
+        "PHP",
+        "Python",
+        "Swift",
+        "Tcl"
       ]
     },
     {
-      "name": "Game Development",
+      "name": "Writing",
       "level": "Experienced",
       "keywords": [
-        "CryEngine",
-        "Qube",
-        "Renderware",
-        "Scaleform",
-        "Unity",
-        "Unreal",
-        "Lua",
-        "C",
-        "C++",
-        "C#"
+        "English"
       ]
     }
   ],
