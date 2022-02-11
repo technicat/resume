@@ -336,6 +336,36 @@
   ],
   "skills": [
     {
+      "name": "App Development",
+      "level": "Experienced",
+      "keywords": [
+        "Flutter",
+        "Xamarin"
+      ]
+    },
+    {
+      "name": "Game Development",
+      "level": "Experienced",
+      "keywords": [
+        "CryEngine",
+        "Godot",
+        "Havok",
+        "Qube",
+        "Renderware",
+        "Ren'py",
+        "Unity",
+        "Unreal"
+      ]
+    },
+    {
+      "name": "Graphics",
+      "level": "Experienced",
+      "keywords": [
+        "Direct3D",
+        "OpenGL"
+      ]
+    },
+    {
       "name": "Programming",
       "level": "Experienced",
       "keywords": [
