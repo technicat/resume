@@ -67,7 +67,7 @@
       "name": "HyperBowl",
       "description": "Unity reimplementation of the classic bowling game, licensed from Hyper Entertainment",
       "highlights": [
-        "Currently on Itch.io, Steam, and the App Store"
+        "On Itch.io, Steam, and the App Store"
       ],
       "keywords": [
         "video game",
@@ -362,7 +362,8 @@
       "level": "Experienced",
       "keywords": [
         "Direct3D",
-        "OpenGL"
+        "OpenGL",
+        "Processing"
       ]
     },
     {
@@ -399,14 +400,17 @@
     {
       "name": "Cats",
       "keywords": [
+        "adoption",
         "cat cafe",
-        "adoption"
+        "lucky cat",
+        "samurai cat"
       ]
     },
     {
       "name": "Reading",
       "keywords": [
         "graphic novels",
+        "history",
         "scifi"
       ]
     },
