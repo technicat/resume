@@ -116,7 +116,7 @@
       "roles": [
         "programmer"
       ],
-      "url":"https://blog.playstation.com/2012/11/26/save-playstation-home-from-teddy-bears/",
+      "url": "https://blog.playstation.com/2012/11/26/save-playstation-home-from-teddy-bears/",
       "entity": "Heavy Water",
       "type": "game"
     },
@@ -135,7 +135,7 @@
       "roles": [
         "developer"
       ],
-      "url":"https://pshome.fandom.com/wiki/RC_Rally",
+      "url": "https://pshome.fandom.com/wiki/RC_Rally",
       "entity": "Heavy Water",
       "type": "game"
     },
@@ -195,7 +195,7 @@
       "roles": [
         "programmer"
       ],
-      "url":"https://archive.org/details/bkg-space-town",
+      "url": "https://archive.org/details/bkg-space-town",
       "entity": "Visionscape Interactive",
       "type": "video game"
     },
@@ -216,7 +216,7 @@
       "roles": [
         "programmer"
       ],
-      "url":"https://en.wikipedia.org/wiki/Hyperbowl_Plus!_Edition",
+      "url": "https://en.wikipedia.org/wiki/Hyperbowl_Plus!_Edition",
       "entity": "Hyper Entertainment",
       "type": "video game"
     },
@@ -236,7 +236,7 @@
       "roles": [
         "programmer"
       ],
-      "url":"https://googlepress.blogspot.com/2000/09/google-search-engine-now-available.html",
+      "url": "https://googlepress.blogspot.com/2000/09/google-search-engine-now-available.html",
       "entity": "Neomar",
       "type": "web backend"
     },
@@ -256,7 +256,7 @@
       "roles": [
         "programmer"
       ],
-      "url":"https://spinoff.nasa.gov/spinoff1998/ct11.htm",
+      "url": "https://spinoff.nasa.gov/spinoff1998/ct11.htm",
       "entity": "Interval Logic",
       "type": "enterprise software"
     },
@@ -276,7 +276,7 @@
       "roles": [
         "programmer"
       ],
-      "url":"https://en.wikipedia.org/wiki/N-World",
+      "url": "https://en.wikipedia.org/wiki/N-World",
       "entity": "Nichimen Graphics",
       "type": "graphics software"
     },
@@ -296,11 +296,10 @@
       "roles": [
         "programmer"
       ],
-      "url":"https://www.jhuapl.edu/Content/techdigest/pdf/V23-N04/23-04-Higgins.pdf",
+      "url": "https://www.jhuapl.edu/Content/techdigest/pdf/V23-N04/23-04-Higgins.pdf",
       "entity": "Johns Hopkins Applied Physics Laboratory",
       "type": "simulation software"
     }
-   
   ],
   "education": [
     {
@@ -409,9 +408,14 @@
     {
       "name": "Reading",
       "keywords": [
+        "Asian-American fiction",
+        "graphic design",
         "graphic novels",
         "history",
-        "scifi"
+        "philosophy",
+        "scifi",
+        "spy stories",
+        "technology"
       ]
     },
     {
