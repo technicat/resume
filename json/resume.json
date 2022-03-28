@@ -396,6 +396,20 @@
       ]
     }
   ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "Cantonese",
+      "fluency": "Food"
+    },
+    {
+      "language": "Korean",
+      "fluency": "Kdrama phrases"
+    }
+  ],
   "interests": [
     {
       "name": "Cats",
