@@ -1,6 +1,6 @@
 {
   "meta": {
-    "theme": "elegant"
+    "theme": "autumn"
   },
   "basics": {
     "name": "Phil Chu",
@@ -439,6 +439,23 @@
         "kdrama",
         "scifi",
         "MMA"
+      ]
+    },
+     {
+      "name": "Learning",
+      "keywords": [
+        "English",
+        "Spanish,
+        "Chinese",
+        "Korean",
+        "Japanese"
+      ]
+    },
+     {
+      "name": "Listening",
+      "keywords": [
+        "Motown",
+        "NPR Podcasts"
       ]
     }
   ]
