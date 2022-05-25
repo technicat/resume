@@ -1,6 +1,6 @@
 {
   "meta": {
-    "theme": "autumn"
+    "theme": "kendall"
   },
   "basics": {
     "name": "Phil Chu",
@@ -339,6 +339,8 @@
       "level": "Experienced",
       "keywords": [
         "Flutter",
+        "J2ME",
+        "SwiftUI",
         "Xamarin"
       ]
     },
