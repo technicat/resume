@@ -301,6 +301,26 @@
       "type": "simulation software"
     },
     {
+      "name": "Database Accelerator",
+      "description": "computer architecture",
+      "highlights": [
+        "Implemented compilers and simulators and simulations for the Database Accelerator and Content-Addressable Parallel Processor."
+      ],
+      "keywords": [
+        "VLSI",
+        "CAD",
+        "Lisp"
+      ],
+      "startDate": "1989-10-01",
+      "endDate": "1990-10-31",
+      "roles": [
+        "programmer"
+      ],
+      "url": "https://www.semanticscholar.org/paper/The-MIT-database-accelerator%3A-2K-TRIT-circuit-Wade-Osler/8265f5f166e20d9bd60ad71fa62f873519fe4a0c",
+      "entity": "Massachusetts Institute of Technology",
+      "type": "content-addressable memory"
+    },
+    {
       "name": "DROID",
       "description": "VLSI design",
       "highlights": [
