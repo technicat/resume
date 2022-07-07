@@ -301,6 +301,26 @@
       "type": "simulation software"
     },
     {
+      "name": "Proposal Entry Processor",
+      "description": "syntax-directed editor",
+      "highlights": [
+        "An Emacs mode for creating Space Telescope observation proposals."
+      ],
+      "keywords": [
+        "space",
+        "emacs",
+        "Lisp"
+      ],
+      "startDate": "1990-11-1",
+      "endDate": "1992-5-31",
+      "roles": [
+        "programmer"
+      ],
+      "url": "https://hst-docs.stsci.edu/hpiom/chapter-2-the-basics-of-phase-ii-proposals",
+      "entity": "Space Telescope Science Institute",
+      "type": "tools"
+    },
+    {
       "name": "Database Accelerator",
       "description": "computer architecture",
       "highlights": [
