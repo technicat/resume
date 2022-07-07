@@ -299,6 +299,26 @@
       "url": "https://www.jhuapl.edu/Content/techdigest/pdf/V23-N04/23-04-Higgins.pdf",
       "entity": "Johns Hopkins Applied Physics Laboratory",
       "type": "simulation software"
+    },
+    {
+      "name": "DROID",
+      "description": "VLSI design",
+      "highlights": [
+        "Added optimizations and other improvements to a VLSI layout synthesis tool."
+      ],
+      "keywords": [
+        "VLSI",
+        "CAD",
+        "Lisp"
+      ],
+      "startDate": "1988-05-31",
+      "endDate": "1989-09-31",
+      "roles": [
+        "programmer"
+      ],
+      "url": "https://www.researchgate.net/publication/3524170_Circuit_optimization_techniques_in_DROID",
+      "entity": "Texas Instruments",
+      "type": "VLSI CAD"
     }
   ],
   "education": [
