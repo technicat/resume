@@ -284,7 +284,7 @@
       "name": "ORBIS",
       "description": "submarine simulation",
       "highlights": [
-        "Incorporated multiplayer network capability in a submarine simulator, participated in two wide area networked wargames."
+        "Added multiplayer network capability to a submarine simulator, participated in two wide area networked wargames."
       ],
       "keywords": [
         "Distributed Interactive Simulation",
@@ -324,7 +324,7 @@
       "name": "Database Accelerator",
       "description": "computer architecture",
       "highlights": [
-        "Implemented compilers and simulators and simulations for the Database Accelerator and Content-Addressable Parallel Processor."
+        "Compilers and simulators and simulations for the Database Accelerator and Content-Addressable Parallel Processor."
       ],
       "keywords": [
         "VLSI",
@@ -344,7 +344,7 @@
       "name": "DROID",
       "description": "VLSI design",
       "highlights": [
-        "Added optimizations and other improvements to a VLSI layout synthesis tool."
+        "Optimizations and other improvements for a VLSI layout synthesis tool."
       ],
       "keywords": [
         "VLSI",
