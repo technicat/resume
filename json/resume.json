@@ -183,7 +183,7 @@
       "name": "Tech Deck: Bare Knuckle Grind",
       "description": "skateboarding game",
       "highlights": [
-        "Created installers for bundles with Tech Deck figures. Implemented shadows, video, build system."
+        "Created installers for bundles with Tech Deck figures. Implemented dynamic shadows, video, subversion-based build system."
       ],
       "keywords": [
         "video game",
@@ -224,7 +224,7 @@
       "name": "Neomar",
       "description": "WAP browser",
       "highlights": [
-        "Implemented HTTP proxy for the Neomar WAP gateway, supporting the Neomar mobile web browser on Blackberry pagers and Palm devices, launched on the Motient service."
+        "Implemented HTTP proxy for the Neomar WAP gateway, supporting the Neomar mobile web browser on Blackberry pagers and Palm devices. Launched on the Motient service."
       ],
       "keywords": [
         "WAP",
@@ -264,7 +264,7 @@
       "name": "N-World",
       "description": "3D modeling and animation package",
       "highlights": [
-        "Ported from IrisGL to OpenGL, then from Irix to Windows NT. Manager of core software group."
+        "Ported from IrisGL to OpenGL on SGI workstations, then from Irix to Windows NT, all in Franz Allegro Common Lisp (and a bit of C). Manager of core software group (all the libraries - graphics, audio, UI, security...)"
       ],
       "keywords": [
         "OpenGL",
@@ -284,7 +284,7 @@
       "name": "ORBIS",
       "description": "submarine simulation",
       "highlights": [
-        "Added multiplayer network capability to a submarine simulator, participated in two wide area networked wargames."
+        "Added multiplayer network capability to a submarine simulator. Participated in two wide area networked wargames. Working for SAIC as a contractor for the Johns Hopkins Applied Physics Lab as a contractor for the Navy."
       ],
       "keywords": [
         "Distributed Interactive Simulation",
@@ -344,7 +344,7 @@
       "name": "DROID",
       "description": "VLSI design",
       "highlights": [
-        "Optimizations and other improvements for a VLSI layout synthesis tool."
+        "Optimizations and other improvements for a VLSI layout synthesis tool running on a TI Explorer Lisp Machine"
       ],
       "keywords": [
         "VLSI",
