@@ -27,20 +27,14 @@
       "position": "President",
       "url": "http://technicat.com",
       "startDate": "2000-01-01",
-      "summary": "Consulting and contract software development",
-      "highlights": [
-        "Self-published apps and games"
-      ]
+      "summary": "Providing consulting and contract software development while self-publishing apps and games on the App Store, Steam, and Itch.io."
     },
     {
       "name": "previous",
       "position": "working for the man",
       "startDate": "1988-06-01",
       "endDate": "2001-06-01",
-      "summary": "salaried jobs",
-      "highlights": [
-        "Texas Instruments, BBN, SAIC, Nichimen Graphics, Hyper Entertainment, Digital Chameleon, Neomar, Interval Logic, NASA, MIT, Space Telescope Science Institute"
-      ]
+      "summary": "A long and unstoried career at Texas Instruments, BBN, SAIC, Nichimen Graphics, Hyper Entertainment, Digital Chameleon, Neomar, Interval Logic, NASA, MIT, and the Space Telescope Science Institute, plus some others that didn't pay."
     }
   ],
   "projects": [
@@ -65,11 +59,10 @@
     },
     {
       "name": "HyperBowl",
-      "description": "Unity reimplementation of the classic bowling game, licensed from Hyper Entertainment",
-      "highlights": [
-        "On Itch.io, Steam, and the App Store"
-      ],
+      "description": "Unity reimplementation of the classic bowling game, licensed from Hyper Entertainment. Available on Itch.io, Steam, and the App Store.",
       "keywords": [
+        "bowling",
+        "3D",
         "video game",
         "Unity"
       ],
@@ -84,10 +77,7 @@
     },
     {
       "name": "Cinefex iPad Edition",
-      "description": "iPad reader for Cinefex visual effects magazine",
-      "highlights": [
-        "fixed/updated/optimized in-app purchases, user interface, video"
-      ],
+      "description": "An iPad reader for tje Cinefex visual effects magazine, with extras such as videos and image galleries. Kept it up and running over the march of iOS evolution, fixing, updating, and optimizing in-app purchases, user interface, video...",
       "keywords": [
         "iOS",
         "visual effects"
@@ -119,13 +109,12 @@
     },
     {
       "name": "RC Rally",
-      "description": "Playstation Home racing game",
-      "highlights": [
-        "user interface"
-      ],
+      "description": "A Playstation Home racing game. Worked on the user interface",
       "keywords": [
+        "video game",
         "Playstation 3",
-        "virtual world"
+        "virtual world",
+        "racing"
       ],
       "startDate": "2011-09-01",
       "endDate": "2011-12-01",
