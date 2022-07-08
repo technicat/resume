@@ -143,7 +143,7 @@
       "name": "Blue Mars",
       "description": "a metaverse",
       "highlights": [
-        "user interface, documentation, developer support, localization"
+        "A 3D virtual world implemented in CryEngine. Supported third-party developers, documented the Lua API and framework for creating minigames on the community wiki (a CryEngine wiki even copied part of it!), tweaked physics, updated Scaleform integration, modified CryEngine to work with Scaleform IME (for localization)."
       ],
       "keywords": [
         "CryEngine",
