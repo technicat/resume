@@ -102,10 +102,7 @@
     },
     {
       "name": "Emo-Ray vs. the Intergalactic Teddy Bears",
-      "description": "Playstation Home driving/shooting game",
-      "highlights": [
-        "collision physics"
-      ],
+      "description": "A Playstation Home driving/shooting game. Added collision physics.",
       "keywords": [
         "Playstation 3",
         "Playstation Hone",
@@ -141,8 +138,7 @@
     },
     {
       "name": "Blue Mars",
-      "description": "A 3D virtual world implemented in CryEngine. Supported third-party developers, documented the Lua API and framework for creating minigames on the community wiki (a CryEngine wiki even copied part of it!), tweaked physics, updated Scaleform integration, modified CryEngine to work with Scaleform IME (for localization)."
-    ],
+      "description": "A 3D virtual world implemented in CryEngine. Supported third-party developers, documented the Lua API and framework for creating minigames on the community wiki (a CryEngine wiki even copied part of it!), tweaked physics, updated Scaleform integration, modified CryEngine to work with Scaleform IME (for localization).",
     "keywords": [
       "CryEngine",
       "virtual world",
@@ -263,8 +259,7 @@
   },
   {
     "name": "ORBIS",
-    "description": "A submarine simulation used in multiple networked wargames. Added multiplayer network capability, articipated in two wide area networked exercises. Working for SAIC as a contractor for the Johns Hopkins Applied Physics Lab as a contractor for the Navy."
-    ],
+    "description": "A submarine simulation used in multiple networked wargames. Added multiplayer network capability, articipated in two wide area networked exercises. Working for SAIC as a contractor for the Johns Hopkins Applied Physics Lab as a contractor for the Navy.",
     "keywords": [
       "Distributed Interactive Simulation",
       "Lisp",
