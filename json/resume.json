@@ -40,9 +40,7 @@
   "projects": [
     {
       "name": "Talk Dim Sum",
-      "description": "Your dim sum companion",
-      "highlights": [
-        "On Itch.io and the App Store"
+      "description": "Your dim sum companion. Read about dim sum and learn how to pronounce the dishes. Available on Itch.io and the App Store."
       ],
       "keywords": [
         "iOS",
@@ -59,7 +57,7 @@
     },
     {
       "name": "HyperBowl",
-      "description": "Unity reimplementation of the classic bowling game, licensed from Hyper Entertainment. Available on Itch.io, Steam, and the App Store.",
+      "description": "Be the ball! A Unity reimplementation of the classic bowling game, licensed from Hyper Entertainment. Available on Itch.io, Steam, and the App Store.",
       "keywords": [
         "bowling",
         "3D",
