@@ -246,7 +246,7 @@
   },
   {
     "name": "ORBIS",
-    "description": "An expert system for submarine simulation. Added multiplayer network capability to support participation wide area networked exercises (donned a submarine uniform and took part in two of them myself). Working for SAIC as a contractor for the Johns Hopkins Applied Physics Lab as a contractor for the Navy.",
+    "description": "An expert system for submarine simulation. Added multiplayer network capability to support participation wide area networked exercises (donned a submarine uniform and took part in two of them myself).",
     "keywords": [
       "Distributed Interactive Simulation",
       "Lisp",
