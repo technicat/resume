@@ -27,7 +27,7 @@
       "position": "working for myself",
       "url": "http://technicat.com",
       "startDate": "2000-01-01",
-      "summary": "Providing consulting and contract software development while self-publishing apps and games on the App Store, Steam, and Itch.io."
+      "summary": "Providing consulting and contract software development while self-publishing apps and games."
     },
     {
       "name": "previous",
@@ -75,7 +75,7 @@
     },
     {
       "name": "Cinefex iPad Edition",
-      "description": "An iPad reader for tje Cinefex visual effects magazine, with extras such as videos and image galleries. Kept it up and running over the march of iOS evolution, fixing, updating, and optimizing in-app purchases, user interface, video...",
+      "description": "An iPad reader for the Cinefex visual effects magazine, with extras such as videos and image galleries. Kept it up and running over the march of iOS evolution, fixing, updating, and optimizing in-app purchases, user interface, video...",
       "keywords": [
         "iOS",
         "visual effects"
@@ -89,8 +89,26 @@
       "type": "app"
     },
     {
+      "name": "Learn Unity 4 for iOS Game Development",
+      "description": "An introduction to game development for iOS using the Unity game engine and an example bowling game (super simple version of HyperBowl).",
+      "keywords": [
+        "book",
+        "iOS",
+        "Unity",
+        "video game",
+        "3D"
+      ],
+      "endDate": "2013-04-01",
+      "url": "https://www.amazon.com/Learn-Unity-Development-Technology-Action/dp/1430248750",
+      "roles": [
+        "author"
+      ],
+      "entity": "Apress",
+      "type": "book"
+    },
+    {
       "name": "Emo-Ray vs. the Intergalactic Teddy Bears",
-      "description": "A Playstation Home driving/shooting game. Added collision physics.",
+      "description": "A Playstation Home driving/shooting game with alien invader teddy bears.",
       "keywords": [
         "Playstation 3",
         "Playstation Hone",
@@ -107,7 +125,7 @@
     },
     {
       "name": "RC Rally",
-      "description": "A Playstation Home racing game. Worked on the user interface",
+      "description": "A Playstation Home multiplayer racing game.",
       "keywords": [
         "video game",
         "Playstation 3",
