@@ -50,7 +50,7 @@
       "startDate": "2014-01-01",
       "url": "http://talkdimsum.com/",
       "roles": [
-        "Everything"
+        "developer"
       ],
       "entity": "Technicat",
       "type": "app"
@@ -68,7 +68,7 @@
       "endDate": "2019-12-01",
       "url": "http://hyperbowl.rocks/",
       "roles": [
-        "Everything"
+        "developer"
       ],
       "entity": "Technicat",
       "type": "game"
@@ -135,7 +135,7 @@
       "startDate": "2011-09-01",
       "endDate": "2011-12-01",
       "roles": [
-        "developer"
+        "programmer"
       ],
       "url": "https://pshome.fandom.com/wiki/RC_Rally",
       "entity": "Heavy Water",
@@ -153,7 +153,7 @@
     "endDate": "2011-01-01",
     "url": "http://bluemars.com/",
     "roles": [
-      "developer"
+      "programmer"
     ],
     "entity": "Avatar Reality",
     "type": "metaverse"
