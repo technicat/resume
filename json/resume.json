@@ -40,8 +40,7 @@
   "projects": [
     {
       "name": "Talk Dim Sum",
-      "description": "Your dim sum companion. Read about dim sum and learn how to pronounce the dishes. Available on Itch.io and the App Store."
-      ],
+      "description": "Your dim sum companion. Read about dim sum and learn how to pronounce the dishes. Available on Itch.io and the App Store.",
       "keywords": [
         "iOS",
         "Swift",
@@ -144,351 +143,351 @@
     {
       "name": "Blue Mars",
       "description": "A 3D virtual world implemented in CryEngine. Supported third-party developers, documented the Lua API and framework for creating minigames on the community wiki (a CryEngine wiki even copied part of it!), tweaked physics, updated Scaleform integration, modified CryEngine to work with Scaleform IME (for localization).",
-    "keywords": [
-      "CryEngine",
-      "virtual world",
-      "metaverse"
-    ],
-    "startDate": "2007-09-01",
-    "endDate": "2011-01-01",
-    "url": "http://bluemars.com/",
-    "roles": [
-      "programmer"
-    ],
-    "entity": "Avatar Reality",
-    "type": "metaverse"
-  },
-  {
-    "name": "Darkwatch",
-    "description": "A vampire western for Playstation 2 and Xbox. Worked on various HUD elements, PAL support, demo builds, implemented multiplayer split-screen, added designer-friendly Lua interfaces for audio, health bars, etc.",
-    "keywords": [
-      "video game",
-      "Xbox",
-      "Playstation 2"
-    ],
-    "startDate": "2006-09-01",
-    "endDate": "2007-05-31",
-    "roles": [
-      "programmer"
-    ],
-    "entity": "High Moon Studios",
-    "type": "video game",
-    "url": "https://www.mobygames.com/game/darkwatch"
-  },
-  {
-    "name": "Tech Deck: Bare Knuckle Grind",
-    "description": "A skateboarding game bundled with Tech Deck figures. Implemented installers, dynamic shadows, video, a build system.",
-    "keywords": [
-      "subversion",
-      "video game",
-      "Windows",
-      "Renderware"
-    ],
-    "startDate": "2003-12-01",
-    "endDate": "2004-05-31",
-    "roles": [
-      "programmer"
-    ],
-    "url": "https://archive.org/details/bkg-space-town",
-    "entity": "Visionscape Interactive",
-    "type": "video game"
-  },
-  {
-    "name": "HyperBowl",
-    "description": "A 3D bowling game, rolling in fanciful locations. Took over for the original lead programmer, updated attraction version of HyperBowl for localization, new lanes, optimization, new graphics cards, arcade and PC support.",
-    "keywords": [
-      "video game",
-      "Windows",
-      "arcade",
-      "attraction"
-    ],
-    "startDate": "2001-01-01",
-    "endDate": "2001-06-31",
-    "roles": [
-      "programmer"
-    ],
-    "url": "https://en.wikipedia.org/wiki/Hyperbowl_Plus!_Edition",
-    "entity": "Hyper Entertainment",
-    "type": "video game"
-  },
-  {
-    "name": "Neomar",
-    "description": "One of the first mobile web browsers, conforming to the WAP standards. Implemented HTTP proxy for the Neomar WAP gateway, supporting the Neomar mobile web browser on Blackberry pagers and Palm devices. Launched on the Motient service.",
-    "keywords": [
-      "WAP",
-      "HTTP",
-      "mobile"
-    ],
-    "startDate": "1999-12-01",
-    "endDate": "2001-07-31",
-    "roles": [
-      "programmer"
-    ],
-    "url": "https://googlepress.blogspot.com/2000/09/google-search-engine-now-available.html",
-    "entity": "Neomar",
-    "type": "web backend"
-  },
-  {
-    "name": "Leverage for Scheduling",
-    "description": "Supply chain scheduling software for semiconductor fabs. Managed the group reponsible for installation, XML interoperability, and user interfaces.",
-    "keywords": [
-      "Tcl",
-      "Java",
-      "XML"
-    ],
-    "startDate": "1998-11-01",
-    "endDate": "1999-12-31",
-    "roles": [
-      "programmer"
-    ],
-    "url": "https://spinoff.nasa.gov/spinoff1998/ct11.htm",
-    "entity": "Interval Logic",
-    "type": "enterprise software"
-  },
-  {
-    "name": "N-World",
-    "description": "A 3D modeling and animation package, used for Mario 3D and Lord of the Rings. Ported from IrisGL to OpenGL on SGI workstations, then from Irix to Windows NT, all in Franz Allegro Common Lisp (and a bit of C). Manager of core software group (all the libraries - graphics, audio, UI, security...)",
-    "keywords": [
-      "OpenGL",
-      "Irix",
-      "Windows"
-    ],
-    "startDate": "1995-12-01",
-    "endDate": "1997-06-31",
-    "roles": [
-      "programmer"
-    ],
-    "url": "https://en.wikipedia.org/wiki/N-World",
-    "entity": "Nichimen Graphics",
-    "type": "graphics software"
-  },
-  {
-    "name": "ORBIS",
-    "description": "An expert system for submarine simulation. Added multiplayer network capability to support participation wide area networked exercises (donned a submarine uniform and took part in two of them myself).",
-    "keywords": [
-      "Distributed Interactive Simulation",
-      "Lisp",
-      "C++"
-    ],
-    "startDate": "1992-12-01",
-    "endDate": "1993-12-31",
-    "roles": [
-      "programmer"
-    ],
-    "url": "https://www.jhuapl.edu/Content/techdigest/pdf/V23-N04/23-04-Higgins.pdf",
-    "entity": "Johns Hopkins Applied Physics Laboratory",
-    "type": "simulation software"
-  },
-  {
-    "name": "Proposal Entry Processor",
-    "description": "A syntax-directed Emacs mode used by astronomer and Institute staff to prepare and edit Space Telescope observation proposals.",
-    "keywords": [
-      "space",
-      "emacs",
-      "Lisp"
-    ],
-    "startDate": "1990-11-01",
-    "endDate": "1992-05-31",
-    "roles": [
-      "programmer"
-    ],
-    "url": "https://hst-docs.stsci.edu/hpiom/chapter-2-the-basics-of-phase-ii-proposals",
-    "entity": "Space Telescope Science Institute",
-    "type": "tools"
-  },
-  {
-    "name": "Database Accelerator",
-    "description": "A computer architecture based on content-addressable memories. Implemented compilers and simulators and simulations for the Database Accelerator and Content-Addressable Parallel Processor.",
-    "keywords": [
-      "VLSI",
-      "CAD",
-      "Lisp"
-    ],
-    "startDate": "1989-10-01",
-    "endDate": "1990-10-31",
-    "roles": [
-      "programmer"
-    ],
-    "url": "https://www.semanticscholar.org/paper/The-MIT-database-accelerator%3A-2K-TRIT-circuit-Wade-Osler/8265f5f166e20d9bd60ad71fa62f873519fe4a0c",
-    "entity": "Massachusetts Institute of Technology",
-    "type": "content-addressable memory"
-  },
-  {
-    "name": "DROID",
-    "description": "A VLSI layout synthesis tool, used in-house to design new TI products.Added Optimizations and other improvements for a VLSI layout synthesis tool running on a TI Explorer Lisp Machine",
-    "keywords": [
-      "VLSI",
-      "CAD",
-      "Lisp"
-    ],
-    "startDate": "1988-05-31",
-    "endDate": "1989-09-31",
-    "roles": [
-      "programmer"
-    ],
-    "url": "https://www.researchgate.net/publication/3524170_Circuit_optimization_techniques_in_DROID",
-    "entity": "Texas Instruments",
-    "type": "VLSI CAD"
-  }
-],
-"education": [
-  {
-    "institution": "Massachusetts Institute of Technology",
-    "url": "https://mit.edu/",
-    "area": "Computer Science and Engineering",
-    "studyType": "SB",
-    "startDate": "1984-09-01",
-    "endDate": "1988-05-01"
-  },
-  {
-    "institution": "Johns Hopkins University",
-    "url": "https://jhu.edu/",
-    "area": "Computer Science",
-    "studyType": "MS",
-    "endDate": "1993-12-01",
-    "startDate": "1991-09-01"
-  }
-],
-"publications": [
-  {
-    "name": "Learn Unity 2014 for iOS Game Development",
-    "publisher": "Apress",
-    "releaseDate": "2013-06-01",
-    "url": "https://www.amazon.com/Learn-Unity-Development-Technology-Action/dp/1430248750"
-  },
-  {
-    "name": "Technicat on Software",
-    "publisher": "self",
-    "releaseDate": "2015-01-01",
-    "url": "http://technicat.itchio.com/"
-  }
-],
-"skills": [
-  {
-    "name": "App Development",
-    "level": "Experienced",
-    "keywords": [
-      "Flutter",
-      "J2ME",
-      "SwiftUI",
-      "Xamarin"
-    ]
-  },
-  {
-    "name": "Game Development",
-    "level": "Experienced",
-    "keywords": [
-      "CryEngine",
-      "Godot",
-      "Havok",
-      "Qube",
-      "Renderware",
-      "Ren'py",
-      "Scaleform",
-      "Unity",
-      "Unreal"
-    ]
-  },
-  {
-    "name": "Graphics",
-    "level": "Experienced",
-    "keywords": [
-      "Direct3D",
-      "OpenGL",
-      "Processing"
-    ]
-  },
-  {
-    "name": "Programming",
-    "level": "Experienced",
-    "keywords": [
-      "6502",
-      "BASIC",
-      "C",
-      "C++",
-      "C#",
-      "Dart",
-      "Java",
-      "Javascript",
-      "Lisp",
-      "Lua",
-      "Objective-C",
-      "Perl",
-      "PHP",
-      "Python",
-      "Swift",
-      "Tcl"
-    ]
-  },
-  {
-    "name": "Writing",
-    "level": "Experienced",
-    "keywords": [
-      "English"
-    ]
-  }
-],
-"languages": [
-  {
-    "language": "English",
-    "fluency": "Native speaker"
-  },
-  {
-    "language": "Cantonese",
-    "fluency": "Food"
-  },
-  {
-    "language": "Korean",
-    "fluency": "Kdrama phrases"
-  }
-],
-"interests": [
-  {
-    "name": "Cats",
-    "keywords": [
-      "adoption",
-      "cat cafe",
-      "lucky cat",
-      "samurai cat"
-    ]
-  },
-  {
-    "name": "Reading",
-    "keywords": [
-      "Asian-American fiction",
-      "graphic design",
-      "graphic novels",
-      "history",
-      "philosophy",
-      "scifi",
-      "spy stories",
-      "technology"
-    ]
-  },
-  {
-    "name": "Viewing",
-    "keywords": [
-      "kdrama",
-      "scifi",
-      "MMA"
-    ]
-  },
-  {
-    "name": "Learning",
-    "keywords": [
-      "English",
-      "Spanish",
-      "Chinese",
-      "Korean",
-      "Japanese"
-    ]
-  },
-  {
-    "name": "Listening",
-    "keywords": [
-      "Motown",
-      "NPR Podcasts"
-    ]
-  }
-]
+      "keywords": [
+        "CryEngine",
+        "virtual world",
+        "metaverse"
+      ],
+      "startDate": "2007-09-01",
+      "endDate": "2011-01-01",
+      "url": "http://bluemars.com/",
+      "roles": [
+        "programmer"
+      ],
+      "entity": "Avatar Reality",
+      "type": "metaverse"
+    },
+    {
+      "name": "Darkwatch",
+      "description": "A vampire western for Playstation 2 and Xbox. Worked on various HUD elements, PAL support, demo builds, implemented multiplayer split-screen, added designer-friendly Lua interfaces for audio, health bars, etc.",
+      "keywords": [
+        "video game",
+        "Xbox",
+        "Playstation 2"
+      ],
+      "startDate": "2006-09-01",
+      "endDate": "2007-05-31",
+      "roles": [
+        "programmer"
+      ],
+      "entity": "High Moon Studios",
+      "type": "video game",
+      "url": "https://www.mobygames.com/game/darkwatch"
+    },
+    {
+      "name": "Tech Deck: Bare Knuckle Grind",
+      "description": "A skateboarding game bundled with Tech Deck figures. Implemented installers, dynamic shadows, video, a build system.",
+      "keywords": [
+        "subversion",
+        "video game",
+        "Windows",
+        "Renderware"
+      ],
+      "startDate": "2003-12-01",
+      "endDate": "2004-05-31",
+      "roles": [
+        "programmer"
+      ],
+      "url": "https://archive.org/details/bkg-space-town",
+      "entity": "Visionscape Interactive",
+      "type": "video game"
+    },
+    {
+      "name": "HyperBowl",
+      "description": "A 3D bowling game, rolling in fanciful locations. Took over for the original lead programmer, updated attraction version of HyperBowl for localization, new lanes, optimization, new graphics cards, arcade and PC support.",
+      "keywords": [
+        "video game",
+        "Windows",
+        "arcade",
+        "attraction"
+      ],
+      "startDate": "2001-01-01",
+      "endDate": "2001-06-31",
+      "roles": [
+        "programmer"
+      ],
+      "url": "https://en.wikipedia.org/wiki/Hyperbowl_Plus!_Edition",
+      "entity": "Hyper Entertainment",
+      "type": "video game"
+    },
+    {
+      "name": "Neomar",
+      "description": "One of the first mobile web browsers, conforming to the WAP standards. Implemented HTTP proxy for the Neomar WAP gateway, supporting the Neomar mobile web browser on Blackberry pagers and Palm devices. Launched on the Motient service.",
+      "keywords": [
+        "WAP",
+        "HTTP",
+        "mobile"
+      ],
+      "startDate": "1999-12-01",
+      "endDate": "2001-07-31",
+      "roles": [
+        "programmer"
+      ],
+      "url": "https://googlepress.blogspot.com/2000/09/google-search-engine-now-available.html",
+      "entity": "Neomar",
+      "type": "web backend"
+    },
+    {
+      "name": "Leverage for Scheduling",
+      "description": "Supply chain scheduling software for semiconductor fabs. Managed the group reponsible for installation, XML interoperability, and user interfaces.",
+      "keywords": [
+        "Tcl",
+        "Java",
+        "XML"
+      ],
+      "startDate": "1998-11-01",
+      "endDate": "1999-12-31",
+      "roles": [
+        "programmer"
+      ],
+      "url": "https://spinoff.nasa.gov/spinoff1998/ct11.htm",
+      "entity": "Interval Logic",
+      "type": "enterprise software"
+    },
+    {
+      "name": "N-World",
+      "description": "A 3D modeling and animation package, used for Mario 3D and Lord of the Rings. Ported from IrisGL to OpenGL on SGI workstations, then from Irix to Windows NT, all in Franz Allegro Common Lisp (and a bit of C). Manager of core software group (all the libraries - graphics, audio, UI, security...)",
+      "keywords": [
+        "OpenGL",
+        "Irix",
+        "Windows"
+      ],
+      "startDate": "1995-12-01",
+      "endDate": "1997-06-31",
+      "roles": [
+        "programmer"
+      ],
+      "url": "https://en.wikipedia.org/wiki/N-World",
+      "entity": "Nichimen Graphics",
+      "type": "graphics software"
+    },
+    {
+      "name": "ORBIS",
+      "description": "An expert system for submarine simulation. Added multiplayer network capability to support participation wide area networked exercises (donned a submarine uniform and took part in two of them myself).",
+      "keywords": [
+        "Distributed Interactive Simulation",
+        "Lisp",
+        "C++"
+      ],
+      "startDate": "1992-12-01",
+      "endDate": "1993-12-31",
+      "roles": [
+        "programmer"
+      ],
+      "url": "https://www.jhuapl.edu/Content/techdigest/pdf/V23-N04/23-04-Higgins.pdf",
+      "entity": "Johns Hopkins Applied Physics Laboratory",
+      "type": "simulation software"
+    },
+    {
+      "name": "Proposal Entry Processor",
+      "description": "A syntax-directed Emacs mode used by astronomer and Institute staff to prepare and edit Space Telescope observation proposals.",
+      "keywords": [
+        "space",
+        "emacs",
+        "Lisp"
+      ],
+      "startDate": "1990-11-01",
+      "endDate": "1992-05-31",
+      "roles": [
+        "programmer"
+      ],
+      "url": "https://hst-docs.stsci.edu/hpiom/chapter-2-the-basics-of-phase-ii-proposals",
+      "entity": "Space Telescope Science Institute",
+      "type": "tools"
+    },
+    {
+      "name": "Database Accelerator",
+      "description": "A computer architecture based on content-addressable memories. Implemented compilers and simulators and simulations for the Database Accelerator and Content-Addressable Parallel Processor.",
+      "keywords": [
+        "VLSI",
+        "CAD",
+        "Lisp"
+      ],
+      "startDate": "1989-10-01",
+      "endDate": "1990-10-31",
+      "roles": [
+        "programmer"
+      ],
+      "url": "https://www.semanticscholar.org/paper/The-MIT-database-accelerator%3A-2K-TRIT-circuit-Wade-Osler/8265f5f166e20d9bd60ad71fa62f873519fe4a0c",
+      "entity": "Massachusetts Institute of Technology",
+      "type": "content-addressable memory"
+    },
+    {
+      "name": "DROID",
+      "description": "A VLSI layout synthesis tool, used in-house to design new TI products.Added Optimizations and other improvements for a VLSI layout synthesis tool running on a TI Explorer Lisp Machine",
+      "keywords": [
+        "VLSI",
+        "CAD",
+        "Lisp"
+      ],
+      "startDate": "1988-05-31",
+      "endDate": "1989-09-31",
+      "roles": [
+        "programmer"
+      ],
+      "url": "https://www.researchgate.net/publication/3524170_Circuit_optimization_techniques_in_DROID",
+      "entity": "Texas Instruments",
+      "type": "VLSI CAD"
+    }
+  ],
+  "education": [
+    {
+      "institution": "Massachusetts Institute of Technology",
+      "url": "https://mit.edu/",
+      "area": "Computer Science and Engineering",
+      "studyType": "SB",
+      "startDate": "1984-09-01",
+      "endDate": "1988-05-01"
+    },
+    {
+      "institution": "Johns Hopkins University",
+      "url": "https://jhu.edu/",
+      "area": "Computer Science",
+      "studyType": "MS",
+      "endDate": "1993-12-01",
+      "startDate": "1991-09-01"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Learn Unity 2014 for iOS Game Development",
+      "publisher": "Apress",
+      "releaseDate": "2013-06-01",
+      "url": "https://www.amazon.com/Learn-Unity-Development-Technology-Action/dp/1430248750"
+    },
+    {
+      "name": "Technicat on Software",
+      "publisher": "self",
+      "releaseDate": "2015-01-01",
+      "url": "http://technicat.itchio.com/"
+    }
+  ],
+  "skills": [
+    {
+      "name": "App Development",
+      "level": "Experienced",
+      "keywords": [
+        "Flutter",
+        "J2ME",
+        "SwiftUI",
+        "Xamarin"
+      ]
+    },
+    {
+      "name": "Game Development",
+      "level": "Experienced",
+      "keywords": [
+        "CryEngine",
+        "Godot",
+        "Havok",
+        "Qube",
+        "Renderware",
+        "Ren'py",
+        "Scaleform",
+        "Unity",
+        "Unreal"
+      ]
+    },
+    {
+      "name": "Graphics",
+      "level": "Experienced",
+      "keywords": [
+        "Direct3D",
+        "OpenGL",
+        "Processing"
+      ]
+    },
+    {
+      "name": "Programming",
+      "level": "Experienced",
+      "keywords": [
+        "6502",
+        "BASIC",
+        "C",
+        "C++",
+        "C#",
+        "Dart",
+        "Java",
+        "Javascript",
+        "Lisp",
+        "Lua",
+        "Objective-C",
+        "Perl",
+        "PHP",
+        "Python",
+        "Swift",
+        "Tcl"
+      ]
+    },
+    {
+      "name": "Writing",
+      "level": "Experienced",
+      "keywords": [
+        "English"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "Cantonese",
+      "fluency": "Food"
+    },
+    {
+      "language": "Korean",
+      "fluency": "Kdrama phrases"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Cats",
+      "keywords": [
+        "adoption",
+        "cat cafe",
+        "lucky cat",
+        "samurai cat"
+      ]
+    },
+    {
+      "name": "Reading",
+      "keywords": [
+        "Asian-American fiction",
+        "graphic design",
+        "graphic novels",
+        "history",
+        "philosophy",
+        "scifi",
+        "spy stories",
+        "technology"
+      ]
+    },
+    {
+      "name": "Viewing",
+      "keywords": [
+        "kdrama",
+        "scifi",
+        "MMA"
+      ]
+    },
+    {
+      "name": "Learning",
+      "keywords": [
+        "English",
+        "Spanish",
+        "Chinese",
+        "Korean",
+        "Japanese"
+      ]
+    },
+    {
+      "name": "Listening",
+      "keywords": [
+        "Motown",
+        "NPR Podcasts"
+      ]
+    }
+  ]
 }
