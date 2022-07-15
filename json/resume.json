@@ -336,7 +336,7 @@
       "institution": "Massachusetts Institute of Technology",
       "url": "https://mit.edu/",
       "area": "Computer Science and Engineering",
-      "studyType": "SB",
+      "studyType": "Bachelors degree",
       "startDate": "1984-09-01",
       "endDate": "1988-05-01"
     },
@@ -344,7 +344,7 @@
       "institution": "Johns Hopkins University",
       "url": "https://jhu.edu/",
       "area": "Computer Science",
-      "studyType": "MS",
+      "studyType": "Masters degree",
       "endDate": "1993-12-01",
       "startDate": "1991-09-01"
     }
