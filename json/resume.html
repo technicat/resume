@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+      <title>Phil Chu</title>
+      <meta name="description" content="A résumé created with jsonresume.org">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap">
+    <style>:root {
+  color-scheme: light dark;
+
+  --color-background: #ffffff; /* White */
+  --color-muted: #f3f4f5; /* Light Gray 200 */
+  --color-primary: #191e23; /* Dark Gray 900 */
+  --color-secondary: #6c7781; /* Dark Gray 300 */
+  --color-accent: #ffb900; /* Accent Yellow */
+  --color-link: #46b450; /* Accent Green */
+
+  --scale-ratio: 1.25;
+  --scale0: 1rem;
+  --scale1: calc(var(--scale0) * var(--scale-ratio));
+  --scale2: calc(var(--scale1) * var(--scale-ratio));
+  --scale3: calc(var(--scale2) * var(--scale-ratio));
+  --scale4: calc(var(--scale3) * var(--scale-ratio));
+  --scale5: calc(var(--scale4) * var(--scale-ratio));
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-background: #191e23; /* Dark Gray 900 */
+    --color-muted: #23282d; /* Dark Gray 800 */
+    --color-primary: #fbfbfc; /* Light Gray 100 */
+    --color-secondary: #ccd0d4; /* Light Gray 700 */
+  }
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 14px;
+}
+
+body {
+  background: var(--color-background);
+  color: var(--color-primary);
+  display: grid;
+  font: 1em/1.5 Lato, sans-serif;
+  gap: 2em;
+  grid-template-columns:
+    [full-start]
+    1fr
+    [main-start side-start]
+    minmax(min-content, 12em)
+    [side-end content-start]
+    minmax(min-content, 36em)
+    [main-end content-end]
+    1fr
+    [full-end];
+  grid-template-rows: auto [content] 0;
+  margin-bottom: 4em;
+}
+
+body::before {
+  content: '';
+  grid-column: full;
+  grid-row: content;
+}
+
+ol,
+ul {
+  padding-left: 1em;
+}
+
+:not(.icon-list, .tag-list) > li + li {
+  margin-top: 0.4em;
+}
+
+li::marker,
+.network {
+  color: var(--color-secondary);
+}
+
+a {
+  color: var(--color-link);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+a:focus,
+a:hover {
+  color: var(--color-accent);
+}
+
+h1,
+h2,
+h3,
+h5 {
+  font-weight: normal;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: var(--scale5);
+}
+
+h2 {
+  color: var(--color-secondary);
+  font-size: var(--scale4);
+}
+
+h3 {
+  color: var(--color-accent);
+  font-size: var(--scale3);
+  grid-column: side;
+  margin-bottom: 1rem;
+}
+
+h4 {
+  font-size: var(--scale2);
+}
+
+h5 {
+  font-size: var(--scale1);
+}
+
+h6 {
+  font-size: var(--scale0);
+}
+
+blockquote {
+  border-left: 0.2em solid var(--color-muted);
+  padding-left: 1em;
+}
+
+cite {
+  color: var(--color-secondary);
+  font-style: inherit;
+}
+
+cite::before {
+  content: '— ';
+}
+
+svg {
+  margin-right: 0.2em;
+  vertical-align: -0.2em;
+}
+
+.masthead {
+  background: var(--color-muted);
+  display: inherit;
+  gap: inherit;
+  grid-column: full;
+  grid-template-columns: inherit;
+  padding: 4em 0;
+  text-align: center;
+}
+
+.masthead > *,
+section {
+  grid-column: main;
+}
+
+.masthead > img {
+  border-radius: 50%;
+  margin: 0 auto;
+  max-width: 12em;
+}
+
+article > * + *,
+blockquote > * + * {
+  margin-top: 0.6em;
+}
+
+.meta {
+  color: var(--color-secondary);
+}
+
+.stack {
+  display: grid;
+  gap: 1.5em;
+}
+
+.icon-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4em 1em;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+.grid-list {
+  display: grid;
+  gap: 1em;
+}
+
+.tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4em;
+  list-style: none;
+  padding: 0;
+}
+
+.tag-list > li {
+  background: var(--color-muted);
+  border-radius: 0.2em;
+  padding: 0.2em 0.6em;
+}
+
+.bullet-item:not(:first-child)::before {
+  content: '· ';
+  margin: 0 0.2em;
+}
+
+@media print, (min-width: 48em) {
+  h3 {
+    text-align: right;
+    margin-bottom: inherit;
+  }
+
+  .masthead {
+    text-align: inherit;
+  }
+
+  .masthead > *,
+  section {
+    grid-column: content;
+  }
+
+  .masthead img {
+    grid-column: side;
+    grid-row: span 2;
+    max-width: 100%;
+  }
+
+  section {
+    display: contents;
+  }
+
+  .icon-list {
+    flex-direction: column;
+  }
+
+  .grid-list {
+    grid-template-columns: repeat(
+      auto-fit,
+      minmax(calc((100% - 1em) / 2), 1fr)
+    );
+  }
+}
+</style>
+  </head>
+  <body>
+      <header class="masthead">
+          <img src="" alt="">
+        <div>
+            <h1>Phil Chu</h1>
+            <h2>Programmer</h2>
+        </div>
+          <article>
+            <p>A résumé created with jsonresume.org</p>
+          </article>
+        <ul class="icon-list">
+              <li>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-map-pin"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                Las Vegas, United States
+              </li>
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg>
+              <a href="http://technicat.com">technicat.com</a>
+            </li>
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                  <a href="https://github.com/technicat">technicat</a>
+                <span class="network">(Github)</span>
+            </li>
+        </ul>
+      </header>
+
+      <section id="work">
+        <h3>Work</h3>
+        <div class="stack">
+            <article>
+              <header>
+                <h4>working for myself</h4>
+                <div class="meta">
+                  <div>
+                    <strong><a href="http://technicat.com">Technicat LLC</a></strong>
+                  </div>
+                  <div>
+                    <time datetime="2000-01-01">Dec 1999</time> –
+                    Present
+                  </div>
+                </div>
+              </header>
+                <p>Providing consulting and contract software development while self-publishing apps and games.</p>
+            </article>
+            <article>
+              <header>
+                <h4>working for the man</h4>
+                <div class="meta">
+                  <div>
+                    <strong>previous</strong>
+                  </div>
+                  <div>
+                    <time datetime="1988-06-01">May 1988</time> –
+                    <time datetime="2001-06-01">May 2001</time>
+                  </div>
+                </div>
+              </header>
+                <p>A long and unstoried career at Texas Instruments, BBN, SAIC, Nichimen Graphics, Hyper Entertainment, Digital Chameleon, Neomar, Interval Logic, NASA, MIT, and the Space Telescope Science Institute, plus some others that didn't pay.</p>
+            </article>
+        </div>
+      </section>
+      <section id="education">
+        <h3>Education</h3>
+        <div class="stack">
+            <article>
+              <header>
+                <h4><a href="https://mit.edu/">Massachusetts Institute of Technology</a></h4>
+                <div class="meta">
+                    <strong>Computer Science and Engineering</strong>
+                  <div>
+                    <time datetime="1984-09-01">Aug 1984</time> –
+                    <time datetime="1988-05-01">Apr 1988</time>
+                  </div>
+                </div>
+              </header>
+                <p>SB</p>
+            </article>
+            <article>
+              <header>
+                <h4><a href="https://jhu.edu/">Johns Hopkins University</a></h4>
+                <div class="meta">
+                    <strong>Computer Science</strong>
+                  <div>
+                    <time datetime="1991-09-01">Aug 1991</time> –
+                    <time datetime="1993-12-01">Nov 1993</time>
+                  </div>
+                </div>
+              </header>
+                <p>MS</p>
+            </article>
+        </div>
+      </section>
+      <section id="projects">
+        <h3>Projects</h3>
+        <div class="stack">
+            <article>
+              <header>
+                <h4><a href="http://talkdimsum.com/">Talk Dim Sum</a></h4>
+                <div class="meta">
+                  <div>
+                      <strong>developer</strong>
+                      at <strong>Technicat</strong>
+                  </div>
+                  <div>
+                    <time datetime="2014-01-01">Dec 2013</time> –
+                    Present
+                  </div>
+                </div>
+              </header>
+                <p>Your dim sum companion. Read about dim sum and learn how to pronounce the dishes. Available on Itch.io and the App Store.</p>
+            </article>
+            <article>
+              <header>
+                <h4><a href="http://hyperbowl.rocks/">HyperBowl</a></h4>
+                <div class="meta">
+                  <div>
+                      <strong>developer</strong>
+                      at <strong>Technicat</strong>
+                  </div>
+                  <div>
+                    <time datetime="2008-12-01">Nov 2008</time> –
+                    <time datetime="2019-12-01">Nov 2019</time>
+                  </div>
+                </div>
+              </header>
+                <p>Be the ball! A Unity reimplementation of the classic bowling game, licensed from Hyper Entertainment. Available on Itch.io, Steam, and the App Store.</p>
+            </article>
+            <article>
+              <header>
+                <h4><a href="https://apps.apple.com/us/app/cinefex/id512379220">Cinefex iPad Edition</a></h4>
+                <div class="meta">
+                  <div>
+                      <strong>developer</strong>
+                      at <strong>Cinefex</strong>
+                  </div>
+                  <div>
+                    <time datetime="2016-04-01">Mar 2016</time> –
+                    Present
+                  </div>
+                </div>
+              </header>
+                <p>An iPad reader for the Cinefex visual effects magazine, with extras such as videos and image galleries. Kept it up and running over the march of iOS evolution, fixing, updating, and optimizing in-app purchases, user interface, video...</p>
+            </article>
+            <article>
+              <header>
+                <h4><a href="https://www.amazon.com/Learn-Unity-Development-Technology-Action/dp/1430248750">Learn Unity 4 for iOS Game Development</a></h4>
+                <div class="meta">
+                  <div>
+                      <strong>author</strong>
+                      at <strong>Apress</strong>
+                  </div>
+                  <div>
+                    <time datetime="">Invalid Date</time> –
+                    <time datetime="2013-04-01">Mar 2013</time>
+                  </div>
+                </div>
+              </header>
+                <p>An introduction to game development for iOS using the Unity game engine and an example bowling game (super simple version of HyperBowl).</p>
+            </article>
+            <article>
+              <header>
+                <h4><a href="https://blog.playstation.com/2012/11/26/save-playstation-home-from-teddy-bears/">Emo-Ray vs. the Intergalactic Teddy Bears</a></h4>
+                <div class="meta">
+                  <div>
+                      <strong>programmer</strong>
+                      at <strong>Heavy Water</strong>
+                  </div>
+                  <div>
+                    <time datetime="2011-09-01">Aug 2011</time> –
+                    <time datetime="2011-12-01">Nov 2011</time>
+                  </div>
+                </div>
+              </header>
+                <p>A Playstation Home driving/shooting game with alien invader teddy bears.</p>
+            </article>
+            <article>
+              <header>
+                <h4><a href="https://pshome.fandom.com/wiki/RC_Rally">RC Rally</a></h4>
+                <div class="meta">
+                  <div>
+                      <strong>programmer</strong>
+                      at <strong>Heavy Water</strong>
+                  </div>
+                  <div>
+                    <time datetime="2011-09-01">Aug 2011</time> –
+                    <time datetime="2011-12-01">Nov 2011</time>
+                  </div>
+                </div>
+              </header>
+                <p>A Playstation Home multiplayer racing game.</p>
+            </article>
+            <article>
+              <header>
+                <h4><a href="http://bluemars.com/">Blue Mars</a></h4>
+                <div class="meta">
+                  <div>
+                      <strong>programmer</strong>
+                      at <strong>Avatar Reality</strong>
+                  </div>
+                  <div>
+                    <time datetime="2007-09-01">Aug 2007</time> –
+                    <time datetime="2011-01-01">Dec 2010</time>
+                  </div>
+                </div>
+              </header>
+                <p>A 3D virtual world implemented in CryEngine. Supported third-party developers, documented the Lua API and framework for creating minigames on the community wiki (a CryEngine wiki even copied part of it!), tweaked physics, updated Scaleform integration, modified CryEngine to work with Scaleform IME (for localization).</p>
+            </article>
+            <article>
+              <header>
+                <h4><a href="https://www.mobygames.com/game/darkwatch">Darkwatch</a></h4>
+                <div class="meta">
+                  <div>
+                      <strong>programmer</strong>
+                      at <strong>High Moon Studios</strong>
+                  </div>
+                  <div>
+                    <time datetime="2006-09-01">Aug 2006</time> –
+                    <time datetime="2007-05-31">May 2007</time>
+                  </div>
+                </div>
+              </header>
+                <p>A vampire western for Playstation 2 and Xbox. Worked on various HUD elements, PAL support, demo builds, implemented multiplayer split-screen, added designer-friendly Lua interfaces for audio, health bars, etc.</p>
+            </article>
+            <article>
+              <header>
+                <h4><a href="https://archive.org/details/bkg-space-town">Tech Deck: Bare Knuckle Grind</a></h4>
+                <div class="meta">
+                  <div>
+                      <strong>programmer</strong>
+                      at <strong>Visionscape Interactive</strong>
+                  </div>
+                  <div>
+                    <time datetime="2003-12-01">Nov 2003</time> –
+                    <time datetime="2004-05-31">May 2004</time>
+                  </div>
+                </div>
+              </header>
+                <p>A skateboarding game bundled with Tech Deck figures. Implemented installers, dynamic shadows, video, a build system.</p>
+            </article>
+            <article>
+              <header>
+                <h4><a href="https://en.wikipedia.org/wiki/Hyperbowl_Plus!_Edition">HyperBowl</a></h4>
+                <div class="meta">
+                  <div>
+                      <strong>programmer</strong>
+                      at <strong>Hyper Entertainment</strong>
+                  </div>
+                  <div>
+                    <time datetime="2001-01-01">Dec 2000</time> –
+                    <time datetime="2001-06-31">Jun 2001</time>
+                  </div>
+                </div>
+              </header>
+                <p>A 3D bowling game, rolling in fanciful locations. Took over for the original lead programmer, updated attraction version of HyperBowl for localization, new lanes, optimization, new graphics cards, arcade and PC support.</p>
+            </article>
+            <article>
+              <header>
+                <h4><a href="https://googlepress.blogspot.com/2000/09/google-search-engine-now-available.html">Neomar</a></h4>
+                <div class="meta">
+                  <div>
+                      <strong>programmer</strong>
+                      at <strong>Neomar</strong>
+                  </div>
+                  <div>
+                    <time datetime="1999-12-01">Nov 1999</time> –
+                    <time datetime="2001-07-31">Jul 2001</time>
+                  </div>
+                </div>
+              </header>
+                <p>One of the first mobile web browsers, conforming to the WAP standards. Implemented HTTP proxy for the Neomar WAP gateway, supporting the Neomar mobile web browser on Blackberry pagers and Palm devices. Launched on the Motient service.</p>
+            </article>
+            <article>
+              <header>
+                <h4><a href="https://spinoff.nasa.gov/spinoff1998/ct11.htm">Leverage for Scheduling</a></h4>
+                <div class="meta">
+                  <div>
+                      <strong>programmer</strong>
+                      at <strong>Interval Logic</strong>
+                  </div>
+                  <div>
+                    <time datetime="1998-11-01">Oct 1998</time> –
+                    <time datetime="1999-12-31">Dec 1999</time>
+                  </div>
+                </div>
+              </header>
+                <p>Supply chain scheduling software for semiconductor fabs. Managed the group reponsible for installation, XML interoperability, and user interfaces.</p>
+            </article>
+            <article>
+              <header>
+                <h4><a href="https://en.wikipedia.org/wiki/N-World">N-World</a></h4>
+                <div class="meta">
+                  <div>
+                      <strong>programmer</strong>
+                      at <strong>Nichimen Graphics</strong>
+                  </div>
+                  <div>
+                    <time datetime="1995-12-01">Nov 1995</time> –
+                    <time datetime="1997-06-31">Jun 1997</time>
+                  </div>
+                </div>
+              </header>
+                <p>A 3D modeling and animation package, used for Mario 3D and Lord of the Rings. Ported from IrisGL to OpenGL on SGI workstations, then from Irix to Windows NT, all in Franz Allegro Common Lisp (and a bit of C). Manager of core software group (all the libraries - graphics, audio, UI, security...)</p>
+            </article>
+            <article>
+              <header>
+                <h4><a href="https://www.jhuapl.edu/Content/techdigest/pdf/V23-N04/23-04-Higgins.pdf">ORBIS</a></h4>
+                <div class="meta">
+                  <div>
+                      <strong>programmer</strong>
+                      at <strong>Johns Hopkins Applied Physics Laboratory</strong>
+                  </div>
+                  <div>
+                    <time datetime="1992-12-01">Nov 1992</time> –
+                    <time datetime="1993-12-31">Dec 1993</time>
+                  </div>
+                </div>
+              </header>
+                <p>An expert system for submarine simulation. Added multiplayer network capability to support participation wide area networked exercises (donned a submarine uniform and took part in two of them myself).</p>
+            </article>
+            <article>
+              <header>
+                <h4><a href="https://hst-docs.stsci.edu/hpiom/chapter-2-the-basics-of-phase-ii-proposals">Proposal Entry Processor</a></h4>
+                <div class="meta">
+                  <div>
+                      <strong>programmer</strong>
+                      at <strong>Space Telescope Science Institute</strong>
+                  </div>
+                  <div>
+                    <time datetime="1990-11-01">Oct 1990</time> –
+                    <time datetime="1992-05-31">May 1992</time>
+                  </div>
+                </div>
+              </header>
+                <p>A syntax-directed Emacs mode used by astronomer and Institute staff to prepare and edit Space Telescope observation proposals.</p>
+            </article>
+            <article>
+              <header>
+                <h4><a href="https://www.semanticscholar.org/paper/The-MIT-database-accelerator%3A-2K-TRIT-circuit-Wade-Osler/8265f5f166e20d9bd60ad71fa62f873519fe4a0c">Database Accelerator</a></h4>
+                <div class="meta">
+                  <div>
+                      <strong>programmer</strong>
+                      at <strong>Massachusetts Institute of Technology</strong>
+                  </div>
+                  <div>
+                    <time datetime="1989-10-01">Sep 1989</time> –
+                    <time datetime="1990-10-31">Oct 1990</time>
+                  </div>
+                </div>
+              </header>
+                <p>A computer architecture based on content-addressable memories. Implemented compilers and simulators and simulations for the Database Accelerator and Content-Addressable Parallel Processor.</p>
+            </article>
+            <article>
+              <header>
+                <h4><a href="https://www.researchgate.net/publication/3524170_Circuit_optimization_techniques_in_DROID">DROID</a></h4>
+                <div class="meta">
+                  <div>
+                      <strong>programmer</strong>
+                      at <strong>Texas Instruments</strong>
+                  </div>
+                  <div>
+                    <time datetime="1988-05-31">May 1988</time> –
+                    <time datetime="1989-09-31">Sep 1989</time>
+                  </div>
+                </div>
+              </header>
+                <p>A VLSI layout synthesis tool, used in-house to design new TI products.Added Optimizations and other improvements for a VLSI layout synthesis tool running on a TI Explorer Lisp Machine</p>
+            </article>
+        </div>
+      </section>
+      <section id="publications">
+        <h3>Publications</h3>
+        <div class="stack">
+            <article>
+              <header>
+                <h4><a href="https://www.amazon.com/Learn-Unity-Development-Technology-Action/dp/1430248750">Learn Unity 2014 for iOS Game Development</a></h4>
+                <div class="meta">
+                    <div>
+                      Published by <strong>Apress</strong>
+                    </div>
+                    <time datetime="2013-06-01">May 2013</time>
+                </div>
+              </header>
+            </article>
+            <article>
+              <header>
+                <h4><a href="http://technicat.itchio.com/">Technicat on Software</a></h4>
+                <div class="meta">
+                    <div>
+                      Published by <strong>self</strong>
+                    </div>
+                    <time datetime="2015-01-01">Dec 2014</time>
+                </div>
+              </header>
+            </article>
+        </div>
+      </section>
+      <section id="skills">
+        <h3>Skills</h3>
+        <div class="grid-list">
+            <div>
+                <h4>App Development</h4>
+                <ul class="tag-list">
+                    <li>Flutter</li>
+                    <li>J2ME</li>
+                    <li>SwiftUI</li>
+                    <li>Xamarin</li>
+                </ul>
+            </div>
+            <div>
+                <h4>Game Development</h4>
+                <ul class="tag-list">
+                    <li>CryEngine</li>
+                    <li>Godot</li>
+                    <li>Havok</li>
+                    <li>Qube</li>
+                    <li>Renderware</li>
+                    <li>Ren&#x27;py</li>
+                    <li>Scaleform</li>
+                    <li>Unity</li>
+                    <li>Unreal</li>
+                </ul>
+            </div>
+            <div>
+                <h4>Graphics</h4>
+                <ul class="tag-list">
+                    <li>Direct3D</li>
+                    <li>OpenGL</li>
+                    <li>Processing</li>
+                </ul>
+            </div>
+            <div>
+                <h4>Programming</h4>
+                <ul class="tag-list">
+                    <li>6502</li>
+                    <li>BASIC</li>
+                    <li>C</li>
+                    <li>C++</li>
+                    <li>C#</li>
+                    <li>Dart</li>
+                    <li>Java</li>
+                    <li>Javascript</li>
+                    <li>Lisp</li>
+                    <li>Lua</li>
+                    <li>Objective-C</li>
+                    <li>Perl</li>
+                    <li>PHP</li>
+                    <li>Python</li>
+                    <li>Swift</li>
+                    <li>Tcl</li>
+                </ul>
+            </div>
+            <div>
+                <h4>Writing</h4>
+                <ul class="tag-list">
+                    <li>English</li>
+                </ul>
+            </div>
+        </div>
+      </section>
+      <section id="languages">
+        <h3>Languages</h3>
+        <div class="grid-list">
+            <div>
+                <h4>English</h4>
+              Native speaker
+            </div>
+            <div>
+                <h4>Cantonese</h4>
+              Food
+            </div>
+            <div>
+                <h4>Korean</h4>
+              Kdrama phrases
+            </div>
+        </div>
+      </section>
+      <section id="interests">
+        <h3>Interests</h3>
+        <div class="grid-list">
+            <div>
+                <h4>Cats</h4>
+                <ul class="tag-list">
+                    <li>adoption</li>
+                    <li>cat cafe</li>
+                    <li>lucky cat</li>
+                    <li>samurai cat</li>
+                </ul>
+            </div>
+            <div>
+                <h4>Reading</h4>
+                <ul class="tag-list">
+                    <li>Asian-American fiction</li>
+                    <li>graphic design</li>
+                    <li>graphic novels</li>
+                    <li>history</li>
+                    <li>philosophy</li>
+                    <li>scifi</li>
+                    <li>spy stories</li>
+                    <li>technology</li>
+                </ul>
+            </div>
+            <div>
+                <h4>Viewing</h4>
+                <ul class="tag-list">
+                    <li>kdrama</li>
+                    <li>scifi</li>
+                    <li>MMA</li>
+                </ul>
+            </div>
+            <div>
+                <h4>Learning</h4>
+                <ul class="tag-list">
+                    <li>English</li>
+                    <li>Spanish</li>
+                    <li>Chinese</li>
+                    <li>Korean</li>
+                    <li>Japanese</li>
+                </ul>
+            </div>
+            <div>
+                <h4>Listening</h4>
+                <ul class="tag-list">
+                    <li>Motown</li>
+                    <li>NPR Podcasts</li>
+                </ul>
+            </div>
+        </div>
+      </section>
+  </body>
+</html>
