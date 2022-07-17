@@ -1,1 +1,0 @@
-My resume in asciidoc. Nothing special here, just trying out github's asciidoc support.
