@@ -176,6 +176,23 @@
       "url": "https://www.mobygames.com/game/darkwatch"
     },
     {
+      "name": "Fugu Games",
+      "description": "Small games released as webplayers, Mac Widgets, and mobile apps.",
+      "keywords": [
+        "video game",
+        "app",
+        "Unity",
+        "J2ME"
+      ],
+      "startDate": "2007-06-01",
+      "roles": [
+        "developer"
+      ],
+      "entity": "Technicat LLC",
+      "type": "video game",
+      "url": "http://fugugames.com/"
+    },
+    {
       "name": "Tech Deck: Bare Knuckle Grind",
       "description": "A skateboarding game bundled with Tech Deck figures. Implemented installers, dynamic shadows, video, a build system.",
       "keywords": [
