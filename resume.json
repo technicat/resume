@@ -298,7 +298,7 @@
     },
     {
       "name": "Proposal Entry Processor",
-      "description": "A syntax-directed Emacs mode used by astronomer and Institute staff to prepare and edit Space Telescope observation proposals.",
+      "description": "A syntax-directed Emacs mode used by astronomers and Institute staff to prepare and edit Space Telescope observation proposals.",
       "keywords": [
         "space",
         "emacs",
