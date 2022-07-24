@@ -230,7 +230,7 @@
     },
     {
       "name": "Neomar",
-      "description": "One of the first mobile web browsers, conforming to the WAP standards. Implemented HTTP proxy for the Neomar WAP gateway, supporting the Neomar mobile web browser on Blackberry pagers and Palm devices. Launched on the Motient service.",
+      "description": "One of the first mobile web browsers, conforming to the WAP standards. Implemented an HTTP proxy for the Neomar WAP gateway, supporting the Neomar mobile web browser on Blackberry pagers and Palm devices, launched on the Motient service.",
       "keywords": [
         "WAP",
         "HTTP",
