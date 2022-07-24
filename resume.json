@@ -332,7 +332,7 @@
     },
     {
       "name": "DROID",
-      "description": "A VLSI layout synthesis tool, used in-house to design new products, running on TI Explorer Lisp Machines. Added optimizations and other improvements, skipped most of the meetings.",
+      "description": "A VLSI layout synthesis tool, used in-house to design new products, running on TI Explorer Lisp Machines. Added optimizations and other improvements, skipped most of the meetings (also an optimization).",
       "keywords": [
         "VLSI",
         "CAD",
