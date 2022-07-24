@@ -147,7 +147,9 @@
       "keywords": [
         "CryEngine",
         "virtual world",
-        "metaverse"
+        "metaverse",
+        "Lua",
+        "C++"
       ],
       "startDate": "2007-09-01",
       "endDate": "2011-01-01",
@@ -159,15 +161,33 @@
       "type": "metaverse"
     },
     {
+      "name": "Nendo",
+      "description": "A nifty 3D modeler originally developed at Nichimen Graphics. Updated to work on Windows NT.",
+      "keywords": [
+        "3D graphics",
+        "C++"
+      ],
+      "startDate": "2007-05-01",
+      "endDate": "2007-06-31",
+      "roles": [
+        "programmer"
+      ],
+      "entity": "Izware",
+      "type": "graphics softwaare",
+      "url": "https://download.cnet.com/Nendo/3000-6677_4-10026965.html"
+    },
+    {
       "name": "Darkwatch",
       "description": "A vampire western for Playstation 2 and Xbox. Worked on various HUD elements, PAL support, demo builds, implemented multiplayer split-screen, added designer-friendly Lua interfaces for audio, health bars, etc.",
       "keywords": [
         "video game",
         "Xbox",
-        "Playstation 2"
+        "Playstation 2",
+        "Lua",
+        "C++"
       ],
       "startDate": "2006-09-01",
-      "endDate": "2007-05-31",
+      "endDate": "2007-04-31",
       "roles": [
         "programmer"
       ],
@@ -182,7 +202,8 @@
         "video game",
         "app",
         "Unity",
-        "J2ME"
+        "J2ME",
+        "C#"
       ],
       "startDate": "2007-06-01",
       "roles": [
@@ -199,7 +220,8 @@
         "subversion",
         "video game",
         "Windows",
-        "Renderware"
+        "Renderware",
+        "C"
       ],
       "startDate": "2003-12-01",
       "endDate": "2004-05-31",
@@ -217,7 +239,8 @@
         "video game",
         "Windows",
         "arcade",
-        "attraction"
+        "attraction",
+        "C++"
       ],
       "startDate": "2001-01-01",
       "endDate": "2001-06-31",
@@ -234,7 +257,8 @@
       "keywords": [
         "WAP",
         "HTTP",
-        "mobile"
+        "mobile",
+        "Java"
       ],
       "startDate": "1999-12-01",
       "endDate": "2001-07-31",
