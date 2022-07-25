@@ -274,11 +274,10 @@
       "name": "Leverage for Scheduling",
       "description": "Supply chain scheduling software for semiconductor fabs. Managed the group reponsible for installation, XML interoperability, and user interfaces.",
       "keywords": [
-        "Tcl",
         "Java",
         "XML"
       ],
-      "startDate": "1998-11-01",
+      "startDate": "1998-12-01",
       "endDate": "1999-12-31",
       "roles": [
         "programmer"
@@ -287,6 +286,22 @@
       "entity": "Interval Logic",
       "type": "enterprise software"
     },
+    {
+      "name": "Leverage for Planning",
+      "description": "Supply chain planning software for semiconductor fabs. Upgraded from Tcl to TclPro.",
+      "keywords": [
+        "Tcl"
+      ],
+      "startDate": "1998-11-01",
+      "endDate": "1998-11-31",
+      "roles": [
+        "programmer"
+      ],
+      "url": " https://web.archive.org/web/19991105062823/http://www.interval-logic.com/news/lsi.html",
+      "entity": "Interval Logic",
+      "type": "enterprise software"
+    },
+   
     {
       "name": "N-World",
       "description": "A 3D modeling and animation package, used for Mario 3D and Gollum. Ported from IrisGL to OpenGL on SGI workstations, then from Irix to Windows NT, all in Franz Allegro Common Lisp (and a bit of C). Manager of core software group (all the libraries - graphics, audio, UI, security...)",
