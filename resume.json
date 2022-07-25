@@ -319,7 +319,7 @@
     },
     {
       "name": "N-World",
-      "description": "A 3D modeling and animation package, used for Mario 3D and Gollum. Ported from IrisGL to OpenGL on SGI workstations, then from Irix to Windows NT, all in Franz Allegro Common Lisp (and a bit of C). Manager of core software group (all the libraries - graphics, audio, UI, security...)",
+      "description": "A 3D modeling and animation package, used for Mario 3D. Ported from IrisGL to OpenGL on SGI workstations, then from Irix to Windows NT, all in Franz Allegro Common Lisp (and a bit of C). Manager of core software group (all the libraries - graphics, audio, UI, security...)",
       "keywords": [
         "OpenGL",
         "Irix",
