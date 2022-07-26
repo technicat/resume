@@ -163,7 +163,7 @@
     },
     {
       "name": "Nendo",
-      "description": "A nifty 3D modeler originally developed at Nichimen Graphics. Updated to work on Windows NT.",
+      "description": "A nifty 3D modeler originally developed at Nichimen Graphics. Updated to work on Windows XP.",
       "keywords": [
         "3D graphics",
         "C++"
@@ -175,7 +175,7 @@
       ],
       "entity": "Izware",
       "type": "graphics softwaare",
-      "url": "https://download.cnet.com/Nendo/3000-6677_4-10026965.html"
+      "url": "https://web.archive.org/web/20070628000134/http://www.izware.com/nendo/index.htm"
     },
     {
       "name": "Darkwatch",
