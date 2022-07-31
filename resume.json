@@ -401,6 +401,22 @@
       "url": "https://www.researchgate.net/publication/3524170_Circuit_optimization_techniques_in_DROID",
       "entity": "Texas Instruments",
       "type": "VLSI CAD"
+    },
+    {
+      "name": "START",
+      "description": "Part time student work on a graph display for the the START natural language parser, then running on Symoblics Lisp machines.",
+      "keywords": [
+        "natural language",
+        "Lisp"
+      ],
+      "startDate": "1987-06-01",
+      "endDate": "1987-08-30",
+      "roles": [
+        "programmer"
+      ],
+      "url": "http://start.csail.mit.edu/index.php",
+      "entity": "MIT",
+      "type": "natural language"
     }
   ],
   "education": [
