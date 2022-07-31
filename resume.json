@@ -413,7 +413,7 @@
       "startDate": "1987-09-01",
       "endDate": "1988-05-31",
       "roles": [
-        "programmer"
+        "student"
       ],
       "url": "https://en.wikipedia.org/wiki/MultiLisp",
       "entity": "Massachusetts Institute of Technology",
@@ -429,7 +429,7 @@
       "startDate": "1987-06-01",
       "endDate": "1987-08-30",
       "roles": [
-        "programmer"
+        "student"
       ],
       "url": "http://start.csail.mit.edu/index.php",
       "entity": "Massachusetts Institute of Technology",
