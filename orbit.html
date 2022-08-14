@@ -1,0 +1,629 @@
+<!doctype html>
+<html>
+	<head>
+        <title>Phil Chu</title>
+        <!-- Meta -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Responsive HTML5 Developer Resume for Phil Chu">
+        <meta name="generator" content="https://www.npmjs.com/package/jsonresume-theme-orbit/v/1.1.0"/>
+
+        <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+        <!-- Global CSS -->
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">        <!-- Plugins CSS -->
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+        <!-- Theme CSS -->
+        <style>
+                /*   
+ * Template Name: Orbit - Responsive Resume/CV Template for Developers
+ * Version: 1.0
+ * Author: Xiaoying Riley
+ * Twitter: @3rdwave_themes
+ * License: Creative Commons Attribution 3.0 License
+ * Website: http://themes.3rdwavemedia.com/
+*/
+/* styles.css */
+/* ======= Base ======= */
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #545E6C;
+  background: #f5f5f5;
+  font-size: 14px;
+  padding: 30px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+}
+a {
+  color: #2d7788;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+}
+a:hover {
+  text-decoration: underline;
+  color: #1a454f;
+}
+a:focus {
+  text-decoration: none;
+}
+p {
+  line-height: 1.5;
+}
+.wrapper {
+  background: #42A8C0;
+  max-width: 960px;
+  margin: 0 auto;
+  position: relative;
+  -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+.sidebar-wrapper {
+  background: #42A8C0;
+  position: absolute;
+  right: 0;
+  width: 240px;
+  height: 100%;
+  min-height: 800px;
+  color: #fff;
+}
+.sidebar-wrapper a {
+  color: #fff;
+}
+.sidebar-wrapper .profile-container {
+  padding: 30px;
+  background: rgba(0, 0, 0, 0.2);
+  text-align: center;
+  color: #fff;
+}
+.sidebar-wrapper .name {
+  font-size: 32px;
+  font-weight: 900;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.sidebar-wrapper .tagline {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.sidebar-wrapper .profile {
+  margin-bottom: 15px;
+}
+.sidebar-wrapper .contact-list .fa {
+  margin-right: 5px;
+  font-size: 18px;
+  vertical-align: middle;
+}
+.sidebar-wrapper .contact-list li {
+  margin-bottom: 15px;
+}
+.sidebar-wrapper .contact-list li:last-child {
+  margin-bottom: 0;
+}
+.sidebar-wrapper .contact-list .email .fa {
+  font-size: 14px;
+}
+.sidebar-wrapper .container-block {
+  padding: 30px;
+}
+.sidebar-wrapper .container-block-title {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+.sidebar-wrapper .degree {
+  font-size: 14px;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+.sidebar-wrapper .education-container .item {
+  margin-bottom: 15px;
+}
+.sidebar-wrapper .education-container .item:last-child {
+  margin-bottom: 0;
+}
+.sidebar-wrapper .education-container .meta {
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 500;
+  margin-bottom: 0px;
+  margin-top: 0;
+}
+.sidebar-wrapper .education-container .time {
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+.sidebar-wrapper .languages-container .lang-desc {
+  color: rgba(255, 255, 255, 0.6);
+}
+.sidebar-wrapper .languages-list {
+  margin-bottom: 0;
+}
+.sidebar-wrapper .languages-list li {
+  margin-bottom: 10px;
+}
+.sidebar-wrapper .languages-list li:last-child {
+  margin-bottom: 0;
+}
+.sidebar-wrapper .interests-list {
+  margin-bottom: 0;
+}
+.sidebar-wrapper .interests-list li {
+  margin-bottom: 10px;
+}
+.sidebar-wrapper .interests-list li:last-child {
+  margin-bottom: 0;
+}
+.main-wrapper {
+  background: #fff;
+  padding: 60px;
+  padding-right: 300px;
+  min-height: 800px;
+}
+.main-wrapper .section-title {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 500;
+  color: #2d7788;
+  position: relative;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+.main-wrapper .section-title .fa {
+  width: 30px;
+  height: 30px;
+  margin-right: 8px;
+  display: inline-block;
+  color: #fff;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  background: #2d7788;
+  text-align: center;
+  padding-top: 8px;
+  font-size: 16px;
+  position: relative;
+  top: -2px;
+}
+.main-wrapper .section {
+  margin-bottom: 60px;
+}
+.main-wrapper .experiences-section .item {
+  margin-bottom: 30px;
+}
+.main-wrapper .upper-row {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 2px;
+}
+.main-wrapper .job-title {
+  color: #3F4650;
+  font-size: 16px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 500;
+}
+.main-wrapper .time {
+  position: absolute;
+  right: 0;
+  top: 0;
+  color: #97AAC3;
+}
+.main-wrapper .company {
+  margin-bottom: 10px;
+  color: #97AAC3;
+}
+.main-wrapper .project-title {
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+.main-wrapper .projects-section .intro {
+  margin-bottom: 30px;
+}
+.main-wrapper .projects-section .item {
+  margin-bottom: 15px;
+}
+.skillset .item {
+  margin-bottom: 15px;
+  overflow: hidden;
+}
+.skillset .level-title {
+  font-size: 14px;
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+.skillset .level-bar {
+  height: 12px;
+  background: #f5f5f5;
+}
+.skillset .level-bar-inner {
+  height: 12px;
+  background: #7bc2d3;
+}
+.footer {
+  padding: 30px;
+  padding-top: 60px;
+}
+.footer .copyright {
+  line-height: 1.6;
+  color: #545E6C;
+  font-size: 13px;
+}
+.footer .fa-heart {
+  color: #fb866a;
+}
+/* Extra small devices (phones, less than 768px) */
+@media (max-width: 767px) {
+  .sidebar-wrapper {
+    position: static;
+    width: inherit;
+  }
+  .main-wrapper {
+    padding: 30px;
+  }
+  .main-wrapper .time {
+    position: static;
+    display: block;
+    margin-top: 5px;
+  }
+  .main-wrapper .upper-row {
+    margin-bottom: 0;
+  }
+}
+/* Small devices (tablets, 768px and up) */
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .skillset .level-title {
+    display: inline-block;
+    float: left;
+    width: 30%;
+    margin-bottom: 0;
+  }
+  .skillset .level-bar {
+    display: inline-block;
+    width: 70%;
+    float: left;
+    position: relative;
+    top: 1px;
+  }
+}
+/* Large devices (large desktops, 1200px and up) */
+/* Ex-Large devices (large desktops, 1200px and up) */
+
+        </style>
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+
+    <body>
+    <div class="wrapper">
+        <div class="sidebar-wrapper">
+
+            <div class="profile-container">
+                <img class="profile" src="" alt="" />
+                <h1 class="name">Phil Chu</h1>
+                <h3 class="tagline">Programmer</h3>
+            </div><!--//profile-container-->
+        
+            <div class="contact-container container-block">
+                <ul class="list-unstyled contact-list">
+                    
+                    
+                    <li class="website"><i class="fa fa-globe"></i><a href="http://technicat.com" target="_blank">technicat.com</a></li>
+        
+                        <li class="github"><i class="fa fa-github"></i><a href="https://github.com/technicat" target="_blank">github.com/technicat</a></li>
+                    <!--                    <li class="twitter"><i class="fa fa-twitter"></i><a href="https://twitter.com/3rdwave_themes" target="_blank">@twittername</a></li>  -->
+                </ul>
+            </div><!--//contact-container-->
+        
+            <div class="education-container container-block">
+                <h2 class="container-block-title">Education</h2>
+                    <div class="item">
+                        <h4 class="degree">Bachelors degree in Computer Science and Engineering</h4>
+                        <h5 class="meta">Massachusetts Institute of Technology</h5>
+                        <div class="time">1984 - 1988</div>
+                    </div><!--//item-->
+                    <div class="item">
+                        <h4 class="degree">Masters degree in Computer Science</h4>
+                        <h5 class="meta">Johns Hopkins University</h5>
+                        <div class="time">1991 - 1993</div>
+                    </div><!--//item-->
+            </div><!--//education-container-->
+        
+            <div class="languages-container container-block">
+                <h2 class="container-block-title">Languages</h2>
+                <ul class="list-unstyled interests-list">
+                        <li>English <span class="lang-desc">(Native speaker)</span></li>
+                        <li>Cantonese <span class="lang-desc">(Food)</span></li>
+                        <li>Korean <span class="lang-desc">(Kdrama phrases)</span></li>
+                </ul>
+            </div><!--//interests-->
+        
+            <div class="interests-container container-block">
+                <h2 class="container-block-title">Interests</h2>
+                <ul class="list-unstyled interests-list">
+                        <li>Cats</li>
+                        <li>Reading</li>
+                        <li>Viewing</li>
+                        <li>Learning</li>
+                        <li>Listening</li>
+                </ul>
+            </div><!--//interests-->
+
+        </div><!--//sidebar-wrapper-->
+
+        <div class="main-wrapper">
+
+            <section class="section summary-section">
+                <h2 class="section-title"><i class="fa fa-user"></i>Personal Summary</h2>
+                <div class="summary">
+                    <p>A résumé created with jsonresume.org</p>
+                </div><!--//summary-->
+            </section><!--//section-->
+        
+            <section class="section experiences-section">
+                <h2 class="section-title"><i class="fa fa-briefcase"></i>Work Experience</h2>
+        
+                    <div class="item">
+                        <div class="meta">
+                            <div class="upper-row">
+                                <h3 class="job-title">working for myself</h3>
+                                <div class="time">1999 - Present</div>
+                            </div><!--//upper-row-->
+                            <div class="company"><a href="http://technicat.com" target="_blank">Technicat LLC</a></div>
+                        </div><!--//meta-->
+                        <div class="details">
+                            Providing consulting and contract software development while self-publishing apps and games.
+                        </div><!--//details-->
+                    </div><!--//item-->
+                    <div class="item">
+                        <div class="meta">
+                            <div class="upper-row">
+                                <h3 class="job-title">working for the man</h3>
+                                <div class="time">1988 - 2001</div>
+                            </div><!--//upper-row-->
+                            <div class="company"><a href="https://en.wikipedia.org/wiki/Working_for_the_Man_(song)" target="_blank">various</a></div>
+                        </div><!--//meta-->
+                        <div class="details">
+                            Journeyed through the semiconductor, defense, space, computer graphics, mobile Internet, and video game industries.
+                        </div><!--//details-->
+                    </div><!--//item-->
+            </section><!--//section-->
+        
+        
+        
+            <section class="section projects-section">
+                <h2 class="section-title"><i class="fa fa-archive"></i>Projects</h2>
+                <!--                    <div class="intro">
+                                        <p>You can list your side projects or open source libraries in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.</p>
+                                    </div>--><!--//intro-->
+                    <div class="item">
+                        <span class="project-title"><a href="http://talkdimsum.com/" target="_blank">Talk Dim Sum</a></span> -
+                        <span class="project-tagline">Your dim sum companion. Read about dim sum and learn how to pronounce the dishes. Available on Itch.io and the App Store.</span>
+                    </div><!--//item-->
+                    <div class="item">
+                        <span class="project-title"><a href="http://hyperbowl.rocks/" target="_blank">HyperBowl</a></span> -
+                        <span class="project-tagline">Be the ball! A Unity reimplementation of the classic bowling game, licensed from Hyper Entertainment. Available on Itch.io, Steam, and the App Store.</span>
+                    </div><!--//item-->
+                    <div class="item">
+                        <span class="project-title"><a href="https://apps.apple.com/us/app/cinefex/id512379220" target="_blank">Cinefex iPad Edition</a></span> -
+                        <span class="project-tagline">An iPad reader for the Cinefex visual effects magazine, with extras such as videos and image galleries. Kept it up and running over the march of iOS evolution, fixing, updating, and optimizing in-app purchases, user interface, video...</span>
+                    </div><!--//item-->
+                    <div class="item">
+                        <span class="project-title"><a href="https://www.amazon.com/Learn-Unity-Development-Technology-Action/dp/1430248750" target="_blank">Learn Unity 4 for iOS Game Development</a></span> -
+                        <span class="project-tagline">An introduction to game development for iOS using the Unity game engine and an example bowling game (super simple version of HyperBowl).</span>
+                    </div><!--//item-->
+                    <div class="item">
+                        <span class="project-title"><a href="https://blog.playstation.com/2012/11/26/save-playstation-home-from-teddy-bears/" target="_blank">Emo-Ray vs. the Intergalactic Teddy Bears</a></span> -
+                        <span class="project-tagline">A Playstation Home driving/shooting game with alien invader teddy bears.</span>
+                    </div><!--//item-->
+                    <div class="item">
+                        <span class="project-title"><a href="https://pshome.fandom.com/wiki/RC_Rally" target="_blank">RC Rally</a></span> -
+                        <span class="project-tagline">A Playstation Home multiplayer racing game.</span>
+                    </div><!--//item-->
+                    <div class="item">
+                        <span class="project-title"><a href="http://bluemars.com/" target="_blank">Blue Mars</a></span> -
+                        <span class="project-tagline">A 3D virtual world implemented in CryEngine. Supported third-party developers, documented the Lua API and framework for creating minigames on the community wiki (a CryEngine wiki even copied part of it!), tweaked physics, updated Scaleform integration, modified CryEngine to work with Scaleform IME (for localization).</span>
+                    </div><!--//item-->
+                    <div class="item">
+                        <span class="project-title"><a href="https://web.archive.org/web/20070628000134/http://www.izware.com/nendo/index.htm" target="_blank">Nendo</a></span> -
+                        <span class="project-tagline">A nifty 3D modeler originally developed at Nichimen Graphics. Updated to work on Windows XP.</span>
+                    </div><!--//item-->
+                    <div class="item">
+                        <span class="project-title"><a href="https://www.mobygames.com/game/darkwatch" target="_blank">Darkwatch</a></span> -
+                        <span class="project-tagline">A vampire western for Playstation 2 and Xbox. Worked on various HUD elements, PAL support, demo builds, implemented multiplayer split-screen, added designer-friendly Lua interfaces for audio, health bars, etc.</span>
+                    </div><!--//item-->
+                    <div class="item">
+                        <span class="project-title"><a href="http://fugugames.com/" target="_blank">Fugu Games</a></span> -
+                        <span class="project-tagline">Small games released as webplayers, Mac widgets, and mobile apps.</span>
+                    </div><!--//item-->
+                    <div class="item">
+                        <span class="project-title"><a href="https://archive.org/details/bkg-space-town" target="_blank">Tech Deck: Bare Knuckle Grind</a></span> -
+                        <span class="project-tagline">A skateboarding game bundled with Tech Deck figures. Implemented installers, dynamic shadows, video, a build system.</span>
+                    </div><!--//item-->
+                    <div class="item">
+                        <span class="project-title"><a href="https://en.wikipedia.org/wiki/Hyperbowl_Plus!_Edition" target="_blank">HyperBowl</a></span> -
+                        <span class="project-tagline">A 3D bowling game, rolling in fanciful locations. Took over for the original lead programmer, updated attraction version of HyperBowl for localization, new lanes, optimization, new graphics cards, arcade and PC support.</span>
+                    </div><!--//item-->
+                    <div class="item">
+                        <span class="project-title"><a href="https://googlepress.blogspot.com/2000/09/google-search-engine-now-available.html" target="_blank">Neomar</a></span> -
+                        <span class="project-tagline">One of the first mobile web browsers, conforming to the WAP standards. Implemented an HTTP proxy for the Neomar WAP gateway, supporting the Neomar mobile web browser on Blackberry pagers and Palm devices, launched on the Motient service.</span>
+                    </div><!--//item-->
+                    <div class="item">
+                        <span class="project-title"><a href="https://spinoff.nasa.gov/spinoff1998/ct11.htm" target="_blank">Leverage for Scheduling</a></span> -
+                        <span class="project-tagline">Supply chain scheduling software for semiconductor fabs. Managed the group reponsible for installation, XML interoperability, and user interfaces.</span>
+                    </div><!--//item-->
+                    <div class="item">
+                        <span class="project-title"><a href=" https://web.archive.org/web/19991105062823/http://www.interval-logic.com/news/lsi.html" target="_blank">Leverage for Planning</a></span> -
+                        <span class="project-tagline">Supply chain planning software for semiconductor fabs. Upgraded from Tcl to TclPro.</span>
+                    </div><!--//item-->
+                    <div class="item">
+                        <span class="project-title"><a href="https://en.wikipedia.org/wiki/Mirai_(software)" target="_blank">Mirai</a></span> -
+                        <span class="project-tagline">Successor to N-World, used to make Gollum. Fixed some code and visited 3D hardware vendors in Silicon Valley to get test cards and chat about OpenGL.</span>
+                    </div><!--//item-->
+                    <div class="item">
+                        <span class="project-title"><a href="https://en.wikipedia.org/wiki/N-World" target="_blank">N-World</a></span> -
+                        <span class="project-tagline">A 3D modeling and animation package, used for Mario 3D. Ported from IrisGL to OpenGL on SGI workstations, then from Irix to Windows NT, all in Franz Allegro Common Lisp (and a bit of C). Manager of core software group (all the libraries - graphics, audio, UI, security...)</span>
+                    </div><!--//item-->
+                    <div class="item">
+                        <span class="project-title"><a href="https://www.jhuapl.edu/Content/techdigest/pdf/V23-N04/23-04-Higgins.pdf" target="_blank">ORBIS</a></span> -
+                        <span class="project-tagline">An expert system for submarine simulation. Added multiplayer network capability to support participation wide area networked exercises (donned a submarine uniform and took part in two of them myself).</span>
+                    </div><!--//item-->
+                    <div class="item">
+                        <span class="project-title"><a href="https://hst-docs.stsci.edu/hpiom/chapter-2-the-basics-of-phase-ii-proposals" target="_blank">Proposal Entry Processor</a></span> -
+                        <span class="project-tagline">A syntax-directed Emacs mode used by astronomers and Institute staff to prepare and edit Space Telescope observation proposals.</span>
+                    </div><!--//item-->
+                    <div class="item">
+                        <span class="project-title"><a href="https://www.semanticscholar.org/paper/The-MIT-database-accelerator%3A-2K-TRIT-circuit-Wade-Osler/8265f5f166e20d9bd60ad71fa62f873519fe4a0c" target="_blank">Database Accelerator</a></span> -
+                        <span class="project-tagline">A computer architecture based on content-addressable memories. Implemented compilers and simulators and simulations for the Database Accelerator and Content-Addressable Parallel Processor.</span>
+                    </div><!--//item-->
+                    <div class="item">
+                        <span class="project-title"><a href="https://www.researchgate.net/publication/3524170_Circuit_optimization_techniques_in_DROID" target="_blank">DROID</a></span> -
+                        <span class="project-tagline">A VLSI layout synthesis tool, used in-house to design new products, running on TI Explorer Lisp Machines. Added optimizations and other improvements, skipped most of the meetings (also an optimization).</span>
+                    </div><!--//item-->
+                    <div class="item">
+                        <span class="project-title"><a href="https://en.wikipedia.org/wiki/MultiLisp" target="_blank">Multilisp</a></span> -
+                        <span class="project-tagline">Bachelors thesis project implementing an Othello game in Multilisp (Multello) to run on the Concert 32-processor computer, trying various parallelism strategies to compare processor utilization and final performance.</span>
+                    </div><!--//item-->
+                    <div class="item">
+                        <span class="project-title"><a href="http://start.csail.mit.edu/index.php" target="_blank">START</a></span> -
+                        <span class="project-tagline">Part time student work on a graph display for the the START natural language parser, then running on Symoblics Lisp machines.</span>
+                    </div><!--//item-->
+            </section><!--//section-->
+        
+            <section class="section experiences-section">
+                <h2 class="section-title"><i class="fa fa-book"></i>Publications</h2>
+        
+                    <div class="item">
+                        <div class="meta">
+                            <div class="upper-row">
+                                <h3 class="job-title"><a href="http://technicat.com/learnunity" target="_blank">Learn Unity 2014 for iOS Game Development</a></h3>
+                                <div class="time">2013</div>
+                            </div><!--//upper-row-->
+                            <div class="company">Apress</div>
+                        </div><!--//meta-->
+                        <div class="details">
+                            
+                        </div><!--//details-->
+                    </div><!--//item-->
+                    <div class="item">
+                        <div class="meta">
+                            <div class="upper-row">
+                                <h3 class="job-title"><a href="http://technicat.com/technicat-on-software" target="_blank">Technicat on Software</a></h3>
+                                <div class="time">2014</div>
+                            </div><!--//upper-row-->
+                            <div class="company">self</div>
+                        </div><!--//meta-->
+                        <div class="details">
+                            
+                        </div><!--//details-->
+                    </div><!--//item-->
+            </section><!--//section-->
+        
+            <section class="skills-section section">
+                <h2 class="section-title"><i class="fa fa-rocket"></i>Skills &amp; Proficiency</h2>
+                <div class="skillset">
+                        <div class="item">
+                            <h3 class="level-title">App Development</h3>
+                            <div class="level-bar">
+                                <div class="level-bar-inner" data-level="NaN%">
+                                </div>
+                            </div><!--//level-bar-->
+                        </div><!--//item-->
+                        <div class="item">
+                            <h3 class="level-title">Game Development</h3>
+                            <div class="level-bar">
+                                <div class="level-bar-inner" data-level="NaN%">
+                                </div>
+                            </div><!--//level-bar-->
+                        </div><!--//item-->
+                        <div class="item">
+                            <h3 class="level-title">Graphics</h3>
+                            <div class="level-bar">
+                                <div class="level-bar-inner" data-level="NaN%">
+                                </div>
+                            </div><!--//level-bar-->
+                        </div><!--//item-->
+                        <div class="item">
+                            <h3 class="level-title">Programming</h3>
+                            <div class="level-bar">
+                                <div class="level-bar-inner" data-level="NaN%">
+                                </div>
+                            </div><!--//level-bar-->
+                        </div><!--//item-->
+                        <div class="item">
+                            <h3 class="level-title">Writing</h3>
+                            <div class="level-bar">
+                                <div class="level-bar-inner" data-level="NaN%">
+                                </div>
+                            </div><!--//level-bar-->
+                        </div><!--//item-->
+        
+                </div>
+            </section><!--//skills-section-->
+
+        </div><!--//main-body-->
+    </div>
+
+    <footer class="footer">
+        <div class="text-center">
+            <!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can check out other license options via our website: themes.3rdwavemedia.com */-->
+            <small class="copyright">Designed with <i class="fa fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
+        </div><!--//container-->
+    </footer><!--//footer-->
+
+    <!-- Javascript -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!-- custom js -->
+    <script type="text/javascript">
+            jQuery(document).ready(function($) {
+
+
+    /*======= Skillset *=======*/
+    
+    
+    $('.level-bar-inner').css('width', '0');
+    
+    $('.level-bar-inner').each(function() {
+
+        var itemWidth = $(this).data('level');
+
+        $(this).animate({
+            width: itemWidth
+        }, 800);
+
+    });
+
+    
+
+});
+    </script>
+    </body>
+</html>
