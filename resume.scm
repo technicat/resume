@@ -17,7 +17,7 @@
    (if f
     (let ((r (read-json f)))
      (if v (print e))
-     (if o (write-json o r)))))))
+     (if o (write-json r o)))))))
 
 (define (help file)
  (print "Read JSON resume"))
@@ -30,6 +30,13 @@
   (let ((exp (call-with-input-file file parse-json)))
    exp)))
 
-(define (write-json file r)
+(define (write-json r file)
  (call-with-output-file file
   (lambda (out) (construct-json r out))))
+
+(define (write-markdown r file)
+ (call-with-output-file file
+  (lambda (out) (construct-markdown r out))))
+
+(define (construct-markdown r)
+ )
