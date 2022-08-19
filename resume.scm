@@ -11,22 +11,18 @@
   ((h "h|help" => (cut help (car args)))
    (f "f|file=s")
    (v "v|verbose")
-   . restargs
-   )
+   . restargs)
   (if (not h)
    (if f
-    (print (json-file f))))))
+    (print (read-resume f))))))
 
-(define help
- (lambda (file)
-  (print "Read JSON resume")
-  ))
+(define (help file)
+ (print "Read JSON resume"))
 
-(define json-file
- (lambda (file)
-  (guard (e (else (print #"JSON error in ~file")
-             (print (condition-message e))
-             #\f))
-   (let ((exp (call-with-input-file file parse-json)))
-    exp))))
+(define (read-resume file)
+ (guard (e (else (print #"JSON error in ~file")
+            (print (condition-message e))
+            #\f))
+  (let ((exp (call-with-input-file file parse-json)))
+   exp)))
 
