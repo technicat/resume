@@ -15,9 +15,9 @@
    . restargs)
   (if (not h)
    (if f
-    (let ((e (read-json f)))
+    (let ((r (read-json f)))
      (if v (print e))
-     (if o (write-json o)))))))
+     (if o (write-json o r)))))))
 
 (define (help file)
  (print "Read JSON resume"))
@@ -30,6 +30,6 @@
   (let ((exp (call-with-input-file file parse-json)))
    exp)))
 
-(define (write-json file)
+(define (write-json file r)
  (call-with-output-file file
-  (lambda (out) (construct-json e out))))
+  (lambda (out) (construct-json r out))))
