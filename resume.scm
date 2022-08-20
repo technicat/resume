@@ -4,6 +4,7 @@
 ; not sure what to do next
 
 (use gauche.parseopt)
+(use file.util)
 (use rfc.json)
 
 (define (main args)
@@ -17,14 +18,16 @@
    (if f
     (let ((r (read-json f)))
      (if v (print r))
-     (if o 
+     (if o
       (let-values (((dir name ext) (decompose-path f)))
-        (case ext
-          ((json)
-            (write-json r o))))))))))
+       (case ext
+        (("json")
+         (write-json r o))
+        (else
+         (print #"Unrecognized file type ~ext"))))))))))
 
 (define (help file)
- (print "Read JSON resume"))
+ (print "Read/convert JSON resume"))
 
 (define (read-json file)
  (guard (e (else (print #"JSON error in ~file")
