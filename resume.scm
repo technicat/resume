@@ -45,4 +45,6 @@
   (lambda (out) (construct-markdown r out))))
 
 (define (construct-markdown r out)
- )
+  (let f ((e r))
+    (if (not (null? e))
+      (f (cdr e)))))
