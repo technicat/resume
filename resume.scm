@@ -42,9 +42,11 @@
 
 (define (write-markdown r file)
  (call-with-output-file file
-  (lambda (out) (construct-markdown r out))))
+  (lambda (out) (markdown r out))))
 
-(define (construct-markdown r out)
-  (let f ((e r))
-    (if (not (null? e))
-      (f (cdr e)))))
+(define (markdown r out)
+ (let f ((e r))
+  (if (not (null? e))
+   (let ((key (caar e)))
+    (if (string=? key "meta") (print "so meta"))
+    (f (cdr e))))))
