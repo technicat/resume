@@ -19,7 +19,7 @@
     (let ((r (read-json f)))
      (if v (print r))
      (if o
-      (let-values (((dir name ext) (decompose-path f)))
+      (let-values (((dir name ext) (decompose-path o)))
        (if (string=? ext "json")
          (write-json r o)
          (print #"Unrecognized file type ~ext")))))))))
