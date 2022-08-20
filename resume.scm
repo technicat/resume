@@ -16,8 +16,12 @@
   (if (not h)
    (if f
     (let ((r (read-json f)))
-     (if v (print e))
-     (if o (write-json r o)))))))
+     (if v (print r))
+     (if o 
+      (let-values (((dir name ext) (decompose-path f)))
+        (case ext
+          ((json)
+            (write-json r o))))))))))
 
 (define (help file)
  (print "Read JSON resume"))
