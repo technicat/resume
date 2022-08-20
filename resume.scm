@@ -47,6 +47,21 @@
 (define (markdown r out)
  (let f ((e r))
   (if (not (null? e))
-   (let ((key (caar e)))
-    (if (string=? key "meta") (print "so meta"))
+   (letrec ((item (car e))
+            (key (car item)))
+    (if (string=? key "meta")
+     (markdown-meta (cdr item) out))
     (f (cdr e))))))
+
+(define (markdown-meta item out)
+ (print "so meta")
+ (let f ((e item))
+  (if (not (null? e))
+   (letrec ((item (car e))
+            (key (car item))
+            (value (cdr item)))
+    (if (string=? key "theme")
+     (print #"theme is ~value")
+    (print #"unknown meta ~value"
+     (f (cdr e))))))))
+
