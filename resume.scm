@@ -20,11 +20,9 @@
      (if v (print r))
      (if o
       (let-values (((dir name ext) (decompose-path f)))
-       (case ext
-        (("json")
-         (write-json r o))
-        (else
-         (print #"Unrecognized file type ~ext"))))))))))
+       (if (string=? ext "json")
+         (write-json r o)
+         (print #"Unrecognized file type ~ext")))))))))
 
 (define (help file)
  (print "Read/convert JSON resume"))
