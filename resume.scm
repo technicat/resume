@@ -21,8 +21,9 @@
      (if o
       (let-values (((dir name ext) (decompose-path o)))
        (if (string=? ext "json")
-         (write-json r o)
-         (print #"Unrecognized file type ~ext")))))))))
+        (write-json r o))
+       (if (string=? ext "md")
+        (write-markdown r o)))))))))
 
 (define (help file)
  (print "Read/convert JSON resume"))
@@ -43,5 +44,5 @@
  (call-with-output-file file
   (lambda (out) (construct-markdown r out))))
 
-(define (construct-markdown r)
+(define (construct-markdown r out)
  )
