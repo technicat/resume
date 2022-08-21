@@ -1,0 +1,1 @@
+# résumé of Phil Chu, Programmer
