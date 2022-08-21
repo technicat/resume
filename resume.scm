@@ -75,7 +75,11 @@
             (key (car item))
             (value (cdr item)))
     (if (string=? key "name")
-     (print #"name is ~value")
+     (markdown-name value out)
      (print #"unknown meta ~key"))
     (f (cdr e))))))
+
+(define (markdown-name item out)
+ (write-string #"## résumé of ~item" out)
+ (newline out))
 
