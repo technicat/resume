@@ -297,7 +297,7 @@
       "roles": [
         "programmer"
       ],
-      "url": " https://web.archive.org/web/19991105062823/http://www.interval-logic.com/news/lsi.html",
+      "url": "https://web.archive.org/web/19991105062823/http://www.interval-logic.com/news/lsi.html",
       "entity": "Interval Logic",
       "type": "enterprise software"
     },
@@ -348,7 +348,7 @@
         "programmer"
       ],
       "url": "https://www.jhuapl.edu/Content/techdigest/pdf/V23-N04/23-04-Higgins.pdf",
-      "entity": "Johns Hopkins Applied Physics Laboratory",
+      "entity": "JHU Applied Physics Lab",
       "type": "simulation software"
     },
     {
@@ -382,7 +382,7 @@
         "programmer"
       ],
       "url": "https://www.semanticscholar.org/paper/The-MIT-database-accelerator%3A-2K-TRIT-circuit-Wade-Osler/8265f5f166e20d9bd60ad71fa62f873519fe4a0c",
-      "entity": "Massachusetts Institute of Technology",
+      "entity": "MIT",
       "type": "content-addressable memory"
     },
     {
@@ -416,7 +416,7 @@
         "student"
       ],
       "url": "https://en.wikipedia.org/wiki/MultiLisp",
-      "entity": "Massachusetts Institute of Technology",
+      "entity": "MIT",
       "type": "game"
     },
     {
@@ -432,7 +432,7 @@
         "student"
       ],
       "url": "http://start.csail.mit.edu/index.php",
-      "entity": "Massachusetts Institute of Technology",
+      "entity": "MIT",
       "type": "natural language"
     }
   ],
