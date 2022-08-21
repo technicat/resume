@@ -90,7 +90,7 @@
 
 (define (markdown-profiles r out)
  (let ((p (basics-value "profiles" r)))
-  (if (not (null? p))
+  (if p
    (vector-for-each (lambda (r) (markdown-profile r out)) p))))
 
 (define (markdown-profile r out)
