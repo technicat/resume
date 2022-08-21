@@ -9,6 +9,8 @@
     "url": "http://technicat.com",
     "summary": "A résumé created with jsonresume.org",
     "location": {
+      "address": "3651 Lindell Rd. Suite D156",
+      "postalCode": "89103",
       "city": "Las Vegas",
       "countryCode": "US",
       "region": "Nevada"
