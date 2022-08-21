@@ -78,6 +78,8 @@
   (newline out)
   (markdown-projects r out)
   (newline out)
+  (markdown-publications r out)
+  (newline out)
   (markdown-education r out)))
 
 (define (markdown-location r out)
@@ -89,13 +91,13 @@
           (region (res-value "region" location)))
   (if address (write-string #"~address, " out))
   (if city (write-string #"~city, " out))
-  (if region (write-string #"~region " out))
+  (if region (write-string #"~region" out))
   (if zip (write-string #"~zip " out))
-  (if country (write-string #"~country " out))))
+  (if country (write-string #", ~country " out))))
 
 (define (code->country code)
-  "United States" ; todo - put in a list of code translations
-)
+ "United States" ; todo - put in a list of code translations
+ )
 
 (define (markdown-profiles r out)
  (let ((p (basics-value "profiles" r)))
@@ -161,6 +163,26 @@
  (let ((name (res-value "institution" r))
        (url (res-value "url" r))
        (description (res-value "area" r)))
+  (write-string #"[~name](~url)" out)
+  (newline out)
+  (newline out)
+  (write-string description out)
+  (newline out)
+  (newline out)))
+
+(define (markdown-publications r out)
+ (let ((p (res-value "publications" r)))
+  (if p
+   (begin
+    (write-string "## Publications" out)
+    (newline out)
+    (newline out)
+    (vector-for-each (lambda (r) (markdown-book r out)) p)))))
+
+(define (markdown-book r out)
+ (let ((name (res-value "name" r))
+       (url (res-value "url" r))
+       (description (res-value "publisher" r)))
   (write-string #"[~name](~url)" out)
   (newline out)
   (newline out)

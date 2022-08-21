@@ -13,7 +13,7 @@
  (theme "actual")
  (theme "elegant")
  (theme "even")
-; (theme "github")
+ ; (theme "github")
  (theme "jacrys")
  (theme "kendall")
  (theme "orbit"))

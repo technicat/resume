@@ -1,5 +1,5 @@
 # Phil Chu, Technicat LLC
-Las Vegas, Nevada United States 
+Las Vegas, Nevada, United States 
 
  [http://technicat.com](http://technicat.com)
 
@@ -112,6 +112,17 @@ Bachelors thesis project implementing an Othello game in Multilisp (Multello) to
 [START](http://start.csail.mit.edu/index.php)
 
 Part time student work on a graph display for the the START natural language parser, then running on Symoblics Lisp machines.
+
+
+## Publications
+
+[Learn Unity 2014 for iOS Game Development](http://technicat.com/learnunity)
+
+Apress
+
+[Technicat on Software](http://technicat.com/technicat-on-software)
+
+self
 
 
 ## Education
