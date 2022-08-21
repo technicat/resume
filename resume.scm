@@ -73,7 +73,8 @@
   (newline out)
   (newline out)
   (write-string summary out)
-  (newline out)))
+  (newline out)
+  (markdown-projects r out)))
 
 (define (markdown-location r out)
  (letrec ((location (basics-value "location" r))
@@ -98,6 +99,17 @@
        (url (res-value "url" r))
        (username (res-value "username" r)))
   (write-string #" [~username](~url) @ ~network" out)))
+
+(define (markdown-projects r out)
+ (let ((p (res-value "projects" r)))
+  (if p
+   (vector-for-each (lambda (r) (markdown-project r out)) p))))
+
+(define (markdown-project r out)
+ (let ((name (res-value "name" r))
+       (url (res-value "url" r))
+       (description (res-value "description" r)))
+  (write-string #"[~name](~url)" out)))
 
 (define (res-value key r)
  (let ((b (find (lambda (item)
