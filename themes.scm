@@ -10,8 +10,14 @@
    (v "v|verbose")
    . restargs)
   (if (not h)
-    (sys-exec "resume" '("resume" "export" "even.html")))))
+   (usetheme "even"))))
 
 (define (help file)
  (print "Read/convert JSON resume"))
+
+(define (usetheme theme)
+ (sys-exec "resume" (list "resume"
+                     "export" (string-append theme ".html")
+                     "-t" theme))
+ )
 
