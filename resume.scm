@@ -194,11 +194,14 @@
   (newline out)))
 
 (define (markdown-date-range r out)
- (let ((start (res-value "startDate" r))
-       (end (res-value "endDate" r)))
+ (let ((start (format-date (res-value "startDate" r)))
+       (end (format-date (res-value "endDate" r))))
   (write-string #"~start to ~end" out)
   (newline out)
   (newline out)))
+
+(define (format-date date)
+  (if date date "present"))
 
 (define (res-value key r)
  (let ((b (find (lambda (item)

@@ -12,7 +12,7 @@ Developing software since the 80s
 
 [Technicat LLC](http://technicat.com)
 
-2000-01-01 to #f
+2000-01-01 to present
 
 
 
