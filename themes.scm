@@ -5,19 +5,24 @@
 (define (main args)
  (let-args (cdr args)
   ((h "h|help" => (cut help (car args)))
-   (f "f|file=s")
-   (o "o|out=s")
-   (v "v|verbose")
    . restargs)
   (if (not h)
-   (usetheme "even"))))
+   (use-themes))))
+
+(define (use-themes)
+ (theme "actual")
+ (theme "elegant")
+ (theme "even")
+ (theme "github")
+ (theme "jacrys")
+ (theme "kendall")
+ (theme "orbit"))
 
 (define (help file)
- (print "Read/convert JSON resume"))
+ (print "Convert JSON resume to HTML"))
 
-(define (usetheme theme)
+(define (theme theme)
  (sys-exec "resume" (list "resume"
                      "export" (string-append theme ".html")
-                     "-t" theme))
- )
+                     "-t" theme)))
 
