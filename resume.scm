@@ -45,6 +45,9 @@
   (lambda (out) (markdown r out))))
 
 (define (markdown r out)
+ (markdown-basics r out))
+
+(define (markdown-basics r out)
  (let ((name (basics-value "name" r))
        (image (basics-value "image" r))
        (label (basics-value "label" r))
