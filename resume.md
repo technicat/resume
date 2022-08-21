@@ -229,17 +229,17 @@ Published 2015-01-01 by self
 
 [Massachusetts Institute of Technology](https://mit.edu/)
 
+Bachelors degree in Computer Science and Engineering
+
 1984-09-01 to 1988-05-31
 
 
 
-Computer Science and Engineering
-
 [Johns Hopkins University](https://jhu.edu/)
+
+Masters degree in Computer Science
 
 1991-09-01 to 1993-05-26
 
 
-
-Computer Science
 
