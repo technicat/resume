@@ -121,9 +121,10 @@
 
 (define (markdown-job r out)
  (let ((name (res-value "name" r))
+       (pos (res-value "position" r))
        (url (res-value "url" r))
        (description (res-value "summary" r)))
-  (write-string #"[~name](~url)" out)
+  (write-string #"~pos @ [~name](~url)" out)
   (newline out)
   (newline out)
   (markdown-date-range r out)

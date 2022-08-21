@@ -10,7 +10,7 @@ Las Vegas, Nevada, United States
 Developing software since the 80s
 ## Career
 
-[Technicat LLC](http://technicat.com)
+working for myself @ [Technicat LLC](http://technicat.com)
 
 2000-01-01 to present
 
@@ -18,7 +18,7 @@ Developing software since the 80s
 
 Providing consulting and contract software development while self-publishing apps and games.
 
-[various](https://en.wikipedia.org/wiki/Working_for_the_Man_(song))
+working for the man @ [various](https://en.wikipedia.org/wiki/Working_for_the_Man_(song))
 
 1988-06-01 to 2001-06-01
 
