@@ -53,7 +53,7 @@
        (label (basics-value "label" r))
        (summary (basics-value "summary" r))
        (url (basics-value "url" r)))
-  (write-string #"# résumé of ~name" out)
+  (write-string #"# ~name" out)
   (if label (write-string #", ~label" out))
   (newline out)
   (markdown-location r out)
@@ -70,11 +70,12 @@
 
 (define (markdown-location r out)
  (letrec ((location (basics-value "location" r))
+          (address (res-value "address" location))
+          (zip (res-value "postalCode" location))
           (city (res-value "city" location))
           (country (res-value "countryCode" location))
           (region (res-value "region" location)))
-  (write-string #"~city, ~region, ~country" out)
-  ))
+  (write-string #"~address, ~city, ~region ~zip ~country" out)))
 
 (define (res-value key r)
  (let ((b (find (lambda (item)
