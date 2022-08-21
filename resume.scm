@@ -45,25 +45,19 @@
   (lambda (out) (markdown r out))))
 
 (define (markdown r out)
- (write-string #"# résumé of ~(name r), ~(label r)" out))
+ (let ((name (basics-value "name" r))
+       (label (basics-value "label" r)))
+  (write-string #"# résumé of ~name, ~label" out)))
 
-(define (basics r)
+(define (res-value key r)
  (let ((b (find (lambda (item)
-                 (string=? (car item) "basics"))
+                 (string=? (car item) key))
            r)))
   (and b (cdr b))))
 
-(define (name r)
+(define (basics-value key r)
  (let ((n (find (lambda (item)
-                 (string=? (car item) "name"))
-           (basics r))))
+                 (string=? (car item) key))
+           (res-value "basics" r))))
   (and n (cdr n))))
-
-(define (label r)
- (let ((n (find (lambda (item)
-                 (string=? (car item) "label"))
-           (basics r))))
-  (and n (cdr n))))
-
-
 
