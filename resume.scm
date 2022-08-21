@@ -103,13 +103,22 @@
 (define (markdown-projects r out)
  (let ((p (res-value "projects" r)))
   (if p
-   (vector-for-each (lambda (r) (markdown-project r out)) p))))
+   (begin
+    (write-string "## Projects" out)
+    (newline out)
+    (newline out)
+    (vector-for-each (lambda (r) (markdown-project r out)) p)))))
 
 (define (markdown-project r out)
  (let ((name (res-value "name" r))
        (url (res-value "url" r))
        (description (res-value "description" r)))
-  (write-string #"[~name](~url)" out)))
+  (write-string #"[~name](~url)" out)
+  (newline out)
+  (newline out)
+  (write-string description out)
+  (newline out)
+  (newline out)))
 
 (define (res-value key r)
  (let ((b (find (lambda (item)
