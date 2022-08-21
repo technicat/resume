@@ -5,7 +5,7 @@
   "basics": {
     "name": "Phil Chu",
     "label": "Technicat LLC",
-    "image": "",
+    "image": "https://technicat.github.io/images/babyyoda.jpg",
     "url": "http://technicat.com",
     "summary": "A résumé created with jsonresume.org",
     "location": {
