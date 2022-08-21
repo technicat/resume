@@ -81,13 +81,17 @@
           (address (res-value "address" location))
           (zip (res-value "postalCode" location))
           (city (res-value "city" location))
-          (country (res-value "countryCode" location))
+          (country (code->country (res-value "countryCode" location)))
           (region (res-value "region" location)))
   (if address (write-string #"~address, " out))
   (if city (write-string #"~city, " out))
   (if region (write-string #"~region " out))
   (if zip (write-string #"~zip " out))
   (if country (write-string #"~country " out))))
+
+(define (code->country code)
+  "United States" ; todo - put in a list of code translations
+)
 
 (define (markdown-profiles r out)
  (let ((p (basics-value "profiles" r)))
@@ -99,6 +103,26 @@
        (url (res-value "url" r))
        (username (res-value "username" r)))
   (write-string #" [~username](~url) @ ~network" out)))
+
+(define (markdown-work r out)
+ (let ((p (res-value "work" r)))
+  (if p
+   (begin
+    (write-string "## Employment" out)
+    (newline out)
+    (newline out)
+    (vector-for-each (lambda (r) (markdown-job r out)) p)))))
+
+(define (markdown-job r out)
+ (let ((name (res-value "name" r))
+       (url (res-value "url" r))
+       (description (res-value "summary" r)))
+  (write-string #"[~name](~url)" out)
+  (newline out)
+  (newline out)
+  (write-string description out)
+  (newline out)
+  (newline out)))
 
 (define (markdown-projects r out)
  (let ((p (res-value "projects" r)))

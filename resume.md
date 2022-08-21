@@ -1,5 +1,5 @@
 # Phil Chu, Technicat LLC
-Las Vegas, Nevada 
+Las Vegas, Nevada United States 
 
  [http://technicat.com](http://technicat.com)
 
@@ -7,7 +7,7 @@ Las Vegas, Nevada
 
  [technicat](https://github.com/technicat) @ Github
 
-A résumé created with jsonresume.org
+Developing software since the 80s
 ## Projects
 
 [Talk Dim Sum](http://talkdimsum.com/)
