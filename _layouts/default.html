@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <title>{{ site.title | default: site.github.repository_name }} by {{ site.github.owner_name }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+  <meta name="viewport" content="width=device-width">
+  <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+  <div class="wrapper">
+    <header>
+      <h1>{{ site.title | default: site.github.repository_name }}</h1>
+
+      {% if site.logo %}
+      <a href="http://technicat.com/"><img src="{{site.logo | relative_url}}" alt="Technicat" /></a><br />
+      {% endif %}
+
+      {% if site.appstore %}
+      <a href="{{site.appstore}}"><img alt="App Store" src="/images/ionicons/svg/logo-apple-appstore.svg"
+          height="40"></a>
+      {% endif %}
+      {% if site.amazon %}
+      <a href="{{site.amazon}}"><img alt="Amazon" src="/images/ionicons/svg/logo-amazon.svg" height="40"></a>
+      {% endif %}
+      {% if site.steam %}
+      <a href="{{site.steam}}"><img alt="Steam" src="/images/ionicons/svg/logo-steam.svg" height="40"></a>
+      {% endif %}
+      {% if site.games %}
+      <a href="{{site.games}}"><img alt="games" src="/images/ionicons/svg/game-controller-sharp.svg" height="40"></a>
+      {% endif %}
+      {% if site.podcast %}
+      <a href="{{site.podcast}}"><img alt="podcast" src="/images/ionicons/svg/radio-sharp.svg" height="40"></a>
+      {% endif %}
+      {% if site.vimeo %}
+      <a href="{{site.vimeo}}"><img alt="Vimeo" src="/images/ionicons/svg/logo-vimeo.svg" height="40"></a>
+      {% endif %}
+      {% if site.github.is_project_page %}
+      <a href="{{site.github.repository_url}}"><img alt="Github project" src="/images/ionicons/svg/logo-octocat.svg"
+          height="40"></a>
+      {% else %}
+      <a href="{{site.github.owner_url}}"><img alt="Github profile" src="/images/ionicons/svg/logo-octocat.svg"
+          height="40"></a>
+      {% endif %}
+      {% if site.show_downloads %}
+      <a href="{{site.github.releases_url}}"><img alt="Github releases" src="/images/ionicons/svg/download-outline.svg"
+          height="40"></a>
+      {% endif %}
+      <p />
+      <p>{{ site.description | default: site.github.project_tagline }}</p>
+    </header>
+
+    <section>
+
+      {{ content }}
+
+    </section>
+    <footer>
+      <p><small>
+          Copyright &copy; 2017-2022 <a href="http://technicat.com/">Technicat LLC</a><br />
+          Owned and operated by <a href="http://philipchu.com/">Phil Chu</a><br />
+          Technicat logo by <a href="http://espressyourself.coffee">Dakota Snow</a><br />
+          Icons from <a href="http://ionicons.com/">Ionicons</a><br />
+          Hosted on <a href="https://pages.github.com/">GitHub Pages</a> &mdash; Adapted from the <a
+            href="https://github.com/pages-themes/minimal">Minimal</a>
+          theme by <a href="https://github.com/orderedlist">orderedlist</a><br />
+        </small></p>
+    </footer>
+  </div>
+  <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
+
+</body>
+
+</html>
