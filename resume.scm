@@ -126,6 +126,9 @@
   (write-string #"[~name](~url)" out)
   (newline out)
   (newline out)
+  (markdown-date-range r out)
+  (newline out)
+  (newline out)
   (write-string description out)
   (newline out)
   (newline out)))
@@ -187,6 +190,13 @@
   (newline out)
   (newline out)
   (write-string description out)
+  (newline out)
+  (newline out)))
+
+(define (markdown-date-range r out)
+ (let ((start (res-value "startDate" r))
+       (end (res-value "endDate" r)))
+  (write-string #"~start to ~end" out)
   (newline out)
   (newline out)))
 

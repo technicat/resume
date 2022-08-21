@@ -12,9 +12,17 @@ Developing software since the 80s
 
 [Technicat LLC](http://technicat.com)
 
+2000-01-01 to #f
+
+
+
 Providing consulting and contract software development while self-publishing apps and games.
 
 [various](https://en.wikipedia.org/wiki/Working_for_the_Man_(song))
+
+1988-06-01 to 2001-06-01
+
+
 
 Journeyed through the semiconductor, defense, space, computer graphics, mobile Internet, and video game industries.
 
