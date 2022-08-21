@@ -3,8 +3,9 @@
 ; reads a json-resume
 ; not sure what to do next
 
-(use gauche.parseopt)
 (use file.util)
+(use gauche.collection)
+(use gauche.parseopt)
 (use rfc.json)
 
 (define (main args)
@@ -102,7 +103,7 @@
 (define (markdown-profiles r out)
  (let ((p (basics-value "profiles" r)))
   (if p
-   (vector-for-each (lambda (r) (markdown-profile r out)) p))))
+   (for-each (lambda (r) (markdown-profile r out)) p))))
 
 (define (markdown-profile r out)
  (let ((network (res-value "network" r))
