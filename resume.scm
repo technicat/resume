@@ -46,8 +46,12 @@
 
 (define (markdown r out)
  (let ((name (basics-value "name" r))
-       (label (basics-value "label" r)))
-  (write-string #"# résumé of ~name, ~label" out)))
+       (label (basics-value "label" r))
+       (summary (basics-value "summary" r)))
+  (write-string #"# résumé of ~name, ~label" out)
+  (newline out)
+  (write-string summary out)
+  (newline out)))
 
 (define (res-value key r)
  (let ((b (find (lambda (item)
