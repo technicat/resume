@@ -1,8 +1,6 @@
 theme: jekyll-theme-minimal
-title: Technicat LLC
+title: Résumé
 url: http://technicat.com/
-description: software development and consulting in very sunny Las Vegas
+description: résumé built with JSON Resume
 show_downloads: false
 logo: /images/dakotasnow/CatGraphic300x300.jpg
-appstore: https://apps.apple.com/us/developer/technicat-llc/id295241742
-steam: https://store.steampowered.com/app/847530/HyperBowl/
