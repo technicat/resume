@@ -8,6 +8,17 @@ Las Vegas, Nevada United States
  [technicat](https://github.com/technicat) @ Github
 
 Developing software since the 80s
+## Career
+
+[Technicat LLC](http://technicat.com)
+
+Providing consulting and contract software development while self-publishing apps and games.
+
+[various](https://en.wikipedia.org/wiki/Working_for_the_Man_(song))
+
+Journeyed through the semiconductor, defense, space, computer graphics, mobile Internet, and video game industries.
+
+
 ## Projects
 
 [Talk Dim Sum](http://talkdimsum.com/)

@@ -74,6 +74,8 @@
   (newline out)
   (write-string summary out)
   (newline out)
+  (markdown-work r out)
+  (newline out)
   (markdown-projects r out)))
 
 (define (markdown-location r out)
@@ -108,7 +110,7 @@
  (let ((p (res-value "work" r)))
   (if p
    (begin
-    (write-string "## Employment" out)
+    (write-string "## Career" out)
     (newline out)
     (newline out)
     (vector-for-each (lambda (r) (markdown-job r out)) p)))))

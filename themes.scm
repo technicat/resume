@@ -13,7 +13,7 @@
  (theme "actual")
  (theme "elegant")
  (theme "even")
- (theme "github")
+; (theme "github")
  (theme "jacrys")
  (theme "kendall")
  (theme "orbit"))
@@ -23,5 +23,7 @@
 
 (define (theme theme)
  (print #"applying theme ~theme")
- (sys-system #"resume export ~|theme|.html -t ~theme"))
+ (sys-system #"resume export ~|theme|.html -t ~theme")
+ ;(sys-system #"resume export ~|theme|.pdf -t ~theme")
+ )
 
