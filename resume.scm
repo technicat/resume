@@ -76,7 +76,9 @@
   (newline out)
   (markdown-work r out)
   (newline out)
-  (markdown-projects r out)))
+  (markdown-projects r out)
+  (newline out)
+  (markdown-education r out)))
 
 (define (markdown-location r out)
  (letrec ((location (basics-value "location" r))
@@ -139,6 +141,26 @@
  (let ((name (res-value "name" r))
        (url (res-value "url" r))
        (description (res-value "description" r)))
+  (write-string #"[~name](~url)" out)
+  (newline out)
+  (newline out)
+  (write-string description out)
+  (newline out)
+  (newline out)))
+
+(define (markdown-education r out)
+ (let ((p (res-value "education" r)))
+  (if p
+   (begin
+    (write-string "## Education" out)
+    (newline out)
+    (newline out)
+    (vector-for-each (lambda (r) (markdown-school r out)) p)))))
+
+(define (markdown-school r out)
+ (let ((name (res-value "institution" r))
+       (url (res-value "url" r))
+       (description (res-value "area" r)))
   (write-string #"[~name](~url)" out)
   (newline out)
   (newline out)

@@ -113,3 +113,14 @@ Bachelors thesis project implementing an Othello game in Multilisp (Multello) to
 
 Part time student work on a graph display for the the START natural language parser, then running on Symoblics Lisp machines.
 
+
+## Education
+
+[Massachusetts Institute of Technology](https://mit.edu/)
+
+Computer Science and Engineering
+
+[Johns Hopkins University](https://jhu.edu/)
+
+Computer Science
+
