@@ -218,15 +218,11 @@ Part time student work on a graph display for the the START natural language par
 
 [Learn Unity 2014 for iOS Game Development](http://technicat.com/learnunity)
 
-Published 2013-06-01
-
-Apress
+Published 2013-06-01 by Apress
 
 [Technicat on Software](http://technicat.com/technicat-on-software)
 
-Published 2015-01-01
-
-self
+Published 2015-01-01 by self
 
 
 ## Education
