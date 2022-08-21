@@ -1,4 +1,5 @@
 # résumé of Phil Chu, Programmer
-[http://technicat.com](http://technicat.com)
+Las Vegas, Nevada, US
+ [http://technicat.com](http://technicat.com)
 
 A résumé created with jsonresume.org

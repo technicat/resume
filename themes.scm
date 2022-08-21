@@ -22,7 +22,6 @@
  (print "Convert JSON resume to HTML"))
 
 (define (theme theme)
- (sys-exec "resume" (list "resume"
-                     "export" (string-append theme ".html")
-                     "-t" theme)))
+ (print #"applying theme ~theme")
+ (sys-system #"resume export ~|theme|.html -t ~theme"))
 
