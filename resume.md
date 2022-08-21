@@ -1,5 +1,5 @@
 # Phil Chu, Technicat LLC
-3651 Lindell Rd. Suite D156, Las Vegas, Nevada 89103 US
+Las Vegas, Nevada 
 
  [http://technicat.com](http://technicat.com)
 

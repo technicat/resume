@@ -75,7 +75,11 @@
           (city (res-value "city" location))
           (country (res-value "countryCode" location))
           (region (res-value "region" location)))
-  (write-string #"~address, ~city, ~region ~zip ~country" out)))
+  (if address (write-string #"~address, " out))
+  (if city (write-string #"~city, " out))
+  (if region (write-string #"~region " out))
+  (if zip (write-string #"~zip" out))
+  (if country (write-string #"~country" out))))
 
 (define (res-value key r)
  (let ((b (find (lambda (item)
