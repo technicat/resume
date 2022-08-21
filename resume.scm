@@ -56,8 +56,6 @@
   (and b (cdr b))))
 
 (define (basics-value key r)
- (let ((n (find (lambda (item)
-                 (string=? (car item) key))
-           (res-value "basics" r))))
-  (and n (cdr n))))
+ (res-value key (res-value "basics" r)))
+
 
