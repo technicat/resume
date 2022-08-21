@@ -149,6 +149,9 @@
   (write-string #"[~name](~url)" out)
   (newline out)
   (newline out)
+  (markdown-date-range r out)
+  (newline out)
+  (newline out)
   (write-string description out)
   (newline out)
   (newline out)))
@@ -201,7 +204,8 @@
   (newline out)))
 
 (define (format-date date)
-  (if date date "present"))
+ (or date
+  "present"))
 
 (define (res-value key r)
  (let ((b (find (lambda (item)
