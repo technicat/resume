@@ -81,7 +81,9 @@
   (newline out)
   (markdown-publications r out)
   (newline out)
-  (markdown-education r out)))
+  (markdown-education r out)
+   (newline out)
+  (markdown-languages r out)))
 
 (define (markdown-location r out)
  (letrec ((location (basics-value "location" r))
@@ -152,8 +154,9 @@
   (news out)
   (write-string description out)
   (news out)
-  (write-string "Keywords: " out)
+  (write-string "*" out)
   (write-string (string-join (vector->list keywords) ", ") out)
+  (write-string "*" out)
   (news out)))
 
 (define (markdown-education r out)
@@ -174,6 +177,20 @@
   (write-string #"~type in ~area" out)
   (news out)
   (markdown-date-range r out)
+  (news out)))
+
+(define (markdown-languages r out)
+ (let ((p (res-value "languages" r)))
+  (if p
+   (begin
+    (write-string "## Languages" out)
+    (news out)
+    (for-each (lambda (r) (markdown-language r out)) p)))))
+
+(define (markdown-language r out)
+ (let ((lang (res-value "language" r))
+       (fluent (res-value "fluency" r)))
+  (write-string #"~fluent in ~lang" out)
   (news out)))
 
 (define (markdown-publications r out)
