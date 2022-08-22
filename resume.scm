@@ -113,8 +113,7 @@
   (if p
    (begin
     (write-string "## Career" out)
-    (newline out)
-    (newline out)
+    (news out)
     (for-each (lambda (r) (markdown-job r out)) p)))))
 
 (define (markdown-job r out)
@@ -123,22 +122,18 @@
        (url (res-value "url" r))
        (description (res-value "summary" r)))
   (write-string #"~pos @ [~name](~url) " out)
-  (newline out)
-  (newline out)
+  (news out)
   (markdown-date-range r out)
-  (newline out)
-  (newline out)
+  (news out)
   (write-string description out)
-  (newline out)
-  (newline out)))
+  (news out)))
 
 (define (markdown-projects r out)
  (let ((p (res-value "projects" r)))
   (if p
    (begin
     (write-string "## Projects" out)
-    (newline out)
-    (newline out)
+    (news out)
     (for-each (lambda (r) (markdown-project r out)) p)))))
 
 (define (markdown-project r out)
@@ -149,28 +144,22 @@
        (entity (res-value "entity" r))
        (description (res-value "description" r)))
   (write-string #"[~name](~url) @ ~entity" out)
-  (newline out)
-  (newline out)
+  (news out)
   (markdown-date-range r out)
-  (newline out)
-  (newline out)
+  (news out)
   (for-each (lambda (role) (write-string #"~role " out)) roles)
-  (newline out)
-  (newline out)
+  (news out)
   (write-string description out)
-  (newline out)
-  (newline out)
+  (news out)
   (for-each (lambda (key) (write-string #"~key " out)) keywords)
-  (newline out)
-  (newline out)))
+  (news out)))
 
 (define (markdown-education r out)
  (let ((p (res-value "education" r)))
   (if p
    (begin
     (write-string "## Education" out)
-    (newline out)
-    (newline out)
+    (news out)
     (for-each (lambda (r) (markdown-school r out)) p)))))
 
 (define (markdown-school r out)
@@ -179,22 +168,18 @@
        (type (res-value "studyType" r))
        (area (res-value "area" r)))
   (write-string #"[~name](~url)" out)
-  (newline out)
-  (newline out)
+  (news out)
   (write-string #"~type in ~area" out)
-  (newline out)
-  (newline out)
+  (news out)
   (markdown-date-range r out)
-  (newline out)
-  (newline out)))
+  (news out)))
 
 (define (markdown-publications r out)
  (let ((p (res-value "publications" r)))
   (if p
    (begin
     (write-string "## Publications" out)
-    (newline out)
-    (newline out)
+    (news out)
     (for-each (lambda (r) (markdown-book r out)) p)))))
 
 (define (markdown-book r out)
@@ -203,18 +188,15 @@
        (date (format-date (res-value "releaseDate" r)))
        (pub (res-value "publisher" r)))
   (write-string #"[~name](~url)" out)
-  (newline out)
-  (newline out)
+  (news out)
   (write-string #"Published ~date by ~pub" out)
-  (newline out)
-  (newline out)))
+  (news out)))
 
 (define (markdown-date-range r out)
  (let ((start (format-date (res-value "startDate" r)))
        (end (format-date (res-value "endDate" r))))
   (write-string #"~start to ~end" out)
-  (newline out)
-  (newline out)))
+  (news out)))
 
 (define (format-date date)
  (or date
@@ -228,5 +210,9 @@
 
 (define (basics-value key r)
  (res-value key (res-value "basics" r)))
+
+(define (news out)
+(newline out)
+(newline out))
 
 
