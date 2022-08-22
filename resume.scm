@@ -207,11 +207,14 @@
 (define (markdown-book r out)
  (let ((name (res-value "name" r))
        (url (res-value "url" r))
+       (summary (res-value "summary" r))
        (date (format-date (res-value "releaseDate" r)))
        (pub (res-value "publisher" r)))
   (h3 #"[~name](~url)" out)
   (news out)
   (write-string #"Published ~date by ~pub" out)
+  (news out)
+  (if summary (write-string summary out))
   (news out)))
 
 (define (markdown-date-range r out)
@@ -246,7 +249,7 @@
 (define (commav v out)
  (commal (vector->list v) out))
 
- (define (commal l out)
+(define (commal l out)
  (write-string (string-join l ", ") out))
 
 

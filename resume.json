@@ -460,12 +460,14 @@
   "publications": [
     {
       "name": "Learn Unity 2014 for iOS Game Development",
+      "summary": "Introduction to mobile game development with the Unity game engine.",
       "publisher": "Apress",
       "releaseDate": "2013-06-01",
       "url": "http://technicat.com/learnunity"
     },
     {
       "name": "Technicat on Software",
+      "summary": "Collection of software development essays.",
       "publisher": "self",
       "releaseDate": "2015-01-01",
       "url": "http://technicat.com/technicat-on-software"

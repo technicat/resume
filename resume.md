@@ -312,9 +312,13 @@ Part time student work on a graph display for the the START natural language par
 
 Published 2013-06-01 by Apress
 
+Introduction to mobile game development with the Unity game engine.
+
 ### [Technicat on Software](http://technicat.com/technicat-on-software)
 
 Published 2015-01-01 by self
+
+Collection of software development essays.
 
 
 ## Education
