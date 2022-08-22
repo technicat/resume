@@ -83,7 +83,9 @@
   (newline out)
   (markdown-education r out)
   (newline out)
-  (markdown-languages r out)))
+  (markdown-languages r out)
+  (newline out)
+  (markdown-interests r out)))
 
 (define (markdown-location r out)
  (letrec ((location (basics-value "location" r))
@@ -114,7 +116,7 @@
  (let ((p (res-value "work" r)))
   (if p
    (begin
-    (write-string "## Career" out)
+    (h2 "Career" out)
     (news out)
     (for-each (lambda (r) (markdown-job r out)) p)))))
 
@@ -123,8 +125,7 @@
        (pos (res-value "position" r))
        (url (res-value "url" r))
        (description (res-value "summary" r)))
-  (write-string "### " out)
-  (write-string #"~pos @ [~name](~url) " out)
+  (h3 #"~pos @ [~name](~url) " out)
   (news out)
   (markdown-date-range r out)
   (news out)
@@ -135,7 +136,7 @@
  (let ((p (res-value "projects" r)))
   (if p
    (begin
-    (write-string "## Projects" out)
+    (h2 "Projects" out)
     (news out)
     (for-each (lambda (r) (markdown-project r out)) p)))))
 
@@ -185,7 +186,7 @@
  (let ((p (res-value "languages" r)))
   (if p
    (begin
-    (write-string "## Languages" out)
+    (h2 "Languages" out)
     (news out)
     (for-each (lambda (r) (markdown-language r out)) p)))))
 
@@ -199,7 +200,7 @@
  (let ((p (res-value "publications" r)))
   (if p
    (begin
-    (write-string "## Publications" out)
+    (h2 "Publications" out)
     (news out)
     (for-each (lambda (r) (markdown-book r out)) p)))))
 
@@ -236,7 +237,25 @@
  (newline out)
  (newline out))
 
+(define (h2 title out)
+ (write-string #"## ~title" out))
+
 (define (h3 title out)
  (write-string #"### ~title" out))
 
 
+(define (markdown-interests r out)
+ (let ((p (res-value "interests" r)))
+  (if p
+   (begin
+    (h2 "Interests" out)
+    (news out)
+    (for-each (lambda (r) (markdown-interest r out)) p)))))
+
+(define (markdown-interest r out)
+ (let ((name (res-value "name" r))
+       (keywords (res-value "keywords" r)))
+  (h3 name out)
+  (news out)
+  (write-string (string-join (vector->list keywords) ", ") out)
+  (news out)))

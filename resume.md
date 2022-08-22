@@ -344,3 +344,26 @@ Food in Cantonese
 
 Kdrama phrases in Korean
 
+
+## Interests
+
+### Cats
+
+adoption, cat cafe, lucky cat, samurai cat
+
+### Reading
+
+Asian-American fiction, graphic design, graphic novels, history, philosophy, scifi, spy stories, technology
+
+### Viewing
+
+kdrama, scifi, MMA
+
+### Learning
+
+English, Spanish, Chinese, Korean, Japanese
+
+### Listening
+
+Motown, NPR Podcasts
+
