@@ -89,12 +89,9 @@
           (zip (res-value "postalCode" location))
           (city (res-value "city" location))
           (country (code->country (res-value "countryCode" location)))
-          (region (res-value "region" location)))
-  (if address (write-string #"~address, " out))
-  (if city (write-string #"~city, " out))
-  (if region (write-string #"~region" out))
-  (if zip (write-string #"~zip " out))
-  (if country (write-string #", ~country " out))))
+          (region (res-value "region" location))
+          (all (list address city region zip country)))
+          (write-string (string-join (delete #f all) ", ") out)))
 
 (define (code->country code)
  "United States" ; todo - put in a list of code translations
