@@ -56,7 +56,7 @@
        (url (basics-value "url" r))
        (email (res-value "email" r))
        (phone (res-value "phone" r)))
-  (write-string #"# ~name" out)
+  (h1 name out)
   (if label (write-string #", ~label" out))
   (newline out)
   (markdown-location r out)
@@ -234,9 +234,13 @@
 (define (basics-value key r)
  (res-value key (res-value "basics" r)))
 
+; these could go into a lib
 (define (news out)
  (newline out)
  (newline out))
+
+(define (h1 title out)
+ (write-string #"## ~title" out))
 
 (define (h2 title out)
  (write-string #"## ~title" out))
