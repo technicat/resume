@@ -59,6 +59,9 @@
     {
       "name": "HyperBowl",
       "description": "Be the ball! A Unity reimplementation of the classic bowling game, licensed from Hyper Entertainment. Available on Itch.io, Steam, and the App Store.",
+      "highlights": [
+        "One of MacLife's Greatest iPhone Apps of 2009"
+      ],
       "keywords": [
         "bowling",
         "3D",

@@ -47,6 +47,8 @@ developer, publisher, licensee from 2008-12-01 to 2019-12-01
 
 Be the ball! A Unity reimplementation of the classic bowling game, licensed from Hyper Entertainment. Available on Itch.io, Steam, and the App Store.
 
+> One of MacLife's Greatest iPhone Apps of 2009
+
 *bowling, 3D, video game, Unity*
 
 ### [Cinefex iPad Edition](https://apps.apple.com/us/app/cinefex/id512379220) @ Cinefex
