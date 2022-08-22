@@ -225,10 +225,6 @@
   (write-string #"~start to ~end" out)
   (news out)))
 
-(define (format-date date)
- (or date
-  "present"))
-
 (define (res-value key r)
  (let ((b (find (lambda (item)
                  (string=? (car item) key))
@@ -295,3 +291,17 @@
    (write-string "*" out)
    (commav keywords out)
    (write-string "*" out))))
+
+(define (format-date date)
+ (if date
+  (parse-date date)
+  "present"))
+
+(define months #("Jan" "Feb" "Mar" "Apr" "May" "Jun" "Jul" "Aug" "Sep" "Oct" "Nov" "Dec"))
+
+(define (parse-date str)
+ (letrec ((match (#/^(\d\d\d\d)\-(\d\d?)\-(\d\d?)$/ str))
+                  (year (match 1))
+                  (month (ref months (- (string->number (match 2)) 1)))
+                  (day (match 3)))
+           #"~month ~year"))
