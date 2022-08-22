@@ -95,7 +95,7 @@
           (country (code->country (res-value "countryCode" location)))
           (region (res-value "region" location))
           (all (list address city region zip country)))
-  (write-string (string-join (delete #f all) ", ") out)))
+  (commal (delete #f all) out)))
 
 (define (code->country code)
  "United States" ; todo - put in a list of code translations
@@ -153,12 +153,12 @@
   (markdown-date-range r out)
   (news out)
   (write-string "Roles: " out)
-  (write-string (string-join (vector->list roles) ", ") out)
+  (commav roles out)
   (news out)
   (write-string description out)
   (news out)
   (write-string "*" out)
-  (write-string (string-join (vector->list keywords) ", ") out)
+  (commav keywords out)
   (write-string "*" out)
   (news out)))
 
@@ -243,6 +243,12 @@
 (define (h3 title out)
  (write-string #"### ~title" out))
 
+(define (commav v out)
+ (commal (vector->list v) out))
+
+ (define (commal l out)
+ (write-string (string-join l ", ") out))
+
 
 (define (markdown-interests r out)
  (let ((p (res-value "interests" r)))
@@ -257,5 +263,5 @@
        (keywords (res-value "keywords" r)))
   (h3 name out)
   (news out)
-  (write-string (string-join (vector->list keywords) ", ") out)
+  (commav keywords out)
   (news out)))
