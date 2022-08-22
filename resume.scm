@@ -280,6 +280,8 @@
        (keywords (res-value "keywords" r)))
   (h3 name out)
   (news out)
+  (if level (write-string level out))
+  (news out)
   (tags keywords out)
   (news out)))
 

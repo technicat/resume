@@ -330,21 +330,31 @@ Kdrama phrases in Korean
 
 ### App Development
 
+Experienced
+
 *Flutter, J2ME, SwiftUI, Xamarin*
 
 ### Game Development
+
+Experienced
 
 *CryEngine, Godot, Havok, Qube, Renderware, Ren'py, Scaleform, Unity, Unreal*
 
 ### Graphics
 
+Experienced
+
 *Direct3D, OpenGL, Processing*
 
 ### Programming
 
+Experienced
+
 *6502, BASIC, C, C++, C#, Dart, Java, Javascript, Lisp, Lua, Objective-C, Perl, PHP, Python, Swift, Tcl*
 
 ### Writing
+
+Experienced
 
 *English*
 
