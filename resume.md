@@ -307,44 +307,44 @@ Kdrama phrases in Korean
 
 ### Cats
 
-adoption, cat cafe, lucky cat, samurai cat
+*adoption, cat cafe, lucky cat, samurai cat*
 
 ### Reading
 
-Asian-American fiction, graphic design, graphic novels, history, philosophy, scifi, spy stories, technology
+*Asian-American fiction, graphic design, graphic novels, history, philosophy, scifi, spy stories, technology*
 
 ### Viewing
 
-kdrama, scifi, MMA
+*kdrama, scifi, MMA*
 
 ### Learning
 
-English, Spanish, Chinese, Korean, Japanese
+*English, Spanish, Chinese, Korean, Japanese*
 
 ### Listening
 
-Motown, NPR Podcasts
+*Motown, NPR Podcasts*
 
 
 ## Skills
 
 ### App Development
 
-Flutter, J2ME, SwiftUI, Xamarin
+*Flutter, J2ME, SwiftUI, Xamarin*
 
 ### Game Development
 
-CryEngine, Godot, Havok, Qube, Renderware, Ren'py, Scaleform, Unity, Unreal
+*CryEngine, Godot, Havok, Qube, Renderware, Ren'py, Scaleform, Unity, Unreal*
 
 ### Graphics
 
-Direct3D, OpenGL, Processing
+*Direct3D, OpenGL, Processing*
 
 ### Programming
 
-6502, BASIC, C, C++, C#, Dart, Java, Javascript, Lisp, Lua, Objective-C, Perl, PHP, Python, Swift, Tcl
+*6502, BASIC, C, C++, C#, Dart, Java, Javascript, Lisp, Lua, Objective-C, Perl, PHP, Python, Swift, Tcl*
 
 ### Writing
 
-English
+*English*
 

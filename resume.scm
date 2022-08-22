@@ -156,9 +156,7 @@
   (news out)
   (if description (write-string description out))
   (news out)
-  (write-string "*" out)
-  (if keywords (commav keywords out))
-  (write-string "*" out)
+  (tags keywords out)
   (news out)))
 
 (define (markdown-education r out)
@@ -265,7 +263,7 @@
        (keywords (res-value "keywords" r)))
   (h3 name out)
   (news out)
-  (if keywords (commav keywords out))
+  (tags keywords out)
   (news out)))
 
 (define (markdown-skills r out)
@@ -282,5 +280,12 @@
        (keywords (res-value "keywords" r)))
   (h3 name out)
   (news out)
-  (if keywords (commav keywords out))
+  (tags keywords out)
   (news out)))
+
+(define (tags keywords out)
+ (if keywords
+  (begin
+   (write-string "*" out)
+   (commav keywords out)
+   (write-string "*" out))))
