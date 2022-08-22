@@ -325,3 +325,26 @@ English, Spanish, Chinese, Korean, Japanese
 
 Motown, NPR Podcasts
 
+
+## Skills
+
+### App Development
+
+Flutter, J2ME, SwiftUI, Xamarin
+
+### Game Development
+
+CryEngine, Godot, Havok, Qube, Renderware, Ren'py, Scaleform, Unity, Unreal
+
+### Graphics
+
+Direct3D, OpenGL, Processing
+
+### Programming
+
+6502, BASIC, C, C++, C#, Dart, Java, Javascript, Lisp, Lua, Objective-C, Perl, PHP, Python, Swift, Tcl
+
+### Writing
+
+English
+

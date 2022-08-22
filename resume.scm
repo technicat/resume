@@ -85,7 +85,9 @@
   (newline out)
   (markdown-languages r out)
   (newline out)
-  (markdown-interests r out)))
+  (markdown-interests r out)
+  (newline out)
+  (markdown-skills r out)))
 
 (define (markdown-location r out)
  (let ((location (basics-value "location" r)))
@@ -260,6 +262,23 @@
 
 (define (markdown-interest r out)
  (let ((name (res-value "name" r))
+       (keywords (res-value "keywords" r)))
+  (h3 name out)
+  (news out)
+  (if keywords (commav keywords out))
+  (news out)))
+
+(define (markdown-skills r out)
+ (let ((p (res-value "skills" r)))
+  (if p
+   (begin
+    (h2 "Skills" out)
+    (news out)
+    (for-each (lambda (r) (markdown-skill r out)) p)))))
+
+(define (markdown-skill r out)
+ (let ((name (res-value "name" r))
+       (level (res-value "level" r))
        (keywords (res-value "keywords" r)))
   (h3 name out)
   (news out)
