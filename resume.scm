@@ -147,6 +147,7 @@
        (url (res-value "url" r))
        (roles (res-value "roles" r))
        (keywords (res-value "keywords" r))
+       (highlights (res-value "highlights" r))
        (entity (res-value "entity" r))
        (description (res-value "description" r)))
   (h3 #"[~name](~url) @ ~entity" out)
