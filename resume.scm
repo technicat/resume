@@ -88,14 +88,14 @@
   (markdown-interests r out)))
 
 (define (markdown-location r out)
- (letrec ((location (basics-value "location" r))
-          (address (res-value "address" location))
-          (zip (res-value "postalCode" location))
-          (city (res-value "city" location))
-          (country (code->country (res-value "countryCode" location)))
-          (region (res-value "region" location))
-          (all (list address city region zip country)))
-  (commal (delete #f all) out)))
+ (let ((location (basics-value "location" r)))
+  (if location
+   (let ((address (res-value "address" location))
+         (zip (res-value "postalCode" location))
+         (city (res-value "city" location))
+         (country (code->country (res-value "countryCode" location)))
+         (region (res-value "region" location)))
+    (commal (delete #f (list address city region zip country)) out)))))
 
 (define (code->country code)
  "United States" ; todo - put in a list of code translations
@@ -163,7 +163,7 @@
  (let ((p (res-value "education" r)))
   (if p
    (begin
-    (write-string "## Education" out)
+    (h2 "Education" out)
     (news out)
     (for-each (lambda (r) (markdown-school r out)) p)))))
 
