@@ -115,7 +115,7 @@
     (write-string "## Career" out)
     (newline out)
     (newline out)
-    (vector-for-each (lambda (r) (markdown-job r out)) p)))))
+    (for-each (lambda (r) (markdown-job r out)) p)))))
 
 (define (markdown-job r out)
  (let ((name (res-value "name" r))
@@ -139,7 +139,7 @@
     (write-string "## Projects" out)
     (newline out)
     (newline out)
-    (vector-for-each (lambda (r) (markdown-project r out)) p)))))
+    (for-each (lambda (r) (markdown-project r out)) p)))))
 
 (define (markdown-project r out)
  (let ((name (res-value "name" r))
@@ -171,7 +171,7 @@
     (write-string "## Education" out)
     (newline out)
     (newline out)
-    (vector-for-each (lambda (r) (markdown-school r out)) p)))))
+    (for-each (lambda (r) (markdown-school r out)) p)))))
 
 (define (markdown-school r out)
  (let ((name (res-value "institution" r))
@@ -195,7 +195,7 @@
     (write-string "## Publications" out)
     (newline out)
     (newline out)
-    (vector-for-each (lambda (r) (markdown-book r out)) p)))))
+    (for-each (lambda (r) (markdown-book r out)) p)))))
 
 (define (markdown-book r out)
  (let ((name (res-value "name" r))
