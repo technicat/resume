@@ -35,7 +35,7 @@ Journeyed through the semiconductor, defense, space, computer graphics, mobile I
 
 
 
-Roles: developer
+Roles: developer, publisher
 
 Your dim sum companion. Read about dim sum and learn how to pronounce the dishes. Available on Itch.io and the App Store.
 
@@ -47,7 +47,7 @@ Keywords: iOS, Swift, dim sum
 
 
 
-Roles: developer
+Roles: developer, publisher, licensee
 
 Be the ball! A Unity reimplementation of the classic bowling game, licensed from Hyper Entertainment. Available on Itch.io, Steam, and the App Store.
 

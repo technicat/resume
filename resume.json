@@ -50,7 +50,8 @@
       "startDate": "2014-01-01",
       "url": "http://talkdimsum.com/",
       "roles": [
-        "developer"
+        "developer",
+        "publisher"
       ],
       "entity": "Technicat",
       "type": "app"
@@ -68,7 +69,9 @@
       "endDate": "2019-12-01",
       "url": "http://hyperbowl.rocks/",
       "roles": [
-        "developer"
+        "developer",
+        "publisher",
+        "licensee"
       ],
       "entity": "Technicat",
       "type": "game"
