@@ -82,7 +82,7 @@
   (markdown-publications r out)
   (newline out)
   (markdown-education r out)
-   (newline out)
+  (newline out)
   (markdown-languages r out)))
 
 (define (markdown-location r out)
@@ -93,7 +93,7 @@
           (country (code->country (res-value "countryCode" location)))
           (region (res-value "region" location))
           (all (list address city region zip country)))
-          (write-string (string-join (delete #f all) ", ") out)))
+  (write-string (string-join (delete #f all) ", ") out)))
 
 (define (code->country code)
  "United States" ; todo - put in a list of code translations
@@ -123,6 +123,7 @@
        (pos (res-value "position" r))
        (url (res-value "url" r))
        (description (res-value "summary" r)))
+  (write-string "### " out)
   (write-string #"~pos @ [~name](~url) " out)
   (news out)
   (markdown-date-range r out)
@@ -145,11 +146,12 @@
        (keywords (res-value "keywords" r))
        (entity (res-value "entity" r))
        (description (res-value "description" r)))
+  (write-string "### " out)
   (write-string #"[~name](~url) @ ~entity" out)
   (news out)
   (markdown-date-range r out)
   (news out)
-   (write-string "Roles: " out)
+  (write-string "Roles: " out)
   (write-string (string-join (vector->list roles) ", ") out)
   (news out)
   (write-string description out)
@@ -172,6 +174,7 @@
        (url (res-value "url" r))
        (type (res-value "studyType" r))
        (area (res-value "area" r)))
+  (write-string "### " out)
   (write-string #"[~name](~url)" out)
   (news out)
   (write-string #"~type in ~area" out)
@@ -206,6 +209,7 @@
        (url (res-value "url" r))
        (date (format-date (res-value "releaseDate" r)))
        (pub (res-value "publisher" r)))
+  (write-string "### " out)
   (write-string #"[~name](~url)" out)
   (news out)
   (write-string #"Published ~date by ~pub" out)
@@ -231,7 +235,7 @@
  (res-value key (res-value "basics" r)))
 
 (define (news out)
-(newline out)
-(newline out))
+ (newline out)
+ (newline out))
 
 
