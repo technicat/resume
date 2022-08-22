@@ -47,6 +47,8 @@ developer, publisher, licensee from 2008-12-01 to 2019-12-01
 
 Be the ball! A Unity reimplementation of the classic bowling game, licensed from Hyper Entertainment. Available on Itch.io, Steam, and the App Store.
 
+> One of MacLife's Greatest iPhone Apps of 2009
+
 *bowling, 3D, video game, Unity*
 
 ### [Cinefex iPad Edition](https://apps.apple.com/us/app/cinefex/id512379220) @ Cinefex
@@ -185,7 +187,9 @@ consultant from 1997-09-01 to 1997-09-30
 
 
 
-Successor to N-World, used to make Gollum. Fixed some code and visited 3D hardware vendors in Silicon Valley to get test cards and chat about OpenGL.
+Successor to N-World. Fixed some code and visited 3D hardware vendors in Silicon Valley to get test cards and chat about OpenGL.
+
+> Used to make Gollum in the Lord of the Rings movies.
 
 *OpenGL, Windows*
 
@@ -328,33 +332,23 @@ Kdrama phrases in Korean
 
 ## Skills
 
-### App Development
-
-Experienced
+### App Development (Experienced)
 
 *Flutter, J2ME, SwiftUI, Xamarin*
 
-### Game Development
-
-Experienced
+### Game Development (Experienced)
 
 *CryEngine, Godot, Havok, Qube, Renderware, Ren'py, Scaleform, Unity, Unreal*
 
-### Graphics
-
-Experienced
+### Graphics (Experienced)
 
 *Direct3D, OpenGL, Processing*
 
-### Programming
-
-Experienced
+### Programming (Experienced)
 
 *6502, BASIC, C, C++, C#, Dart, Java, Javascript, Lisp, Lua, Objective-C, Perl, PHP, Python, Swift, Tcl*
 
-### Writing
-
-Experienced
+### Writing (Experienced)
 
 *English*
 
