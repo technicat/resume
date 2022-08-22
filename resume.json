@@ -309,7 +309,10 @@
     },
     {
       "name": "Mirai",
-      "description": "Successor to N-World, used to make Gollum. Fixed some code and visited 3D hardware vendors in Silicon Valley to get test cards and chat about OpenGL.",
+      "description": "Successor to N-World. Fixed some code and visited 3D hardware vendors in Silicon Valley to get test cards and chat about OpenGL.",
+      "highlights": [
+        "Used to make Gollum in the Lord of the Rings movies."
+      ],
       "keywords": [
         "OpenGL",
         "Windows"

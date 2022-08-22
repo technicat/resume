@@ -187,7 +187,9 @@ consultant from 1997-09-01 to 1997-09-30
 
 
 
-Successor to N-World, used to make Gollum. Fixed some code and visited 3D hardware vendors in Silicon Valley to get test cards and chat about OpenGL.
+Successor to N-World. Fixed some code and visited 3D hardware vendors in Silicon Valley to get test cards and chat about OpenGL.
+
+> Used to make Gollum in the Lord of the Rings movies.
 
 *OpenGL, Windows*
 
