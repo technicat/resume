@@ -174,12 +174,11 @@
        (url (res-value "url" r))
        (type (res-value "studyType" r))
        (area (res-value "area" r)))
-  (write-string "### " out)
-  (write-string #"[~name](~url)" out)
-  (news out)
-  (write-string #"~type in ~area" out)
+  (h3 #"[~name](~url)" out)
   (news out)
   (markdown-date-range r out)
+  (news out)
+  (write-string #"~type in ~area" out)
   (news out)))
 
 (define (markdown-languages r out)
@@ -209,8 +208,7 @@
        (url (res-value "url" r))
        (date (format-date (res-value "releaseDate" r)))
        (pub (res-value "publisher" r)))
-  (write-string "### " out)
-  (write-string #"[~name](~url)" out)
+  (h3 #"[~name](~url)" out)
   (news out)
   (write-string #"Published ~date by ~pub" out)
   (news out)))
@@ -237,5 +235,8 @@
 (define (news out)
  (newline out)
  (newline out))
+
+(define (h3 title out)
+ (write-string #"### ~title" out))
 
 
