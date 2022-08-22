@@ -158,6 +158,9 @@
   (news out)
   (if description (write-string description out))
   (news out)
+  (if highlights
+    (for-each (lambda (h) (write-string h out) (news out))
+      highlights))
   (tags keywords out)
   (news out)))
 
