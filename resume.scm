@@ -145,6 +145,7 @@
 (define (markdown-project r out)
  (let ((name (res-value "name" r))
        (url (res-value "url" r))
+       (type (res-value "type" r))
        (roles (res-value "roles" r))
        (keywords (res-value "keywords" r))
        (highlights (res-value "highlights" r))
