@@ -97,7 +97,8 @@
          (city (res-value "city" location))
          (country (code->country (res-value "countryCode" location)))
          (region (res-value "region" location)))
-    (commal (delete #f (list address city region zip country)) out)))))
+    (write-string (comma-list (delete #f (list address city region zip country)))
+     out)))))
 
 (define (code->country code)
  "United States" ; todo - put in a list of code translations
@@ -153,7 +154,7 @@
        (description (res-value "description" r)))
   (h3 #"[~name](~url) @ ~entity" out)
   (news out)
-  (if roles (begin (commav roles out) (write-string " from " out)))
+  (if roles (write-string #"~(comma-vector roles) from " out))
   (markdown-date-range r out)
   (news out)
   (if description (write-string description out))
@@ -248,11 +249,11 @@
 (define (h3 title out)
  (write-string #"### ~title" out))
 
-(define (commav v out)
- (commal (vector->list v) out))
+(define (comma-vector v)
+ (comma-list (vector->list v)))
 
-(define (commal l out)
- (write-string (string-join l ", ") out))
+(define (comma-list l)
+ (string-join l ", "))
 
 
 (define (markdown-interests r out)
@@ -291,10 +292,7 @@
 
 (define (tags keywords out)
  (if keywords
-  (begin
-   (write-string "*" out)
-   (commav keywords out)
-   (write-string "*" out))))
+  (write-string #"*~(comma-vector keywords)*" out)))
 
 (define (format-date date)
  (if date
