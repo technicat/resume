@@ -162,6 +162,7 @@
   (if highlights
    (for-each (lambda (h) (write-string #"> ~h" out) (news out))
     highlights))
+  (if type (write-string #"*~|type|:* " out))
   (tags keywords out)
   (news out)))
 

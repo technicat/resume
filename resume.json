@@ -65,7 +65,6 @@
       "keywords": [
         "bowling",
         "3D",
-        "video game",
         "Unity"
       ],
       "startDate": "2008-12-01",
@@ -84,6 +83,7 @@
       "description": "An iPad reader for the Cinefex visual effects magazine, with extras such as videos and image galleries. Kept it up and running over the march of iOS evolution, fixing, updating, and optimizing in-app purchases, user interface, video...",
       "keywords": [
         "iOS",
+        "magazine",
         "visual effects"
       ],
       "startDate": "2016-04-01",
@@ -98,10 +98,9 @@
       "name": "Learn Unity 4 for iOS Game Development",
       "description": "An introduction to game development for iOS using the Unity game engine and an example bowling game (super simple version of HyperBowl).",
       "keywords": [
-        "book",
         "iOS",
         "Unity",
-        "video game",
+        "game development",
         "3D"
       ],
       "startDate": "2012-04-01",
@@ -118,7 +117,7 @@
       "description": "A Playstation Home driving/shooting game with alien invader teddy bears.",
       "keywords": [
         "Playstation 3",
-        "Playstation Hone",
+        "Playstation Home",
         "virtual world"
       ],
       "startDate": "2011-09-01",
@@ -134,7 +133,6 @@
       "name": "RC Rally",
       "description": "A Playstation Home multiplayer racing game.",
       "keywords": [
-        "video game",
         "Playstation 3",
         "virtual world",
         "racing"
@@ -153,7 +151,6 @@
       "description": "A 3D virtual world implemented in CryEngine. Supported third-party developers, documented the Lua API and framework for creating minigames on the community wiki (a CryEngine wiki even copied part of it!), tweaked physics, updated Scaleform integration, modified CryEngine to work with Scaleform IME (for localization).",
       "keywords": [
         "CryEngine",
-        "virtual world",
         "metaverse",
         "Lua",
         "C++"
@@ -165,13 +162,13 @@
         "programmer"
       ],
       "entity": "Avatar Reality",
-      "type": "metaverse"
+      "type": "virtual world"
     },
     {
       "name": "Nendo",
       "description": "A nifty 3D modeler originally developed at Nichimen Graphics. Updated to work on Windows XP.",
       "keywords": [
-        "3D graphics",
+        "3D",
         "C++"
       ],
       "startDate": "2007-05-01",
@@ -180,14 +177,14 @@
         "programmer"
       ],
       "entity": "Izware",
-      "type": "graphics softwaare",
+      "type": "graphics",
       "url": "https://web.archive.org/web/20070628000134/http://www.izware.com/nendo/index.htm"
     },
     {
       "name": "Darkwatch",
       "description": "A vampire western for Playstation 2 and Xbox. Worked on various HUD elements, PAL support, demo builds, implemented multiplayer split-screen, added designer-friendly Lua interfaces for audio, health bars, etc.",
       "keywords": [
-        "video game",
+        "Renderware",
         "Xbox",
         "Playstation 2",
         "Lua",
@@ -199,15 +196,15 @@
         "programmer"
       ],
       "entity": "High Moon Studios",
-      "type": "video game",
+      "type": "game",
       "url": "https://www.mobygames.com/game/darkwatch"
     },
     {
       "name": "Fugu Games",
       "description": "Small games released as webplayers, Mac widgets, and mobile apps.",
       "keywords": [
-        "video game",
-        "app",
+        "3D",
+        "2D",
         "Unity",
         "J2ME",
         "C#"
@@ -217,15 +214,13 @@
         "developer"
       ],
       "entity": "Technicat",
-      "type": "video game",
+      "type": "game",
       "url": "http://fugugames.com/"
     },
     {
       "name": "Tech Deck: Bare Knuckle Grind",
       "description": "A skateboarding game bundled with Tech Deck figures. Implemented installers, dynamic shadows, video, a build system.",
       "keywords": [
-        "subversion",
-        "video game",
         "Windows",
         "Renderware",
         "C"
@@ -237,13 +232,13 @@
       ],
       "url": "https://archive.org/details/bkg-space-town",
       "entity": "Visionscape Interactive",
-      "type": "video game"
+      "type": "game"
     },
     {
       "name": "HyperBowl",
       "description": "A 3D bowling game, rolling in fanciful locations. Took over for the original lead programmer, updated attraction version of HyperBowl for localization, new lanes, optimization, new graphics cards, arcade and PC support.",
       "keywords": [
-        "video game",
+        "3D",
         "Windows",
         "arcade",
         "attraction",
@@ -256,7 +251,7 @@
       ],
       "url": "https://en.wikipedia.org/wiki/Hyperbowl_Plus!_Edition",
       "entity": "Hyper Entertainment",
-      "type": "video game"
+      "type": "game"
     },
     {
       "name": "Neomar",
@@ -274,7 +269,7 @@
       ],
       "url": "https://googlepress.blogspot.com/2000/09/google-search-engine-now-available.html",
       "entity": "Neomar",
-      "type": "web backend"
+      "type": "enterprise"
     },
     {
       "name": "Leverage for Scheduling",
@@ -290,7 +285,7 @@
       ],
       "url": "https://spinoff.nasa.gov/spinoff1998/ct11.htm",
       "entity": "Interval Logic",
-      "type": "enterprise software"
+      "type": "enterprise"
     },
     {
       "name": "Leverage for Planning",
@@ -305,7 +300,7 @@
       ],
       "url": "https://web.archive.org/web/19991105062823/http://www.interval-logic.com/news/lsi.html",
       "entity": "Interval Logic",
-      "type": "enterprise software"
+      "type": "enterprise"
     },
     {
       "name": "Mirai",
@@ -314,6 +309,7 @@
         "Used to make Gollum in the Lord of the Rings movies."
       ],
       "keywords": [
+        "3D",
         "OpenGL",
         "Windows"
       ],
@@ -324,12 +320,13 @@
       ],
       "url": "https://en.wikipedia.org/wiki/Mirai_(software)",
       "entity": "Nichimen Graphics",
-      "type": "graphics software"
+      "type": "graphics"
     },
     {
       "name": "N-World",
       "description": "A 3D modeling and animation package, used for Mario 3D. Ported from IrisGL to OpenGL on SGI workstations, then from Irix to Windows NT, all in Franz Allegro Common Lisp (and a bit of C). Manager of core software group (all the libraries - graphics, audio, UI, security...)",
       "keywords": [
+        "3D",
         "OpenGL",
         "Irix",
         "Windows"
@@ -341,7 +338,7 @@
       ],
       "url": "https://en.wikipedia.org/wiki/N-World",
       "entity": "Nichimen Graphics",
-      "type": "graphics software"
+      "type": "graphics"
     },
     {
       "name": "ORBIS",
@@ -358,7 +355,7 @@
       ],
       "url": "https://www.jhuapl.edu/Content/techdigest/pdf/V23-N04/23-04-Higgins.pdf",
       "entity": "JHU Applied Physics Lab",
-      "type": "simulation software"
+      "type": "government"
     },
     {
       "name": "Proposal Entry Processor",
@@ -375,7 +372,7 @@
       ],
       "url": "https://hst-docs.stsci.edu/hpiom/chapter-2-the-basics-of-phase-ii-proposals",
       "entity": "Space Telescope Science Institute",
-      "type": "tools"
+      "type": "government"
     },
     {
       "name": "Database Accelerator",
@@ -392,7 +389,7 @@
       ],
       "url": "https://www.semanticscholar.org/paper/The-MIT-database-accelerator%3A-2K-TRIT-circuit-Wade-Osler/8265f5f166e20d9bd60ad71fa62f873519fe4a0c",
       "entity": "MIT",
-      "type": "content-addressable memory"
+      "type": "research"
     },
     {
       "name": "DROID",
@@ -409,7 +406,7 @@
       ],
       "url": "https://www.researchgate.net/publication/3524170_Circuit_optimization_techniques_in_DROID",
       "entity": "Texas Instruments",
-      "type": "VLSI CAD"
+      "type": "enterprise"
     },
     {
       "name": "Multilisp",
@@ -426,7 +423,7 @@
       ],
       "url": "https://en.wikipedia.org/wiki/MultiLisp",
       "entity": "MIT",
-      "type": "game"
+      "type": "research"
     },
     {
       "name": "START",
@@ -442,7 +439,7 @@
       ],
       "url": "http://start.csail.mit.edu/index.php",
       "entity": "MIT",
-      "type": "natural language"
+      "type": "research"
     }
   ],
   "education": [
