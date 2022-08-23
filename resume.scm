@@ -242,7 +242,7 @@
  (newline out))
 
 (define (h1 title out)
- (write-string #"## ~title" out))
+ (write-string #"# ~title" out))
 
 (define (h2 title out)
  (write-string #"## ~title" out))
