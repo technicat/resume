@@ -1,7 +1,12 @@
 #!/usr/local/bin/gosh
 
 ; reads a json-resume
-; not sure what to do next
+; https://jsonresume.org/
+; optionally write back out to json (no reason)
+; or markdown
+; todo - add validation, e.g. check urls, valid dates
+; todo - add rest of schema, e.g. volunteer, certificates...
+; todo - put in a list of country code translations
 
 (use file.util)
 (use gauche.collection)
@@ -101,7 +106,7 @@
      out)))))
 
 (define (code->country code)
- "United States" ; todo - put in a list of code translations
+ "United States" 
  )
 
 (define (markdown-profiles r out)
