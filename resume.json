@@ -324,7 +324,10 @@
     },
     {
       "name": "N-World",
-      "description": "A 3D modeling and animation package, used for Mario 3D. Ported from IrisGL to OpenGL on SGI workstations, then from Irix to Windows NT, all in Franz Allegro Common Lisp (and a bit of C). Manager of core software group (all the libraries - graphics, audio, UI, security...)",
+      "description": "A 3D modeling and animation package. Ported from IrisGL to OpenGL on SGI workstations, then from Irix to Windows NT, all in Franz Allegro Common Lisp (and a bit of C). Manager of core software group (all the libraries - graphics, audio, UI, security...)",
+      "highlights": [
+        "Used in the making of Mario 3D."
+      ],
       "keywords": [
         "3D",
         "OpenGL",
@@ -342,7 +345,10 @@
     },
     {
       "name": "ORBIS",
-      "description": "An expert system for submarine simulation. Added multiplayer network capability to support participation wide area networked exercises (donned a submarine uniform and took part in two of them myself).",
+      "description": "An expert system for submarine simulation. Added multiplayer network capability to support participation wide area networked exercises.",
+      "highlights": [
+        "Donned a submarine uniform and took part in two exercises."
+      ],
       "keywords": [
         "Distributed Interactive Simulation",
         "Lisp",
@@ -360,6 +366,9 @@
     {
       "name": "Proposal Entry Processor",
       "description": "A syntax-directed Emacs mode used by astronomers and Institute staff to prepare and edit Space Telescope observation proposals.",
+      "highlights": [
+        "A member of the proposal preparation staff asked for my project to be continued after I left (but no takers)."
+      ],
       "keywords": [
         "space",
         "emacs",
