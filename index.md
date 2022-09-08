@@ -1,4 +1,4 @@
-## Phil Chu, Technicat LLC
+# Phil Chu, Technicat LLC
 Las Vegas, Nevada, United States
 
  [http://technicat.com](http://technicat.com)
@@ -199,7 +199,9 @@ programmer from Dec 1995 to Jun 1997
 
 
 
-A 3D modeling and animation package, used for Mario 3D. Ported from IrisGL to OpenGL on SGI workstations, then from Irix to Windows NT, all in Franz Allegro Common Lisp (and a bit of C). Manager of core software group (all the libraries - graphics, audio, UI, security...)
+A 3D modeling and animation package. Ported from IrisGL to OpenGL on SGI workstations, then from Irix to Windows NT, all in Franz Allegro Common Lisp (and a bit of C). Manager of core software group (all the libraries - graphics, audio, UI, security...)
+
+> Used in the making of Mario 3D.
 
 *graphics:* *3D, OpenGL, Irix, Windows*
 
@@ -209,7 +211,9 @@ programmer from Dec 1992 to Dec 1993
 
 
 
-An expert system for submarine simulation. Added multiplayer network capability to support participation wide area networked exercises (donned a submarine uniform and took part in two of them myself).
+An expert system for submarine simulation. Added multiplayer network capability to support participation wide area networked exercises.
+
+> Donned a submarine uniform and took part in two exercises.
 
 *government:* *Distributed Interactive Simulation, Lisp, C++*
 
@@ -220,6 +224,8 @@ programmer from Nov 1990 to May 1992
 
 
 A syntax-directed Emacs mode used by astronomers and Institute staff to prepare and edit Space Telescope observation proposals.
+
+> A member of the proposal preparation staff asked for my project to be continued after I left (but no takers).
 
 *government:* *space, emacs, Lisp*
 
