@@ -32,7 +32,7 @@
         (write-markdown r o)))))))))
 
 (define (help file)
- (print "Read/convert JSON resume"))
+ (print "resume.scm -f file -o outfile -v -h"))
 
 (define (read-json file)
  (guard (e (else (print #"JSON error in ~file")
