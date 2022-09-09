@@ -257,6 +257,8 @@ student from Sep 1987 to May 1988
 
 Bachelors thesis project implementing an Othello game in Multilisp (Multello) to run on the Concert 32-processor computer, trying various parallelism strategies to compare processor utilization and final performance.
 
+> Wrote the thesis in LaTeX on a Symbolics Lisp Machine.
+
 *research:* *game, parallel processing, Lisp*
 
 ### [START](http://start.csail.mit.edu/index.php) @ MIT
