@@ -79,6 +79,8 @@ programmer from Sep 2011 to Dec 2011
 
 A Playstation Home driving/shooting game with alien invader teddy bears.
 
+> Programmer credit displayed in-world.
+
 *game:* *Playstation 3, Playstation Home, virtual world*
 
 ### [RC Rally](https://pshome.fandom.com/wiki/RC_Rally) @ Heavy Water
@@ -119,6 +121,8 @@ programmer from Sep 2006 to Apr 2007
 
 A vampire western for Playstation 2 and Xbox. Worked on various HUD elements, PAL support, demo builds, implemented multiplayer split-screen, added designer-friendly Lua interfaces for audio, health bars, etc.
 
+> Received programmer credit (but oddly required to list city of birth).
+
 *game:* *Renderware, Xbox, Playstation 2, Lua, C++*
 
 ### [Fugu Games](http://fugugames.com/) @ Technicat
@@ -157,7 +161,9 @@ programmer from Dec 1999 to Jul 2001
 
 
 
-One of the first mobile web browsers, conforming to the WAP standards. Implemented an HTTP proxy for the Neomar WAP gateway, supporting the Neomar mobile web browser on Blackberry pagers and Palm devices, launched on the Motient service.
+One of the first mobile web browsers, conforming to the WAP standards. Implemented an HTTP proxy for the Neomar WAP gateway, supporting the Neomar mobile web browser on Blackberry pagers and Palm devices.
+
+> Launched on Motient's Blackberry service.
 
 *enterprise:* *WAP, HTTP, mobile, Java*
 
