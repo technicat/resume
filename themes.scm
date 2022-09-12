@@ -23,7 +23,7 @@
 
 (define (theme theme)
  (print #"applying theme ~theme")
- (sys-system #"resume export ~|theme|.html -t ~theme")
- ;(sys-system #"resume export ~|theme|.pdf -t ~theme")
+ (sys-system #"resume export html/~|theme|.html -t ~theme")
+ (sys-system #"resume export pdf/~|theme|.pdf -t ~theme")
  )
 
