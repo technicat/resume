@@ -11,7 +11,6 @@
 
 (define (use-themes)
  (theme "actual")
- (theme "elegant")
  (theme "even")
  (theme "github")
  (theme "jacrys")
