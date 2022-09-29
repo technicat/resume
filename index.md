@@ -3,7 +3,7 @@ Las Vegas, Nevada, United States
 
  [http://technicat.com](http://technicat.com)
 
-![image](https://technicat.github.io/images/smallhack.jpg)
+![profile image](https://technicat.github.io/images/smallhack.jpg)
 
  [technicat](https://github.com/technicat) @ Github
 
@@ -164,6 +164,8 @@ programmer from Dec 1999 to Jul 2001
 One of the first mobile web browsers, conforming to the WAP standards. Implemented an HTTP proxy for the Neomar WAP gateway, supporting the Neomar mobile web browser on Blackberry pagers and Palm devices.
 
 > Launched on Motient's Blackberry service.
+
+> Company assets acquired by Good Technology (and all I got was this worthless stock certificate).
 
 *enterprise:* *WAP, HTTP, mobile, Java*
 
