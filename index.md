@@ -101,6 +101,8 @@ programmer from Sep 2007 to Jan 2011
 
 A 3D virtual world implemented in CryEngine. Supported third-party developers, documented the Lua API and framework for creating minigames on the community wiki (a CryEngine wiki even copied part of it!), tweaked physics, updated Scaleform integration, modified CryEngine to work with Scaleform IME (for localization).
 
+> Attended in-world developer meetings. Better than Zoom.
+
 *virtual world:* *CryEngine, metaverse, Lua, C++*
 
 ### [Nendo](https://web.archive.org/web/20070628000134/http://www.izware.com/nendo/index.htm) @ Izware
