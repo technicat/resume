@@ -165,6 +165,8 @@ One of the first mobile web browsers, conforming to the WAP standards. Implement
 
 > Launched on Motient's Blackberry service.
 
+> Company assets acquired by Good Technology (and all I got was this worthless stock certificate).
+
 *enterprise:* *WAP, HTTP, mobile, Java*
 
 ### [Leverage for Scheduling](https://spinoff.nasa.gov/spinoff1998/ct11.htm) @ Interval Logic
