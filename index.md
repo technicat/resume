@@ -376,3 +376,6 @@ Kdrama phrases in Korean
 
 *English*
 
+
+
+
