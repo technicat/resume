@@ -83,13 +83,11 @@
   (if url (write-string #" [~url](~url)" out))
   (if phone (write-string #" ~phone " out))
   (if email (write-string #" ~email " out))
-  (newline out)
-  (newline out)
+  (news out)
   (if image (write-string #"![profile image](~image)" out))
-  (newline out)
+  (news out)
   (markdown-profiles r out)
-  (newline out)
-  (newline out)
+  (news out)
   (write-string summary out)))
 
 
@@ -165,7 +163,7 @@
   (if description (write-string description out))
   (newline out)
   (if highlights
-   (for-each (lambda (h) (write-string #"> ~h" out) (news out))
+   (for-each (lambda (h) (blockquote h out))
     highlights))
   (if type (write-string #"*~|type|:* " out))
   (tags keywords out)
@@ -320,7 +318,12 @@
     (for-each (lambda (r) (markdown-ref r out)) p)))))
 
 (define (markdown-ref r out)
- )
+ (let ((name (res-value "name" r))
+       (ref (res-value "reference" r)))
+  (h3 name out)
+  (newline out)
+  (blockquote ref out)
+  (newline out)))
 
 ; date
 
@@ -370,6 +373,11 @@
   (define (h3 title out)
    (newline out)
    (write-string #"### ~title" out)
+   (newline out))
+
+  (define (blockquote item out)
+   (newline out)
+   (write-string #"> ~item" out)
    (newline out))
 
   ; lists
