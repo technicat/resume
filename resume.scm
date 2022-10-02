@@ -74,8 +74,9 @@
        (url (basics-value "url" r))
        (email (res-value "email" r))
        (phone (res-value "phone" r)))
-  (h1 name out)
-  (if label (write-string #", ~label" out))
+  (if label
+   (h1 #"~name, ~label" out)
+   (h1 name out))
   (newline out)
   (markdown-location r out)
   (newline out)
@@ -124,7 +125,6 @@
   (if p
    (begin
     (h2 "Career" out)
-    (news out)
     (for-each (lambda (r) (markdown-job r out)) p)))))
 
 (define (markdown-job r out)
@@ -133,11 +133,11 @@
        (url (res-value "url" r))
        (summary (res-value "summary" r)))
   (h3 #"~pos @ [~name](~url) " out)
-  (news out)
+  (newline out)
   (markdown-date-range r out)
-  (news out)
+  (newline out)
   (if summary (write-string summary out))
-  (news out)))
+  (newline out)))
 
 ; project
 
@@ -146,7 +146,7 @@
   (if p
    (begin
     (h2 "Projects" out)
-    (news out)
+    (newline out)
     (for-each (lambda (r) (markdown-project r out)) p)))))
 
 (define (markdown-project r out)
@@ -159,18 +159,17 @@
        (entity (res-value "entity" r))
        (description (res-value "description" r)))
   (h3 #"[~name](~url) @ ~entity" out)
-  (news out)
   (if roles (write-string #"~(comma-vector roles) from " out))
   (markdown-date-range r out)
-  (news out)
+  (newline out)
   (if description (write-string description out))
-  (news out)
+  (newline out)
   (if highlights
    (for-each (lambda (h) (write-string #"> ~h" out) (news out))
     highlights))
   (if type (write-string #"*~|type|:* " out))
   (tags keywords out)
-  (news out)))
+  (newline out)))
 
 ; education
 
@@ -179,7 +178,7 @@
   (if p
    (begin
     (h2 "Education" out)
-    (news out)
+    (newline out)
     (for-each (lambda (r) (markdown-school r out)) p)))))
 
 (define (markdown-school r out)
@@ -188,11 +187,11 @@
        (type (res-value "studyType" r))
        (area (res-value "area" r)))
   (h3 #"[~name](~url)" out)
-  (news out)
+  (newline out)
   (markdown-date-range r out)
-  (news out)
+  (newline out)
   (write-string #"~type in ~area" out)
-  (news out)))
+  (newline out)))
 
 ; language
 
@@ -201,7 +200,7 @@
   (if p
    (begin
     (h2 "Languages" out)
-    (news out)
+    (newline out)
     (for-each (lambda (r) (markdown-language r out)) p)))))
 
 (define (markdown-language r out)
@@ -217,7 +216,7 @@
   (if p
    (begin
     (h2 "Publications" out)
-    (news out)
+    (newline out)
     (for-each (lambda (r) (markdown-book r out)) p)))))
 
 (define (markdown-book r out)
@@ -227,7 +226,7 @@
        (date (format-date (res-value "releaseDate" r)))
        (pub (res-value "publisher" r)))
   (h3 #"[~name](~url)" out)
-  (news out)
+  (newline out)
   (write-string #"Published ~date by ~pub" out)
   (news out)
   (if summary (write-string summary out))
@@ -240,16 +239,16 @@
   (if p
    (begin
     (h2 "Interests" out)
-    (news out)
+    (newline out)
     (for-each (lambda (r) (markdown-interest r out)) p)))))
 
 (define (markdown-interest r out)
  (let ((name (res-value "name" r))
        (keywords (res-value "keywords" r)))
   (h3 name out)
-  (news out)
+  (newline out)
   (tags keywords out)
-  (news out)))
+  (newline out)))
 
 ; skills
 
@@ -258,7 +257,7 @@
   (if p
    (begin
     (h2 "Skills" out)
-    (news out)
+    (newline out)
     (for-each (lambda (r) (markdown-skill r out)) p)))))
 
 (define (markdown-skill r out)
@@ -278,7 +277,7 @@
   (if p
    (begin
     (h2 "Awards" out)
-    (news out)
+    (newline out)
     (for-each (lambda (r) (markdown-award r out)) p)))))
 
 (define (markdown-award r out)
@@ -291,7 +290,7 @@
   (if p
    (begin
     (h2 "Certificates" out)
-    (news out)
+    (newline out)
     (for-each (lambda (r) (markdown-cert r out)) p)))))
 
 (define (markdown-cert r out)
@@ -304,7 +303,7 @@
   (if p
    (begin
     (h2 "Volunteer" out)
-    (news out)
+    (newline out)
     (for-each (lambda (r) (markdown-vol r out)) p)))))
 
 (define (markdown-vol r out)
@@ -317,7 +316,7 @@
   (if p
    (begin
     (h2 "References" out)
-    (news out)
+    (newline out)
     (for-each (lambda (r) (markdown-ref r out)) p)))))
 
 (define (markdown-ref r out)
