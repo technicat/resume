@@ -79,14 +79,12 @@
   (newline out)
   (markdown-location r out)
   (newline out)
-  (newline out)
   (if url (write-string #" [~url](~url)" out))
   (if phone (write-string #" ~phone " out))
   (if email (write-string #" ~email " out))
   (newline out)
   (newline out)
   (if image (write-string #"![profile image](~image)" out))
-  (newline out)
   (newline out)
   (markdown-profiles r out)
   (newline out)
@@ -362,15 +360,18 @@
 
   (define (h1 title out)
    (newline out)
-   (write-string #"# ~title" out))
+   (write-string #"# ~title" out)
+   (newline out))
 
   (define (h2 title out)
    (newline out)
-   (write-string #"## ~title" out))
+   (write-string #"## ~title" out)
+   (newline out))
 
   (define (h3 title out)
    (newline out)
-   (write-string #"### ~title" out))
+   (write-string #"### ~title" out)
+   (newline out))
 
   ; lists
 
