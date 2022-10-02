@@ -65,7 +65,13 @@
  (newline out)
  (markdown-interests r out)
  (newline out)
- (markdown-skills r out))
+ (markdown-skills r out)
+ (newline out)
+ (markdown-awards r out)
+ (newline out)
+ (markdown-certs r out)
+ (newline out)
+ (markdown-volunteer r out))
 
 (define (markdown-basics r out)
  (let ((name (basics-value "name" r))
@@ -295,6 +301,43 @@
   (news out)
   (tags keywords out)
   (news out)))
+
+(define (markdown-awards r out)
+ (let ((p (res-value "awards" r)))
+  (if p
+   (begin
+    (h2 "Awards" out)
+    (news out)
+    (for-each (lambda (r) (markdown-award r out)) p)))))
+
+(define (markdown-award r out)
+ )
+
+(define (markdown-certs r out)
+ (let ((p (res-value "certificates" r)))
+  (if p
+   (begin
+    (h2 "Certificates" out)
+    (news out)
+    (for-each (lambda (r) (markdown-cert r out)) p)))))
+
+(define (markdown-cert r out)
+ )
+
+(define (markdown-volunteer r out)
+ (let ((p (res-value "volunteer" r)))
+  (if p
+   (begin
+    (h2 "Volunteer" out)
+    (news out)
+    (for-each (lambda (r) (markdown-vol r out)) p)))))
+
+(define (markdown-vol r out)
+ )
+
+
+
+; general
 
 (define (tags keywords out)
  (if keywords
