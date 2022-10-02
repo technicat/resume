@@ -636,5 +636,15 @@
         "video games"
       ]
     }
+  ],
+  "references": [
+    {
+      "name": "Former client",
+      "reference": "I still think you're a good programmer."
+    },
+    {
+      "name": "Prospective client",
+      "reference": "I've got a genius app idea!"
+    }
   ]
 }
