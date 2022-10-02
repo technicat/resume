@@ -627,6 +627,13 @@
         "Motown",
         "NPR Podcasts"
       ]
+    },
+    {
+      "name": "Playing",
+      "keywords": [
+        "piano",
+        "video games"
+      ]
     }
   ]
 }

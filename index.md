@@ -347,6 +347,10 @@ Kdrama phrases in Korean
 
 *Motown, NPR Podcasts*
 
+### Playing
+
+*piano, video games*
+
 
 ## Skills
 
