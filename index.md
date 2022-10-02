@@ -269,6 +269,8 @@ Bachelors thesis project implementing an Othello game in Multilisp (Multello) to
 
 > Wrote the thesis in LaTeX on a Symbolics Lisp Machine.
 
+> Cited in a PhD thesis.
+
 *research:* *game, parallel processing, Lisp*
 
 ### [START](http://start.csail.mit.edu/index.php) @ MIT
