@@ -52,26 +52,19 @@
 
 (define (markdown r out)
  (markdown-basics r out)
- (newline out)
  (markdown-work r out)
- (newline out)
  (markdown-projects r out)
- (newline out)
  (markdown-publications r out)
- (newline out)
  (markdown-education r out)
- (newline out)
  (markdown-languages r out)
- (newline out)
  (markdown-interests r out)
- (newline out)
  (markdown-skills r out)
- (newline out)
  (markdown-awards r out)
- (newline out)
  (markdown-certs r out)
- (newline out)
- (markdown-volunteer r out))
+ (markdown-volunteer r out)
+ (markdown-refs r out))
+
+; basics
 
 (define (markdown-basics r out)
  (let ((name (basics-value "name" r))
@@ -100,6 +93,10 @@
   (newline out)
   (write-string summary out)))
 
+
+(define (basics-value key r)
+ (res-value key (res-value "basics" r)))
+
 (define (markdown-location r out)
  (let ((location (basics-value "location" r)))
   (if location
@@ -111,10 +108,6 @@
     (write-string (comma-list (delete #f (list address city region zip country)))
      out)))))
 
-(define (code->country code)
- "United States"
- )
-
 (define (markdown-profiles r out)
  (let ((p (basics-value "profiles" r)))
   (if p
@@ -125,6 +118,8 @@
        (url (res-value "url" r))
        (username (res-value "username" r)))
   (write-string #" [~username](~url) @ ~network" out)))
+
+; career
 
 (define (markdown-work r out)
  (let ((p (res-value "work" r)))
@@ -145,6 +140,8 @@
   (news out)
   (if summary (write-string summary out))
   (news out)))
+
+; project
 
 (define (markdown-projects r out)
  (let ((p (res-value "projects" r)))
@@ -177,6 +174,8 @@
   (tags keywords out)
   (news out)))
 
+; education
+
 (define (markdown-education r out)
  (let ((p (res-value "education" r)))
   (if p
@@ -197,6 +196,8 @@
   (write-string #"~type in ~area" out)
   (news out)))
 
+; language
+
 (define (markdown-languages r out)
  (let ((p (res-value "languages" r)))
   (if p
@@ -210,6 +211,8 @@
        (fluent (res-value "fluency" r)))
   (write-string #"~fluent in ~lang" out)
   (news out)))
+
+; publications
 
 (define (markdown-publications r out)
  (let ((p (res-value "publications" r)))
@@ -232,41 +235,7 @@
   (if summary (write-string summary out))
   (news out)))
 
-(define (markdown-date-range r out)
- (let ((start (format-date (res-value "startDate" r)))
-       (end (format-date (res-value "endDate" r))))
-  (write-string #"~start to ~end" out)
-  (news out)))
-
-(define (res-value key r)
- (let ((b (find (lambda (item)
-                 (string=? (car item) key))
-           r)))
-  (and b (cdr b))))
-
-(define (basics-value key r)
- (res-value key (res-value "basics" r)))
-
-; these could go into a lib
-(define (news out)
- (newline out)
- (newline out))
-
-(define (h1 title out)
- (write-string #"# ~title" out))
-
-(define (h2 title out)
- (write-string #"## ~title" out))
-
-(define (h3 title out)
- (write-string #"### ~title" out))
-
-(define (comma-vector v)
- (comma-list (vector->list v)))
-
-(define (comma-list l)
- (string-join l ", "))
-
+; interests
 
 (define (markdown-interests r out)
  (let ((p (res-value "interests" r)))
@@ -283,6 +252,8 @@
   (news out)
   (tags keywords out)
   (news out)))
+
+; skills
 
 (define (markdown-skills r out)
  (let ((p (res-value "skills" r)))
@@ -302,6 +273,8 @@
   (tags keywords out)
   (news out)))
 
+; awards
+
 (define (markdown-awards r out)
  (let ((p (res-value "awards" r)))
   (if p
@@ -312,6 +285,8 @@
 
 (define (markdown-award r out)
  )
+
+; certificates
 
 (define (markdown-certs r out)
  (let ((p (res-value "certificates" r)))
@@ -324,6 +299,8 @@
 (define (markdown-cert r out)
  )
 
+; volunteer
+
 (define (markdown-volunteer r out)
  (let ((p (res-value "volunteer" r)))
   (if p
@@ -335,13 +312,20 @@
 (define (markdown-vol r out)
  )
 
+; references
 
+(define (markdown-refs r out)
+ (let ((p (res-value "references" r)))
+  (if p
+   (begin
+    (h2 "References" out)
+    (news out)
+    (for-each (lambda (r) (markdown-ref r out)) p)))))
 
-; general
+(define (markdown-ref r out)
+ )
 
-(define (tags keywords out)
- (if keywords
-  (write-string #"*~(comma-vector keywords)*" out)))
+; date
 
 (define (format-date date)
  (if date
@@ -356,3 +340,53 @@
                   (month (ref months (- (string->number (match 2)) 1)))
                   (day (match 3)))
            #"~month ~year"))
+
+
+  (define (markdown-date-range r out)
+   (let ((start (format-date (res-value "startDate" r)))
+         (end (format-date (res-value "endDate" r))))
+    (write-string #"~start to ~end" out)
+    (news out)))
+
+  (define (res-value key r)
+   (let ((b (find (lambda (item)
+                   (string=? (car item) key))
+             r)))
+    (and b (cdr b))))
+
+  ; markdown
+
+  (define (news out)
+   (newline out)
+   (newline out))
+
+  (define (h1 title out)
+   (newline out)
+   (write-string #"# ~title" out))
+
+  (define (h2 title out)
+   (newline out)
+   (write-string #"## ~title" out))
+
+  (define (h3 title out)
+   (newline out)
+   (write-string #"### ~title" out))
+
+  ; lists
+
+  (define (comma-vector v)
+   (comma-list (vector->list v)))
+
+  (define (comma-list l)
+   (string-join l ", "))
+
+  (define (tags keywords out)
+   (if keywords
+    (write-string #"*~(comma-vector keywords)*" out)))
+
+  ; other
+
+  (define (code->country code)
+   ; todo - fill this out
+   "United States"
+   )

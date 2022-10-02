@@ -1,3 +1,4 @@
+
 # Phil Chu, Technicat LLC
 Las Vegas, Nevada, United States
 
@@ -10,6 +11,7 @@ Las Vegas, Nevada, United States
 Developing software since the 80s
 ## Career
 
+
 ### working for myself @ [Technicat LLC](http://technicat.com) 
 
 Jan 2000 to present
@@ -17,6 +19,7 @@ Jan 2000 to present
 
 
 Providing consulting and contract software development, self-publishing apps and games.
+
 
 ### working for the man @ [various](https://en.wikipedia.org/wiki/Working_for_the_Man_(song)) 
 
@@ -29,6 +32,7 @@ Journeyed through the semiconductor, defense, space, computer graphics, mobile I
 
 ## Projects
 
+
 ### [Talk Dim Sum](http://talkdimsum.com/) @ Technicat
 
 developer, publisher from Jan 2014 to present
@@ -38,6 +42,7 @@ developer, publisher from Jan 2014 to present
 Your dim sum companion. Read about dim sum and learn how to pronounce the dishes. Available on Itch.io and the App Store.
 
 *app:* *iOS, Swift, dim sum*
+
 
 ### [HyperBowl](http://hyperbowl.rocks/) @ Technicat
 
@@ -51,6 +56,7 @@ Be the ball! A Unity reimplementation of the classic bowling game, licensed from
 
 *game:* *bowling, 3D, Unity*
 
+
 ### [Cinefex iPad Edition](https://apps.apple.com/us/app/cinefex/id512379220) @ Cinefex
 
 developer from Apr 2016 to present
@@ -61,6 +67,7 @@ An iPad reader for the Cinefex visual effects magazine, with extras such as vide
 
 *app:* *iOS, magazine, visual effects*
 
+
 ### [Learn Unity 4 for iOS Game Development](https://www.amazon.com/Learn-Unity-Development-Technology-Action/dp/1430248750) @ Apress
 
 author from Apr 2012 to Apr 2013
@@ -70,6 +77,7 @@ author from Apr 2012 to Apr 2013
 An introduction to game development for iOS using the Unity game engine and an example bowling game (super simple version of HyperBowl).
 
 *book:* *iOS, Unity, game development, 3D*
+
 
 ### [Emo-Ray vs. the Intergalactic Teddy Bears](https://blog.playstation.com/2012/11/26/save-playstation-home-from-teddy-bears/) @ Heavy Water
 
@@ -83,6 +91,7 @@ A Playstation Home driving/shooting game with alien invader teddy bears.
 
 *game:* *Playstation 3, Playstation Home, virtual world*
 
+
 ### [RC Rally](https://pshome.fandom.com/wiki/RC_Rally) @ Heavy Water
 
 programmer from Sep 2011 to Dec 2011
@@ -92,6 +101,7 @@ programmer from Sep 2011 to Dec 2011
 A Playstation Home multiplayer racing game.
 
 *game:* *Playstation 3, virtual world, racing*
+
 
 ### [Blue Mars](http://bluemars.com/) @ Avatar Reality
 
@@ -105,6 +115,7 @@ A 3D virtual world implemented in CryEngine. Supported third-party developers, d
 
 *virtual world:* *CryEngine, metaverse, Lua, C++*
 
+
 ### [Nendo](https://web.archive.org/web/20070628000134/http://www.izware.com/nendo/index.htm) @ Izware
 
 programmer from May 2007 to Jun 2007
@@ -114,6 +125,7 @@ programmer from May 2007 to Jun 2007
 A nifty 3D modeler originally developed at Nichimen Graphics. Updated to work on Windows XP.
 
 *graphics:* *3D, C++*
+
 
 ### [Darkwatch](https://www.mobygames.com/game/darkwatch) @ High Moon Studios
 
@@ -127,6 +139,7 @@ A vampire western for Playstation 2 and Xbox. Worked on various HUD elements, PA
 
 *game:* *Renderware, Xbox, Playstation 2, Lua, C++*
 
+
 ### [Fugu Games](http://fugugames.com/) @ Technicat
 
 developer from Jun 2007 to present
@@ -136,6 +149,7 @@ developer from Jun 2007 to present
 Small games released as webplayers, Mac widgets, and mobile apps.
 
 *game:* *3D, 2D, Unity, J2ME, C#*
+
 
 ### [Tech Deck: Bare Knuckle Grind](https://archive.org/details/bkg-space-town) @ Visionscape Interactive
 
@@ -147,6 +161,7 @@ A skateboarding game bundled with Tech Deck figures. Implemented installers, dyn
 
 *game:* *Windows, Renderware, C*
 
+
 ### [HyperBowl](https://en.wikipedia.org/wiki/Hyperbowl_Plus!_Edition) @ Hyper Entertainment
 
 programmer from Jan 2001 to Jun 2001
@@ -156,6 +171,7 @@ programmer from Jan 2001 to Jun 2001
 A 3D bowling game, rolling in fanciful locations. Took over for the original lead programmer, updated attraction version of HyperBowl for localization, new lanes, optimization, new graphics cards, arcade and PC support.
 
 *game:* *3D, Windows, arcade, attraction, C++*
+
 
 ### [Neomar](https://googlepress.blogspot.com/2000/09/google-search-engine-now-available.html) @ Neomar
 
@@ -171,6 +187,7 @@ One of the first mobile web browsers, conforming to the WAP standards. Implement
 
 *enterprise:* *WAP, HTTP, mobile, Java*
 
+
 ### [Leverage for Scheduling](https://spinoff.nasa.gov/spinoff1998/ct11.htm) @ Interval Logic
 
 programmer from Dec 1998 to Dec 1999
@@ -181,6 +198,7 @@ Supply chain scheduling software for semiconductor fabs. Managed the group repon
 
 *enterprise:* *Java, XML*
 
+
 ### [Leverage for Planning](https://web.archive.org/web/19991105062823/http://www.interval-logic.com/news/lsi.html) @ Interval Logic
 
 programmer from Nov 1998 to Nov 1998
@@ -190,6 +208,7 @@ programmer from Nov 1998 to Nov 1998
 Supply chain planning software for semiconductor fabs. Upgraded from Tcl to TclPro.
 
 *enterprise:* *Tcl*
+
 
 ### [Mirai](https://en.wikipedia.org/wiki/Mirai_(software)) @ Nichimen Graphics
 
@@ -203,6 +222,7 @@ Successor to N-World. Fixed some code and visited 3D hardware vendors in Silicon
 
 *graphics:* *3D, OpenGL, Windows*
 
+
 ### [N-World](https://en.wikipedia.org/wiki/N-World) @ Nichimen Graphics
 
 programmer from Dec 1995 to Jun 1997
@@ -214,6 +234,7 @@ A 3D modeling and animation package. Ported from IrisGL to OpenGL on SGI worksta
 > Used in the making of Mario 3D.
 
 *graphics:* *3D, OpenGL, Irix, Windows*
+
 
 ### [ORBIS](https://www.jhuapl.edu/Content/techdigest/pdf/V23-N04/23-04-Higgins.pdf) @ JHU Applied Physics Lab
 
@@ -227,6 +248,7 @@ An expert system for submarine simulation. Added multiplayer network capability 
 
 *government:* *Distributed Interactive Simulation, Lisp, C++*
 
+
 ### [Proposal Entry Processor](https://hst-docs.stsci.edu/hpiom/chapter-2-the-basics-of-phase-ii-proposals) @ Space Telescope Science Institute
 
 programmer from Nov 1990 to May 1992
@@ -239,6 +261,7 @@ A syntax-directed Emacs mode used by astronomers and Institute staff to prepare 
 
 *government:* *space, emacs, Lisp*
 
+
 ### [Database Accelerator](https://www.semanticscholar.org/paper/The-MIT-database-accelerator%3A-2K-TRIT-circuit-Wade-Osler/8265f5f166e20d9bd60ad71fa62f873519fe4a0c) @ MIT
 
 programmer from Oct 1989 to Oct 1990
@@ -249,6 +272,7 @@ A computer architecture based on content-addressable memories. Implemented compi
 
 *research:* *VLSI, CAD, Lisp*
 
+
 ### [DROID](https://www.researchgate.net/publication/3524170_Circuit_optimization_techniques_in_DROID) @ Texas Instruments
 
 programmer from May 1988 to Sep 1989
@@ -258,6 +282,7 @@ programmer from May 1988 to Sep 1989
 A VLSI layout synthesis tool, used in-house to design new products, running on TI Explorer Lisp Machines. Added optimizations and other improvements, skipped most of the meetings (also an optimization).
 
 *enterprise:* *VLSI, CAD, Lisp*
+
 
 ### [Multilisp](https://en.wikipedia.org/wiki/MultiLisp) @ MIT
 
@@ -273,6 +298,7 @@ Bachelors thesis project implementing an Othello game in Multilisp (Multello) to
 
 *research:* *game, parallel processing, Lisp*
 
+
 ### [START](http://start.csail.mit.edu/index.php) @ MIT
 
 student from Jun 1987 to Aug 1987
@@ -286,11 +312,13 @@ Part time student work on a graph display for the the START natural language par
 
 ## Publications
 
+
 ### [Learn Unity 2014 for iOS Game Development](http://technicat.com/learnunity)
 
 Published Jun 2013 by Apress
 
 Introduction to mobile game development with the Unity game engine.
+
 
 ### [Technicat on Software](http://technicat.com/technicat-on-software)
 
@@ -301,6 +329,7 @@ Collection of software development essays.
 
 ## Education
 
+
 ### [Massachusetts Institute of Technology](https://mit.edu/)
 
 Sep 1984 to May 1988
@@ -308,6 +337,7 @@ Sep 1984 to May 1988
 
 
 Bachelors degree in Computer Science and Engineering
+
 
 ### [Johns Hopkins University](https://jhu.edu/)
 
@@ -329,25 +359,31 @@ Kdrama phrases in Korean
 
 ## Interests
 
+
 ### Cats
 
 *adoption, cat cafe, lucky cat, samurai cat*
+
 
 ### Reading
 
 *Asian-American fiction, graphic design, graphic novels, history, philosophy, scifi, spy stories, technology*
 
+
 ### Viewing
 
 *kdrama, scifi, MMA*
+
 
 ### Learning
 
 *English, Spanish, Chinese, Korean, Japanese*
 
+
 ### Listening
 
 *Motown, NPR Podcasts*
+
 
 ### Playing
 
@@ -356,26 +392,28 @@ Kdrama phrases in Korean
 
 ## Skills
 
+
 ### App Development (Experienced)
 
 *Flutter, J2ME, SwiftUI, Xamarin*
+
 
 ### Game Development (Experienced)
 
 *CryEngine, Godot, Havok, Qube, Renderware, Ren'py, Scaleform, Unity, Unreal*
 
+
 ### Graphics (Experienced)
 
 *Direct3D, OpenGL, Processing*
+
 
 ### Programming (Experienced)
 
 *6502, BASIC, C, C++, C#, Dart, Java, Javascript, Lisp, Lua, Objective-C, Perl, PHP, Python, Swift, Tcl*
 
+
 ### Writing (Experienced)
 
 *English*
-
-
-
 
