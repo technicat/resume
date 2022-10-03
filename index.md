@@ -32,6 +32,10 @@ Journeyed through the semiconductor, defense, space, computer graphics, mobile I
 developer, publisher from Jan 2014 to present
 
 
+
+
+![screenshot](https://technicat.github.io/images/talkdimsum/screenshots/talkdimsummockup.png)
+
 Your dim sum companion. Read about dim sum and learn how to pronounce the dishes. Available on Itch.io and the App Store.
 *app:* *iOS, Swift, dim sum*
 

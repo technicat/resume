@@ -41,6 +41,7 @@
   "projects": [
     {
       "name": "Talk Dim Sum",
+      "image": "https://technicat.github.io/images/talkdimsum/screenshots/talkdimsummockup.png",
       "description": "Your dim sum companion. Read about dim sum and learn how to pronounce the dishes. Available on Itch.io and the App Store.",
       "keywords": [
         "iOS",
