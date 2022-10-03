@@ -178,6 +178,7 @@
     },
     {
       "name": "Nendo",
+      "image": "https://technicat.github.io/images/nendo/nendo-modeling.jpg",
       "description": "A nifty 3D modeler originally developed at Nichimen Graphics. Updated to work on Windows XP.",
       "keywords": [
         "3D",
