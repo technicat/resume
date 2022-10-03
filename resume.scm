@@ -262,9 +262,9 @@
  (let ((name (res-value "name" r))
        (level (res-value "level" r))
        (keywords (res-value "keywords" r)))
-  (h3 name out)
-  (if level (write-string #" (~level)" out))
-  (news out)
+  (if level
+   (h3 #"~name (~level)" out)
+   (h3 name out))
   (tags keywords out)
   (news out)))
 
@@ -279,14 +279,15 @@
     (for-each (lambda (r) (markdown-award r out)) p)))))
 
 (define (markdown-award r out)
-   (let ((name (res-value "name" r))
-         (date (format-date (res-value "releaseDate" r)))
-         (summary (res-value "summary" r)))
-    (h3 name out)
-    (write-string date out)
-    (newline out)
-    (if summary (write-string summary out))
-    (newline out)))
+ (let ((name (res-value "name" r))
+       (issuer(res-value "issuer" r))
+       (date (format-date (res-value "date" r)))
+       (summary (res-value "summary" r)))
+  (h3 name out)
+  (write-string #"~issuer on ~date" out)
+  (news out)
+  (if summary (write-string summary out))
+  (news out)))
 
 ; certificates
 

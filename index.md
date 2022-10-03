@@ -286,33 +286,23 @@ Kdrama phrases in Korean
 ## Skills
 
 
-### App Development
- (Experienced)
-
+### App Development (Experienced)
 *Flutter, J2ME, SwiftUI, Xamarin*
 
 
-### Game Development
- (Experienced)
-
+### Game Development (Experienced)
 *CryEngine, Godot, Havok, Qube, Renderware, Ren'py, Scaleform, Unity, Unreal*
 
 
-### Graphics
- (Experienced)
-
+### Graphics (Experienced)
 *Direct3D, OpenGL, Processing*
 
 
-### Programming
- (Experienced)
-
+### Programming (Experienced)
 *6502, BASIC, C, C++, C#, Dart, Java, Javascript, Lisp, Lua, Objective-C, Perl, PHP, Python, Swift, Tcl*
 
 
-### Writing
- (Experienced)
-
+### Writing (Experienced)
 *English*
 
 
@@ -320,12 +310,16 @@ Kdrama phrases in Korean
 
 
 ### Leverage for Planning/Scheduling release
-present
+Interval Logic on May 1999
+
 A plaque affixed with badges for each product and a post-it note with KFC Employee of the Week scrawled on it.
 
+
 ### First Hubble Servicing Mission
-present
+Space Telescope Science Institute on May 1993
+
 Poster of the shuttle launch and crew, including a patch flown on the mission.
+
 
 ## References
 
