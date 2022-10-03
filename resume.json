@@ -275,7 +275,7 @@
     {
       "name": "Neomar",
       "images": [
-        "https://technicat.github.io/images/neomar/neomar.jpg"
+        "https://technicat.github.io/images/neomar/neomar.png"
       ],
       "description": "One of the first mobile web browsers, conforming to the WAP standards. Implemented an HTTP proxy for the Neomar WAP gateway, supporting the Neomar mobile web browser on Blackberry pagers and Palm devices.",
       "highlights": [
