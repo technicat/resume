@@ -279,7 +279,14 @@
     (for-each (lambda (r) (markdown-award r out)) p)))))
 
 (define (markdown-award r out)
- )
+   (let ((name (res-value "name" r))
+         (date (format-date (res-value "releaseDate" r)))
+         (summary (res-value "summary" r)))
+    (h3 name out)
+    (write-string date out)
+    (newline out)
+    (if summary (write-string summary out))
+    (newline out)))
 
 ; certificates
 

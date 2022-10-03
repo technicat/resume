@@ -316,6 +316,17 @@ Kdrama phrases in Korean
 *English*
 
 
+## Awards
+
+
+### Leverage for Planning/Scheduling release
+present
+A plaque affixed with badges for each product and a post-it note with KFC Employee of the Week scrawled on it.
+
+### First Hubble Servicing Mission
+present
+Poster of the shuttle launch and crew, including a patch flown on the mission.
+
 ## References
 
 
