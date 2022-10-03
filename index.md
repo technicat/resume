@@ -216,6 +216,10 @@ An expert system for submarine simulation. Added multiplayer network capability 
 programmer from Nov 1990 to May 1992
 
 
+
+
+![screenshot](https://technicat.github.io/images/stsci/sts61.jpg)
+
 A syntax-directed Emacs mode used by astronomers and Institute staff to prepare and edit Space Telescope observation proposals.
 
 - A member of the proposal preparation staff asked for my project to be continued after I left (but no takers).
