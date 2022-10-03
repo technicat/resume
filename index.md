@@ -142,6 +142,10 @@ Small games released as webplayers, Mac widgets, and mobile apps.
 programmer from Dec 2003 to May 2004
 
 
+
+
+![screenshot](https://technicat.github.io/images/techdeck/techdeck.jpg)
+
 A skateboarding game bundled with Tech Deck figures. Implemented installers, dynamic shadows, video, a build system.
 *game:* *Windows, Renderware, C*
 

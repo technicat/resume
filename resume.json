@@ -236,6 +236,7 @@
     },
     {
       "name": "Tech Deck: Bare Knuckle Grind",
+      "image": "https://technicat.github.io/images/techdeck/techdeck.jpg",
       "description": "A skateboarding game bundled with Tech Deck figures. Implemented installers, dynamic shadows, video, a build system.",
       "keywords": [
         "Windows",
