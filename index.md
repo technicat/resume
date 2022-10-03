@@ -39,6 +39,10 @@ Your dim sum companion. Read about dim sum and learn how to pronounce the dishes
 developer, publisher, licensee from Dec 2008 to Dec 2019
 
 
+
+
+![screenshot](https://technicat.github.io/images/hyperbowl/hyperbowlforestscreenshots/hyperbowlforest.png)
+
 Be the ball! A Unity reimplementation of the classic bowling game, licensed from Hyper Entertainment. Available on Itch.io, Steam, and the App Store.
 
 - One of MacLife's Greatest iPhone Apps of 2009
