@@ -41,7 +41,7 @@
   "projects": [
     {
       "name": "Talk Dim Sum",
-      "image": "https://technicat.github.io/images/talkdimsum/screenshots/talkdimsummockup.png",
+      "images": ["https://technicat.github.io/images/talkdimsum/screenshots/talkdimsummockup.png"],
       "description": "Your dim sum companion. Read about dim sum and learn how to pronounce the dishes. Available on Itch.io and the App Store.",
       "keywords": [
         "iOS",
@@ -59,7 +59,7 @@
     },
     {
       "name": "HyperBowl",
-      "image": "https://technicat.github.io/images/hyperbowl/hyperbowlforestscreenshots/hyperbowlforest.png",
+      "images": ["https://technicat.github.io/images/hyperbowl/hyperbowlforestscreenshots/hyperbowlforest.png"],
       "description": "Be the ball! A Unity reimplementation of the classic bowling game, licensed from Hyper Entertainment. Available on Itch.io, Steam, and the App Store.",
       "highlights": [
         "One of MacLife's Greatest iPhone Apps of 2009"
@@ -82,7 +82,7 @@
     },
     {
       "name": "Cinefex iPad Edition",
-      "image": "https://technicat.github.io/images/cinefex/screenshots/cinefex.png",
+      "images": ["https://technicat.github.io/images/cinefex/screenshots/cinefex.png"],
       "description": "An iPad reader for the Cinefex visual effects magazine, with extras such as videos and image galleries. Kept it up and running over the march of iOS evolution, fixing, updating, and optimizing in-app purchases, user interface, video...",
       "keywords": [
         "iOS",
@@ -99,7 +99,7 @@
     },
     {
       "name": "Learn Unity 4 for iOS Game Development",
-      "image": "https://technicat.github.io/images/learnunity/cover.jpg",
+      "images": ["https://technicat.github.io/images/learnunity/cover.jpg"],
       "description": "An introduction to game development for iOS using the Unity game engine and an example bowling game (super simple version of HyperBowl).",
       "keywords": [
         "iOS",
@@ -118,7 +118,7 @@
     },
     {
       "name": "Emo-Ray vs. the Intergalactic Teddy Bears",
-      "image": "https://technicat.github.io/images/emoray/emoraycredits.jpg",
+      "images": ["https://technicat.github.io/images/emoray/emoraycredits.jpg"],
       "description": "A Playstation Home driving/shooting game with alien invader teddy bears.",
       "highlights": [
         "Programmer credit displayed in-world."
@@ -156,7 +156,7 @@
     },
     {
       "name": "Blue Mars",
-      "image": "https://technicat.github.io/images/bluemars/bluemarsgolf.png",
+      "images": ["https://technicat.github.io/images/bluemars/bluemarsgolf.png"],
       "description": "A 3D virtual world implemented in CryEngine. Supported third-party developers, documented the Lua API and framework for creating minigames on the community wiki (a CryEngine wiki even copied part of it!), tweaked physics, updated Scaleform integration, modified CryEngine to work with Scaleform IME (for localization).",
       "highlights": [
         "Attended in-world developer meetings. Better than Zoom."
@@ -178,7 +178,7 @@
     },
     {
       "name": "Nendo",
-      "image": "https://technicat.github.io/images/nendo/nendo-modeling.jpg",
+      "images": ["https://technicat.github.io/images/nendo/nendo-modeling.jpg"],
       "description": "A nifty 3D modeler originally developed at Nichimen Graphics. Updated to work on Windows XP.",
       "keywords": [
         "3D",
@@ -195,7 +195,7 @@
     },
     {
       "name": "Darkwatch",
-      "image": "https://technicat.github.io/images/darkwatch/darkwatch.jpg",
+      "images": ["https://technicat.github.io/images/darkwatch/darkwatch.jpg"],
       "description": "A vampire western for Playstation 2 and Xbox. Worked on various HUD elements, PAL support, demo builds, implemented multiplayer split-screen, added designer-friendly Lua interfaces for audio, health bars, etc.",
       "highlights": [
         "Received programmer credit (but oddly required to list city of birth)."
@@ -236,7 +236,7 @@
     },
     {
       "name": "Tech Deck: Bare Knuckle Grind",
-      "image": "https://technicat.github.io/images/techdeck/techdeck.jpg",
+      "images": ["https://technicat.github.io/images/techdeck/techdeck.jpg"],
       "description": "A skateboarding game bundled with Tech Deck figures. Implemented installers, dynamic shadows, video, a build system.",
       "keywords": [
         "Windows",
@@ -254,6 +254,7 @@
     },
     {
       "name": "HyperBowl",
+      "images": ["https://technicat.github.io/images/hyperbowl/metreon.jpg"],
       "description": "A 3D bowling game, rolling in fanciful locations. Took over for the original lead programmer, updated attraction version of HyperBowl for localization, new lanes, optimization, new graphics cards, arcade and PC support.",
       "keywords": [
         "3D",
@@ -346,7 +347,7 @@
     },
     {
       "name": "N-World",
-      "image": "https://technicat.github.io/images/nichimen/fasttrack.jpg",
+      "images": ["https://technicat.github.io/images/nichimen/fasttrack.jpg"],
       "description": "A 3D modeling and animation package. Ported from IrisGL to OpenGL on SGI workstations, then from Irix to Windows NT, all in Franz Allegro Common Lisp (and a bit of C). Manager of core software group (all the libraries - graphics, audio, UI, security...)",
       "highlights": [
         "Used in the making of Mario 3D."

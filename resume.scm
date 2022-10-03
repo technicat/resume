@@ -4,9 +4,6 @@
 ; https://jsonresume.org/
 ; optionally write back out to json (no reason)
 ; or markdown
-; todo - add validation, e.g. check urls, valid dates
-; todo - add rest of schema, e.g. volunteer, certificates...
-; todo - put in a list of country code translations
 
 (use file.util)
 (use gauche.collection)
@@ -148,7 +145,7 @@
 (define (markdown-project r out)
  (let ((name (res-value "name" r))
        (url (res-value "url" r))
-       (image (res-value "image" r))
+       (images (res-value "images" r))
        (type (res-value "type" r))
        (roles (res-value "roles" r))
        (keywords (res-value "keywords" r))
@@ -158,11 +155,16 @@
   (h3 #"[~name](~url) @ ~entity" out)
   (if roles (write-string #"~(comma-vector roles) from " out))
   (markdown-date-range r out)
-  (if image (embed "screenshot" image out))
+  (if images
+   (for-each
+    (lambda (image)
+     (embed-inline "screenshot" image out))
+    images))
   (if description (write-string description out))
   (newline out)
   (if highlights
-   (for-each (lambda (h) (bullet h out))
+   (for-each
+    (lambda (h) (bullet h out))
     highlights))
   (if type (write-string #"*~|type|:* " out))
   (tags keywords out)
@@ -421,6 +423,11 @@
    )
 
   (define (embed label image out)
-   (news out)
-   (write-string #"![~label](~image)" out)
+   (newline out)
+   (embed-inline label image out)
    (news out))
+
+  (define (embed-inline label image out)
+   (newline out)
+   (write-string #"![~label](~image)" out))
+

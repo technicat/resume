@@ -32,20 +32,14 @@ Journeyed through the semiconductor, defense, space, computer graphics, mobile I
 developer, publisher from Jan 2014 to present
 
 
-
-![screenshot](https://technicat.github.io/images/talkdimsum/screenshots/talkdimsummockup.png)
-
-Your dim sum companion. Read about dim sum and learn how to pronounce the dishes. Available on Itch.io and the App Store.
+![screenshot](https://technicat.github.io/images/talkdimsum/screenshots/talkdimsummockup.png)Your dim sum companion. Read about dim sum and learn how to pronounce the dishes. Available on Itch.io and the App Store.
 *app:* *iOS, Swift, dim sum*
 
 ### [HyperBowl](http://hyperbowl.rocks/) @ Technicat
 developer, publisher, licensee from Dec 2008 to Dec 2019
 
 
-
-![screenshot](https://technicat.github.io/images/hyperbowl/hyperbowlforestscreenshots/hyperbowlforest.png)
-
-Be the ball! A Unity reimplementation of the classic bowling game, licensed from Hyper Entertainment. Available on Itch.io, Steam, and the App Store.
+![screenshot](https://technicat.github.io/images/hyperbowl/hyperbowlforestscreenshots/hyperbowlforest.png)Be the ball! A Unity reimplementation of the classic bowling game, licensed from Hyper Entertainment. Available on Itch.io, Steam, and the App Store.
 
 - One of MacLife's Greatest iPhone Apps of 2009
 *game:* *bowling, 3D, Unity*
@@ -54,30 +48,21 @@ Be the ball! A Unity reimplementation of the classic bowling game, licensed from
 developer from Apr 2016 to present
 
 
-
-![screenshot](https://technicat.github.io/images/cinefex/screenshots/cinefex.png)
-
-An iPad reader for the Cinefex visual effects magazine, with extras such as videos and image galleries. Kept it up and running over the march of iOS evolution, fixing, updating, and optimizing in-app purchases, user interface, video...
+![screenshot](https://technicat.github.io/images/cinefex/screenshots/cinefex.png)An iPad reader for the Cinefex visual effects magazine, with extras such as videos and image galleries. Kept it up and running over the march of iOS evolution, fixing, updating, and optimizing in-app purchases, user interface, video...
 *app:* *iOS, magazine, visual effects*
 
 ### [Learn Unity 4 for iOS Game Development](https://www.amazon.com/Learn-Unity-Development-Technology-Action/dp/1430248750) @ Apress
 author from Apr 2012 to Apr 2013
 
 
-
-![screenshot](https://technicat.github.io/images/learnunity/cover.jpg)
-
-An introduction to game development for iOS using the Unity game engine and an example bowling game (super simple version of HyperBowl).
+![screenshot](https://technicat.github.io/images/learnunity/cover.jpg)An introduction to game development for iOS using the Unity game engine and an example bowling game (super simple version of HyperBowl).
 *book:* *iOS, Unity, game development, 3D*
 
 ### [Emo-Ray vs. the Intergalactic Teddy Bears](https://blog.playstation.com/2012/11/26/save-playstation-home-from-teddy-bears/) @ Heavy Water
 programmer from Sep 2011 to Dec 2011
 
 
-
-![screenshot](https://technicat.github.io/images/emoray/emoraycredits.jpg)
-
-A Playstation Home driving/shooting game with alien invader teddy bears.
+![screenshot](https://technicat.github.io/images/emoray/emoraycredits.jpg)A Playstation Home driving/shooting game with alien invader teddy bears.
 
 - Programmer credit displayed in-world.
 *game:* *Playstation 3, Playstation Home, virtual world*
@@ -92,10 +77,7 @@ A Playstation Home multiplayer racing game.
 programmer from Sep 2007 to Jan 2011
 
 
-
-![screenshot](https://technicat.github.io/images/bluemars/bluemarsgolf.png)
-
-A 3D virtual world implemented in CryEngine. Supported third-party developers, documented the Lua API and framework for creating minigames on the community wiki (a CryEngine wiki even copied part of it!), tweaked physics, updated Scaleform integration, modified CryEngine to work with Scaleform IME (for localization).
+![screenshot](https://technicat.github.io/images/bluemars/bluemarsgolf.png)A 3D virtual world implemented in CryEngine. Supported third-party developers, documented the Lua API and framework for creating minigames on the community wiki (a CryEngine wiki even copied part of it!), tweaked physics, updated Scaleform integration, modified CryEngine to work with Scaleform IME (for localization).
 
 - Attended in-world developer meetings. Better than Zoom.
 *virtual world:* *CryEngine, metaverse, Lua, C++*
@@ -104,20 +86,14 @@ A 3D virtual world implemented in CryEngine. Supported third-party developers, d
 programmer from May 2007 to Jun 2007
 
 
-
-![screenshot](https://technicat.github.io/images/nendo/nendo-modeling.jpg)
-
-A nifty 3D modeler originally developed at Nichimen Graphics. Updated to work on Windows XP.
+![screenshot](https://technicat.github.io/images/nendo/nendo-modeling.jpg)A nifty 3D modeler originally developed at Nichimen Graphics. Updated to work on Windows XP.
 *graphics:* *3D, C++*
 
 ### [Darkwatch](https://www.mobygames.com/game/darkwatch) @ High Moon Studios
 programmer from Sep 2006 to Apr 2007
 
 
-
-![screenshot](https://technicat.github.io/images/darkwatch/darkwatch.jpg)
-
-A vampire western for Playstation 2 and Xbox. Worked on various HUD elements, PAL support, demo builds, implemented multiplayer split-screen, added designer-friendly Lua interfaces for audio, health bars, etc.
+![screenshot](https://technicat.github.io/images/darkwatch/darkwatch.jpg)A vampire western for Playstation 2 and Xbox. Worked on various HUD elements, PAL support, demo builds, implemented multiplayer split-screen, added designer-friendly Lua interfaces for audio, health bars, etc.
 
 - Received programmer credit (but oddly required to list city of birth).
 *game:* *Renderware, Xbox, Playstation 2, Lua, C++*
@@ -132,16 +108,14 @@ Small games released as webplayers, Mac widgets, and mobile apps.
 programmer from Dec 2003 to May 2004
 
 
-
-![screenshot](https://technicat.github.io/images/techdeck/techdeck.jpg)
-
-A skateboarding game bundled with Tech Deck figures. Implemented installers, dynamic shadows, video, a build system.
+![screenshot](https://technicat.github.io/images/techdeck/techdeck.jpg)A skateboarding game bundled with Tech Deck figures. Implemented installers, dynamic shadows, video, a build system.
 *game:* *Windows, Renderware, C*
 
 ### [HyperBowl](https://en.wikipedia.org/wiki/Hyperbowl_Plus!_Edition) @ Hyper Entertainment
 programmer from Jan 2001 to Jun 2001
 
-A 3D bowling game, rolling in fanciful locations. Took over for the original lead programmer, updated attraction version of HyperBowl for localization, new lanes, optimization, new graphics cards, arcade and PC support.
+
+![screenshot](https://technicat.github.io/images/hyperbowl/metreon.jpg)A 3D bowling game, rolling in fanciful locations. Took over for the original lead programmer, updated attraction version of HyperBowl for localization, new lanes, optimization, new graphics cards, arcade and PC support.
 *game:* *3D, Windows, arcade, attraction, C++*
 
 ### [Neomar](https://googlepress.blogspot.com/2000/09/google-search-engine-now-available.html) @ Neomar
@@ -178,10 +152,7 @@ Successor to N-World. Fixed some code and visited 3D hardware vendors in Silicon
 programmer from Dec 1995 to Jun 1997
 
 
-
-![screenshot](https://technicat.github.io/images/nichimen/fasttrack.jpg)
-
-A 3D modeling and animation package. Ported from IrisGL to OpenGL on SGI workstations, then from Irix to Windows NT, all in Franz Allegro Common Lisp (and a bit of C). Manager of core software group (all the libraries - graphics, audio, UI, security...)
+![screenshot](https://technicat.github.io/images/nichimen/fasttrack.jpg)A 3D modeling and animation package. Ported from IrisGL to OpenGL on SGI workstations, then from Irix to Windows NT, all in Franz Allegro Common Lisp (and a bit of C). Manager of core software group (all the libraries - graphics, audio, UI, security...)
 
 - Used in the making of Mario 3D.
 *graphics:* *3D, OpenGL, Irix, Windows*
