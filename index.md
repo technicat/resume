@@ -142,6 +142,10 @@ Small games released as webplayers, Mac widgets, and mobile apps.
 programmer from Dec 2003 to May 2004
 
 
+
+
+![screenshot](https://technicat.github.io/images/techdeck/techdeck.jpg)
+
 A skateboarding game bundled with Tech Deck figures. Implemented installers, dynamic shadows, video, a build system.
 *game:* *Windows, Renderware, C*
 
@@ -211,6 +215,10 @@ An expert system for submarine simulation. Added multiplayer network capability 
 ### [Proposal Entry Processor](https://hst-docs.stsci.edu/hpiom/chapter-2-the-basics-of-phase-ii-proposals) @ Space Telescope Science Institute
 programmer from Nov 1990 to May 1992
 
+
+
+
+![screenshot](https://technicat.github.io/images/stsci/sts61.jpg)
 
 A syntax-directed Emacs mode used by astronomers and Institute staff to prepare and edit Space Telescope observation proposals.
 
