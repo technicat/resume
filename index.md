@@ -67,6 +67,10 @@ An iPad reader for the Cinefex visual effects magazine, with extras such as vide
 author from Apr 2012 to Apr 2013
 
 
+
+
+![screenshot](https://technicat.github.io/images/learnunity/cover.png)
+
 An introduction to game development for iOS using the Unity game engine and an example bowling game (super simple version of HyperBowl).
 *book:* *iOS, Unity, game development, 3D*
 
