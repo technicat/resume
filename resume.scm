@@ -158,7 +158,7 @@
   (if images
    (for-each
     (lambda (image)
-     (embed-inline "screenshot" image out))
+     (embed-inline "project image" image out))
     images))
   (news out)
   (if description (write-string description out))
@@ -196,7 +196,7 @@
   (if images
    (for-each
     (lambda (image)
-     (embed-inline "screenshot" image out))
+     (embed-inline "school image" image out))
     images))
   (news out)))
 
@@ -240,7 +240,7 @@
   (if images
    (for-each
     (lambda (image)
-     (embed-inline "screenshot" image out))
+     (embed-inline "book image" image out))
     images))
   (news out)
   (if summary (write-string summary out))
@@ -364,7 +364,8 @@
   (parse-date date)
   "present"))
 
-(define months #("Jan" "Feb" "Mar" "Apr" "May" "Jun" "Jul" "Aug" "Sep" "Oct" "Nov" "Dec"))
+(define months
+ #("January" "February" "March" "April" "May" "June" "July" "August" "September" "October" "November" "December"))
 
 (define (parse-date str)
  (letrec ((match (#/^(\d\d\d\d)\-(\d\d?)\-(\d\d?)$/ str))
