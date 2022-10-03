@@ -295,10 +295,13 @@
     },
     {
       "name": "Neomar",
+      "images": [
+        "https://technicat.github.io/images/neomar/neomar.jpg"
+      ],
       "description": "One of the first mobile web browsers, conforming to the WAP standards. Implemented an HTTP proxy for the Neomar WAP gateway, supporting the Neomar mobile web browser on Blackberry pagers and Palm devices.",
       "highlights": [
         "Launched on Motient's Blackberry service.",
-        "Company assets acquired by Good Technology (and all I got was this worthless stock certificate)."
+        "Company assets acquired by Good Technology."
       ],
       "keywords": [
         "WAP",
@@ -687,7 +690,7 @@
       "image": "https://technicat.github.io/images/ilc/kfc.jpg",
       "awarder": "Interval Logic",
       "date": "1999-05-26",
-      "summary": "A plaque affixed with badges for each product and a post-it note with KFC Employee of the Week scrawled on it."
+      "summary": "A plaque affixed with badges for each product release (and a post-it note with KFC Employee of the Week scrawled on it)."
     },
     {
       "title": "First Hubble Servicing Mission",
@@ -695,6 +698,13 @@
       "awarder": "Space Telescope Science Institute",
       "date": "1993-05-26",
       "summary": "Poster of the shuttle launch and crew, including a patch flown on the mission."
+    },
+    {
+      "title": "Neomar stock certificate",
+      "image": "https://technicat.github.io/images/neomar/neostock.jpg",
+      "awarder": "Neomar",
+      "date": "2000-05-26",
+      "summary": "...and all I got was this lousy stock certificate."
     }
   ]
 }

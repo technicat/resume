@@ -147,12 +147,13 @@ A 3D bowling game, rolling in fanciful locations. Took over for the original lea
 programmer from Dec 1999 to Jul 2001
 
 
+![screenshot](https://technicat.github.io/images/neomar/neomar.jpg)
 
 One of the first mobile web browsers, conforming to the WAP standards. Implemented an HTTP proxy for the Neomar WAP gateway, supporting the Neomar mobile web browser on Blackberry pagers and Palm devices.
 
 - Launched on Motient's Blackberry service.
 
-- Company assets acquired by Good Technology (and all I got was this worthless stock certificate).
+- Company assets acquired by Good Technology.
 *enterprise:* *WAP, HTTP, mobile, Java*
 
 ### [Leverage for Scheduling](https://spinoff.nasa.gov/spinoff1998/ct11.htm) @ Interval Logic
@@ -349,7 +350,7 @@ Interval Logic on May 1999
 
 ![award](https://technicat.github.io/images/ilc/kfc.jpg)
 
-A plaque affixed with badges for each product and a post-it note with KFC Employee of the Week scrawled on it.
+A plaque affixed with badges for each product release (and a post-it note with KFC Employee of the Week scrawled on it).
 
 
 ### First Hubble Servicing Mission
@@ -358,6 +359,14 @@ Space Telescope Science Institute on May 1993
 ![award](https://technicat.github.io/images/stsci/sts61.jpg)
 
 Poster of the shuttle launch and crew, including a patch flown on the mission.
+
+
+### Neomar stock certificate
+Neomar on May 2000
+
+![award](https://technicat.github.io/images/neomar/neostock.jpg)
+
+...and all I got was this lousy stock certificate.
 
 
 ## References
