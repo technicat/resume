@@ -294,6 +294,7 @@
     },
     {
       "name": "Leverage for Scheduling",
+      "image": "https://technicat.github.io/images/ilc/kfc.jpg",
       "description": "Supply chain scheduling software for semiconductor fabs. Managed the group reponsible for installation, XML interoperability, and user interfaces.",
       "keywords": [
         "Java",

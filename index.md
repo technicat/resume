@@ -167,6 +167,10 @@ One of the first mobile web browsers, conforming to the WAP standards. Implement
 programmer from Dec 1998 to Dec 1999
 
 
+
+
+![screenshot](https://technicat.github.io/images/ilc/kfc.jpg)
+
 Supply chain scheduling software for semiconductor fabs. Managed the group reponsible for installation, XML interoperability, and user interfaces.
 *enterprise:* *Java, XML*
 
