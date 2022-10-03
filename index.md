@@ -33,7 +33,6 @@ developer, publisher from Jan 2014 to present
 
 
 
-
 ![screenshot](https://technicat.github.io/images/talkdimsum/screenshots/talkdimsummockup.png)
 
 Your dim sum companion. Read about dim sum and learn how to pronounce the dishes. Available on Itch.io and the App Store.
@@ -41,7 +40,6 @@ Your dim sum companion. Read about dim sum and learn how to pronounce the dishes
 
 ### [HyperBowl](http://hyperbowl.rocks/) @ Technicat
 developer, publisher, licensee from Dec 2008 to Dec 2019
-
 
 
 
@@ -57,7 +55,6 @@ developer from Apr 2016 to present
 
 
 
-
 ![screenshot](https://technicat.github.io/images/cinefex/screenshots/cinefex.png)
 
 An iPad reader for the Cinefex visual effects magazine, with extras such as videos and image galleries. Kept it up and running over the march of iOS evolution, fixing, updating, and optimizing in-app purchases, user interface, video...
@@ -65,7 +62,6 @@ An iPad reader for the Cinefex visual effects magazine, with extras such as vide
 
 ### [Learn Unity 4 for iOS Game Development](https://www.amazon.com/Learn-Unity-Development-Technology-Action/dp/1430248750) @ Apress
 author from Apr 2012 to Apr 2013
-
 
 
 
@@ -79,7 +75,6 @@ programmer from Sep 2011 to Dec 2011
 
 
 
-
 ![screenshot](https://technicat.github.io/images/emoray/emoraycredits.jpg)
 
 A Playstation Home driving/shooting game with alien invader teddy bears.
@@ -90,13 +85,11 @@ A Playstation Home driving/shooting game with alien invader teddy bears.
 ### [RC Rally](https://pshome.fandom.com/wiki/RC_Rally) @ Heavy Water
 programmer from Sep 2011 to Dec 2011
 
-
 A Playstation Home multiplayer racing game.
 *game:* *Playstation 3, virtual world, racing*
 
 ### [Blue Mars](http://bluemars.com/) @ Avatar Reality
 programmer from Sep 2007 to Jan 2011
-
 
 
 
@@ -112,7 +105,6 @@ programmer from May 2007 to Jun 2007
 
 
 
-
 ![screenshot](https://technicat.github.io/images/nendo/nendo-modeling.jpg)
 
 A nifty 3D modeler originally developed at Nichimen Graphics. Updated to work on Windows XP.
@@ -120,7 +112,6 @@ A nifty 3D modeler originally developed at Nichimen Graphics. Updated to work on
 
 ### [Darkwatch](https://www.mobygames.com/game/darkwatch) @ High Moon Studios
 programmer from Sep 2006 to Apr 2007
-
 
 
 
@@ -134,13 +125,11 @@ A vampire western for Playstation 2 and Xbox. Worked on various HUD elements, PA
 ### [Fugu Games](http://fugugames.com/) @ Technicat
 developer from Jun 2007 to present
 
-
 Small games released as webplayers, Mac widgets, and mobile apps.
 *game:* *3D, 2D, Unity, J2ME, C#*
 
 ### [Tech Deck: Bare Knuckle Grind](https://archive.org/details/bkg-space-town) @ Visionscape Interactive
 programmer from Dec 2003 to May 2004
-
 
 
 
@@ -152,13 +141,11 @@ A skateboarding game bundled with Tech Deck figures. Implemented installers, dyn
 ### [HyperBowl](https://en.wikipedia.org/wiki/Hyperbowl_Plus!_Edition) @ Hyper Entertainment
 programmer from Jan 2001 to Jun 2001
 
-
 A 3D bowling game, rolling in fanciful locations. Took over for the original lead programmer, updated attraction version of HyperBowl for localization, new lanes, optimization, new graphics cards, arcade and PC support.
 *game:* *3D, Windows, arcade, attraction, C++*
 
 ### [Neomar](https://googlepress.blogspot.com/2000/09/google-search-engine-now-available.html) @ Neomar
 programmer from Dec 1999 to Jul 2001
-
 
 One of the first mobile web browsers, conforming to the WAP standards. Implemented an HTTP proxy for the Neomar WAP gateway, supporting the Neomar mobile web browser on Blackberry pagers and Palm devices.
 
@@ -170,24 +157,17 @@ One of the first mobile web browsers, conforming to the WAP standards. Implement
 ### [Leverage for Scheduling](https://spinoff.nasa.gov/spinoff1998/ct11.htm) @ Interval Logic
 programmer from Dec 1998 to Dec 1999
 
-
-
-
-![screenshot](https://technicat.github.io/images/ilc/kfc.jpg)
-
 Supply chain scheduling software for semiconductor fabs. Managed the group reponsible for installation, XML interoperability, and user interfaces.
 *enterprise:* *Java, XML*
 
 ### [Leverage for Planning](https://web.archive.org/web/19991105062823/http://www.interval-logic.com/news/lsi.html) @ Interval Logic
 programmer from Nov 1998 to Nov 1998
 
-
 Supply chain planning software for semiconductor fabs. Upgraded from Tcl to TclPro.
 *enterprise:* *Tcl*
 
 ### [Mirai](https://en.wikipedia.org/wiki/Mirai_(software)) @ Nichimen Graphics
 consultant from Sep 1997 to Sep 1997
-
 
 Successor to N-World. Fixed some code and visited 3D hardware vendors in Silicon Valley to get test cards and chat about OpenGL.
 
@@ -198,6 +178,9 @@ Successor to N-World. Fixed some code and visited 3D hardware vendors in Silicon
 programmer from Dec 1995 to Jun 1997
 
 
+
+![screenshot](https://technicat.github.io/images/nichimen/fasttrack.jpg)
+
 A 3D modeling and animation package. Ported from IrisGL to OpenGL on SGI workstations, then from Irix to Windows NT, all in Franz Allegro Common Lisp (and a bit of C). Manager of core software group (all the libraries - graphics, audio, UI, security...)
 
 - Used in the making of Mario 3D.
@@ -205,7 +188,6 @@ A 3D modeling and animation package. Ported from IrisGL to OpenGL on SGI worksta
 
 ### [ORBIS](https://www.jhuapl.edu/Content/techdigest/pdf/V23-N04/23-04-Higgins.pdf) @ JHU Applied Physics Lab
 programmer from Dec 1992 to Dec 1993
-
 
 An expert system for submarine simulation. Added multiplayer network capability to support participation wide area networked exercises.
 
@@ -215,11 +197,6 @@ An expert system for submarine simulation. Added multiplayer network capability 
 ### [Proposal Entry Processor](https://hst-docs.stsci.edu/hpiom/chapter-2-the-basics-of-phase-ii-proposals) @ Space Telescope Science Institute
 programmer from Nov 1990 to May 1992
 
-
-
-
-![screenshot](https://technicat.github.io/images/stsci/sts61.jpg)
-
 A syntax-directed Emacs mode used by astronomers and Institute staff to prepare and edit Space Telescope observation proposals.
 
 - A member of the proposal preparation staff asked for my project to be continued after I left (but no takers).
@@ -228,20 +205,17 @@ A syntax-directed Emacs mode used by astronomers and Institute staff to prepare 
 ### [Database Accelerator](https://www.semanticscholar.org/paper/The-MIT-database-accelerator%3A-2K-TRIT-circuit-Wade-Osler/8265f5f166e20d9bd60ad71fa62f873519fe4a0c) @ MIT
 programmer from Oct 1989 to Oct 1990
 
-
 A computer architecture based on content-addressable memories. Implemented compilers and simulators and simulations for the Database Accelerator and Content-Addressable Parallel Processor.
 *research:* *VLSI, CAD, Lisp*
 
 ### [DROID](https://www.researchgate.net/publication/3524170_Circuit_optimization_techniques_in_DROID) @ Texas Instruments
 programmer from May 1988 to Sep 1989
 
-
 A VLSI layout synthesis tool, used in-house to design new products, running on TI Explorer Lisp Machines. Added optimizations and other improvements, skipped most of the meetings (also an optimization).
 *enterprise:* *VLSI, CAD, Lisp*
 
 ### [Multilisp](https://en.wikipedia.org/wiki/MultiLisp) @ MIT
 student from Sep 1987 to May 1988
-
 
 Bachelors thesis project implementing an Othello game in Multilisp (Multello) to run on the Concert 32-processor computer, trying various parallelism strategies to compare processor utilization and final performance.
 
@@ -252,7 +226,6 @@ Bachelors thesis project implementing an Othello game in Multilisp (Multello) to
 
 ### [START](http://start.csail.mit.edu/index.php) @ MIT
 student from Jun 1987 to Aug 1987
-
 
 Part time student work on a graph display for the the START natural language parser, then running on Symoblics Lisp machines.
 *research:* *natural language, Lisp*
@@ -356,11 +329,15 @@ Kdrama phrases in Korean
 ### Leverage for Planning/Scheduling
 Interval Logic on May 1999
 
+![award](https://technicat.github.io/images/ilc/kfc.jpg)
+
 A plaque affixed with badges for each product and a post-it note with KFC Employee of the Week scrawled on it.
 
 
 ### First Hubble Servicing Mission
 Space Telescope Science Institute on May 1993
+
+![award](https://technicat.github.io/images/stsci/sts61.jpg)
 
 Poster of the shuttle launch and crew, including a patch flown on the mission.
 
