@@ -122,6 +122,10 @@ A nifty 3D modeler originally developed at Nichimen Graphics. Updated to work on
 programmer from Sep 2006 to Apr 2007
 
 
+
+
+![screenshot](https://technicat.github.io/images/darkwatch/darkwatch.jpg)
+
 A vampire western for Playstation 2 and Xbox. Worked on various HUD elements, PAL support, demo builds, implemented multiplayer split-screen, added designer-friendly Lua interfaces for audio, health bars, etc.
 
 - Received programmer credit (but oddly required to list city of birth).
