@@ -224,10 +224,17 @@
        (url (res-value "url" r))
        (summary (res-value "summary" r))
        (date (format-date (res-value "releaseDate" r)))
+       (images (res-value "images" r))
        (pub (res-value "publisher" r)))
   (h3 #"[~name](~url)" out)
   (newline out)
   (write-string #"Published ~date by ~pub" out)
+  (news out)
+  (if images
+   (for-each
+    (lambda (image)
+     (embed-inline "screenshot" image out))
+    images))
   (news out)
   (if summary (write-string summary out))
   (news out)))

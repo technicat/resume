@@ -58,15 +58,6 @@ developer from Apr 2016 to present
 An iPad reader for the Cinefex visual effects magazine, with extras such as videos and image galleries. Kept it up and running over the march of iOS evolution, fixing, updating, and optimizing in-app purchases, user interface, video...
 *app:* *iOS, magazine, visual effects*
 
-### [Learn Unity 4 for iOS Game Development](https://www.amazon.com/Learn-Unity-Development-Technology-Action/dp/1430248750) @ Apress
-author from Apr 2012 to Apr 2013
-
-
-![screenshot](https://technicat.github.io/images/learnunity/cover.jpg)
-
-An introduction to game development for iOS using the Unity game engine and an example bowling game (super simple version of HyperBowl).
-*book:* *iOS, Unity, game development, 3D*
-
 ### [Emo-Ray vs. the Intergalactic Teddy Bears](https://blog.playstation.com/2012/11/26/save-playstation-home-from-teddy-bears/) @ Heavy Water
 programmer from Sep 2011 to Dec 2011
 
@@ -256,12 +247,17 @@ Part time student work on a graph display for the the START natural language par
 
 Published Jun 2013 by Apress
 
+
+![screenshot](https://technicat.github.io/images/learnunity/cover.jpg)
+
 Introduction to mobile game development with the Unity game engine.
 
 
 ### [Technicat on Software](http://technicat.com/technicat-on-software)
 
 Published Jan 2015 by self
+
+
 
 Collection of software development essays.
 
