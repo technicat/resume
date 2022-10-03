@@ -94,6 +94,10 @@ A Playstation Home multiplayer racing game.
 programmer from Sep 2007 to Jan 2011
 
 
+
+
+![screenshot](https://technicat.github.io/images/bluemars/bluemarsgolf.png)
+
 A 3D virtual world implemented in CryEngine. Supported third-party developers, documented the Lua API and framework for creating minigames on the community wiki (a CryEngine wiki even copied part of it!), tweaked physics, updated Scaleform integration, modified CryEngine to work with Scaleform IME (for localization).
 
 - Attended in-world developer meetings. Better than Zoom.
