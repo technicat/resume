@@ -183,6 +183,7 @@
 
 (define (markdown-school r out)
  (let ((name (res-value "institution" r))
+       (images (res-value "images" r))
        (url (res-value "url" r))
        (type (res-value "studyType" r))
        (area (res-value "area" r)))
@@ -191,7 +192,13 @@
   (markdown-date-range r out)
   (newline out)
   (write-string #"~type in ~area" out)
-  (newline out)))
+  (news out)
+  (if images
+   (for-each
+    (lambda (image)
+     (embed-inline "screenshot" image out))
+    images))
+  (news out)))
 
 ; language
 
