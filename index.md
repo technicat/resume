@@ -39,7 +39,8 @@ developer, publisher from Jan 2014 to present
 developer, publisher, licensee from Dec 2008 to Dec 2019
 
 
-![screenshot](https://technicat.github.io/images/hyperbowl/hyperbowlforestscreenshots/hyperbowlforest.png)Be the ball! A Unity reimplementation of the classic bowling game, licensed from Hyper Entertainment. Available on Itch.io, Steam, and the App Store.
+![screenshot](https://technicat.github.io/images/hyperbowl/hyperbowlforestscreenshots/hyperbowlforest.png)
+![screenshot](https://technicat.github.io/images/hyperbowl/hyperbowlhighseasscreenshot/hyperbowlhighseas.png)Be the ball! A Unity reimplementation of the classic bowling game, licensed from Hyper Entertainment. Available on Itch.io, Steam, and the App Store.
 
 - One of MacLife's Greatest iPhone Apps of 2009
 *game:* *bowling, 3D, Unity*
