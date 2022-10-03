@@ -160,6 +160,7 @@
     (lambda (image)
      (embed-inline "screenshot" image out))
     images))
+  (news out)
   (if description (write-string description out))
   (newline out)
   (if highlights
