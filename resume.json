@@ -515,6 +515,9 @@
     },
     {
       "name": "Technicat on Software",
+      "images": [
+        "https://technicat.github.io/images/books/bn.jpg"
+      ],
       "summary": "Collection of software development essays.",
       "publisher": "self",
       "releaseDate": "2015-01-01",
