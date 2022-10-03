@@ -78,6 +78,10 @@ An introduction to game development for iOS using the Unity game engine and an e
 programmer from Sep 2011 to Dec 2011
 
 
+
+
+![screenshot](https://technicat.github.io/images/emoray/emoraycredits.jpg)
+
 A Playstation Home driving/shooting game with alien invader teddy bears.
 
 - Programmer credit displayed in-world.
