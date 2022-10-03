@@ -198,6 +198,10 @@ Successor to N-World. Fixed some code and visited 3D hardware vendors in Silicon
 programmer from Dec 1995 to Jun 1997
 
 
+
+
+![screenshot](https://technicat.github.io/images/nichimen/fasttrack.jpg)
+
 A 3D modeling and animation package. Ported from IrisGL to OpenGL on SGI workstations, then from Irix to Windows NT, all in Franz Allegro Common Lisp (and a bit of C). Manager of core software group (all the libraries - graphics, audio, UI, security...)
 
 - Used in the making of Mario 3D.
