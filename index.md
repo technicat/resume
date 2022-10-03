@@ -343,7 +343,7 @@ Kdrama phrases in Korean
 
 
 ### Leverage for Planning/Scheduling
-Interval Logic on May 1999
+Interval Logic on Apr 1999
 
 ![award](https://technicat.github.io/images/ilc/kfc.jpg)
 
@@ -351,7 +351,7 @@ A plaque affixed with badges for each product release (and a post-it note with K
 
 
 ### First Hubble Servicing Mission
-Space Telescope Science Institute on May 1993
+Space Telescope Science Institute on Dec 1993
 
 ![award](https://technicat.github.io/images/stsci/sts61.jpg)
 
@@ -359,7 +359,7 @@ Poster of the shuttle launch and crew, including a patch flown on the mission.
 
 
 ### Neomar stock certificate
-Neomar on May 2000
+Neomar on Jul 2000
 
 ![award](https://technicat.github.io/images/neomar/neostock.jpg)
 
