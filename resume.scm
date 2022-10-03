@@ -167,6 +167,7 @@
    (for-each
     (lambda (h) (bullet h out))
     highlights))
+  (newline out)
   (if type (write-string #"*~|type|:* " out))
   (tags keywords out)
   (newline out)))
