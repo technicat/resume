@@ -80,6 +80,7 @@
     },
     {
       "name": "Cinefex iPad Edition",
+      "image": "https://technicat.github.io/images/cinefex/screenshots/cinefex.png",
       "description": "An iPad reader for the Cinefex visual effects magazine, with extras such as videos and image galleries. Kept it up and running over the march of iOS evolution, fixing, updating, and optimizing in-app purchases, user interface, video...",
       "keywords": [
         "iOS",
@@ -649,7 +650,7 @@
   ],
   "awards": [
     {
-      "title": "Leverage for Planning/Scheduling release",
+      "title": "Leverage for Planning/Scheduling",
       "awarder": "Interval Logic",
       "date": "1999-05-26",
       "summary": "A plaque affixed with badges for each product and a post-it note with KFC Employee of the Week scrawled on it."

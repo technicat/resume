@@ -83,9 +83,7 @@
   (if url (write-string #" [~url](~url)" out))
   (if phone (write-string #" ~phone " out))
   (if email (write-string #" ~email " out))
-  (news out)
-  (if image (write-string #"![profile image](~image)" out))
-  (news out)
+  (if image (embed "profile" image out))
   (markdown-profiles r out)
   (news out)
   (write-string summary out)))
@@ -150,6 +148,7 @@
 (define (markdown-project r out)
  (let ((name (res-value "name" r))
        (url (res-value "url" r))
+       (image (res-value "image" r))
        (type (res-value "type" r))
        (roles (res-value "roles" r))
        (keywords (res-value "keywords" r))
@@ -160,6 +159,7 @@
   (if roles (write-string #"~(comma-vector roles) from " out))
   (markdown-date-range r out)
   (newline out)
+  (if image (embed "screenshot" image out))
   (if description (write-string description out))
   (newline out)
   (if highlights
@@ -419,3 +419,8 @@
    ; todo - fill this out
    "United States"
    )
+
+  (define (embed label image out)
+   (news out)
+   (write-string #"![~label](~image)" out)
+   (news out))

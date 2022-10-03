@@ -4,7 +4,7 @@
 Las Vegas, Nevada, United States
  [http://technicat.com](http://technicat.com)
 
-![profile image](https://technicat.github.io/images/smallhack.jpg)
+![profile](https://technicat.github.io/images/smallhack.jpg)
 
  [technicat](https://github.com/technicat) @ Github
 
@@ -47,6 +47,10 @@ Be the ball! A Unity reimplementation of the classic bowling game, licensed from
 ### [Cinefex iPad Edition](https://apps.apple.com/us/app/cinefex/id512379220) @ Cinefex
 developer from Apr 2016 to present
 
+
+
+
+![screenshot](https://technicat.github.io/images/cinefex/screenshots/cinefex.png)
 
 An iPad reader for the Cinefex visual effects magazine, with extras such as videos and image galleries. Kept it up and running over the march of iOS evolution, fixing, updating, and optimizing in-app purchases, user interface, video...
 *app:* *iOS, magazine, visual effects*
@@ -309,7 +313,7 @@ Kdrama phrases in Korean
 ## Awards
 
 
-### Leverage for Planning/Scheduling release
+### Leverage for Planning/Scheduling
 Interval Logic on May 1999
 
 A plaque affixed with badges for each product and a post-it note with KFC Employee of the Week scrawled on it.
