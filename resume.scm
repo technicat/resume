@@ -163,7 +163,7 @@
   (if description (write-string description out))
   (newline out)
   (if highlights
-   (for-each (lambda (h) (blockquote h out))
+   (for-each (lambda (h) (bullet h out))
     highlights))
   (if type (write-string #"*~|type|:* " out))
   (tags keywords out)
@@ -387,6 +387,12 @@
    (newline out)
    (write-string #"> ~item" out)
    (newline out))
+
+  (define (bullet item out)
+   (newline out)
+   (write-string #"- ~item" out)
+   (newline out))
+
 
   ; lists
 

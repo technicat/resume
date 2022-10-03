@@ -41,7 +41,7 @@ developer, publisher, licensee from Dec 2008 to Dec 2019
 
 Be the ball! A Unity reimplementation of the classic bowling game, licensed from Hyper Entertainment. Available on Itch.io, Steam, and the App Store.
 
-> One of MacLife's Greatest iPhone Apps of 2009
+- One of MacLife's Greatest iPhone Apps of 2009
 *game:* *bowling, 3D, Unity*
 
 ### [Cinefex iPad Edition](https://apps.apple.com/us/app/cinefex/id512379220) @ Cinefex
@@ -64,7 +64,7 @@ programmer from Sep 2011 to Dec 2011
 
 A Playstation Home driving/shooting game with alien invader teddy bears.
 
-> Programmer credit displayed in-world.
+- Programmer credit displayed in-world.
 *game:* *Playstation 3, Playstation Home, virtual world*
 
 ### [RC Rally](https://pshome.fandom.com/wiki/RC_Rally) @ Heavy Water
@@ -80,7 +80,7 @@ programmer from Sep 2007 to Jan 2011
 
 A 3D virtual world implemented in CryEngine. Supported third-party developers, documented the Lua API and framework for creating minigames on the community wiki (a CryEngine wiki even copied part of it!), tweaked physics, updated Scaleform integration, modified CryEngine to work with Scaleform IME (for localization).
 
-> Attended in-world developer meetings. Better than Zoom.
+- Attended in-world developer meetings. Better than Zoom.
 *virtual world:* *CryEngine, metaverse, Lua, C++*
 
 ### [Nendo](https://web.archive.org/web/20070628000134/http://www.izware.com/nendo/index.htm) @ Izware
@@ -96,7 +96,7 @@ programmer from Sep 2006 to Apr 2007
 
 A vampire western for Playstation 2 and Xbox. Worked on various HUD elements, PAL support, demo builds, implemented multiplayer split-screen, added designer-friendly Lua interfaces for audio, health bars, etc.
 
-> Received programmer credit (but oddly required to list city of birth).
+- Received programmer credit (but oddly required to list city of birth).
 *game:* *Renderware, Xbox, Playstation 2, Lua, C++*
 
 ### [Fugu Games](http://fugugames.com/) @ Technicat
@@ -126,9 +126,9 @@ programmer from Dec 1999 to Jul 2001
 
 One of the first mobile web browsers, conforming to the WAP standards. Implemented an HTTP proxy for the Neomar WAP gateway, supporting the Neomar mobile web browser on Blackberry pagers and Palm devices.
 
-> Launched on Motient's Blackberry service.
+- Launched on Motient's Blackberry service.
 
-> Company assets acquired by Good Technology (and all I got was this worthless stock certificate).
+- Company assets acquired by Good Technology (and all I got was this worthless stock certificate).
 *enterprise:* *WAP, HTTP, mobile, Java*
 
 ### [Leverage for Scheduling](https://spinoff.nasa.gov/spinoff1998/ct11.htm) @ Interval Logic
@@ -151,7 +151,7 @@ consultant from Sep 1997 to Sep 1997
 
 Successor to N-World. Fixed some code and visited 3D hardware vendors in Silicon Valley to get test cards and chat about OpenGL.
 
-> Used to make Gollum in the Lord of the Rings movies.
+- Used to make Gollum in the Lord of the Rings movies.
 *graphics:* *3D, OpenGL, Windows*
 
 ### [N-World](https://en.wikipedia.org/wiki/N-World) @ Nichimen Graphics
@@ -160,7 +160,7 @@ programmer from Dec 1995 to Jun 1997
 
 A 3D modeling and animation package. Ported from IrisGL to OpenGL on SGI workstations, then from Irix to Windows NT, all in Franz Allegro Common Lisp (and a bit of C). Manager of core software group (all the libraries - graphics, audio, UI, security...)
 
-> Used in the making of Mario 3D.
+- Used in the making of Mario 3D.
 *graphics:* *3D, OpenGL, Irix, Windows*
 
 ### [ORBIS](https://www.jhuapl.edu/Content/techdigest/pdf/V23-N04/23-04-Higgins.pdf) @ JHU Applied Physics Lab
@@ -169,7 +169,7 @@ programmer from Dec 1992 to Dec 1993
 
 An expert system for submarine simulation. Added multiplayer network capability to support participation wide area networked exercises.
 
-> Donned a submarine uniform and took part in two exercises.
+- Donned a submarine uniform and took part in two exercises.
 *government:* *Distributed Interactive Simulation, Lisp, C++*
 
 ### [Proposal Entry Processor](https://hst-docs.stsci.edu/hpiom/chapter-2-the-basics-of-phase-ii-proposals) @ Space Telescope Science Institute
@@ -178,7 +178,7 @@ programmer from Nov 1990 to May 1992
 
 A syntax-directed Emacs mode used by astronomers and Institute staff to prepare and edit Space Telescope observation proposals.
 
-> A member of the proposal preparation staff asked for my project to be continued after I left (but no takers).
+- A member of the proposal preparation staff asked for my project to be continued after I left (but no takers).
 *government:* *space, emacs, Lisp*
 
 ### [Database Accelerator](https://www.semanticscholar.org/paper/The-MIT-database-accelerator%3A-2K-TRIT-circuit-Wade-Osler/8265f5f166e20d9bd60ad71fa62f873519fe4a0c) @ MIT
@@ -201,9 +201,9 @@ student from Sep 1987 to May 1988
 
 Bachelors thesis project implementing an Othello game in Multilisp (Multello) to run on the Concert 32-processor computer, trying various parallelism strategies to compare processor utilization and final performance.
 
-> Wrote the thesis in LaTeX on a Symbolics Lisp Machine.
+- Wrote the thesis in LaTeX on a Symbolics Lisp Machine.
 
-> Cited in a PhD thesis.
+- Cited in a PhD thesis.
 *research:* *game, parallel processing, Lisp*
 
 ### [START](http://start.csail.mit.edu/index.php) @ MIT
