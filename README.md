@@ -1,8 +1,12 @@
-Résumé in [JSON](https://jsonresume.org/), exported to HTML and PDF using [resume-cli](https://github.com/jsonresume/resume-cli) and various [themes](https://jsonresume.org/themes/) (all the ones I could find that didn't generate too many warnings or errors).
+Résumé in [JSON](https://jsonresume.org/), output to various formats using scripts written in [Gauche](https://practical-scheme.net/gauche/).
 
-The scripts themes.scm and resume.scm are written in [Gauche](https://practical-scheme.net/gauche/).
+Markdown output is created thus (and copied via GitHub Actions to the [GitHub page](http://philipchu.com) of this repo).
 
-resume.scm processes additions to the original [schema](https://github.com/jsonresume/resume-schema/issues), such as project images.
+```sh
+./resume.scm -f resume.json -o index.md
+```
 
-Themes.scm also requires the themes be installed local to the project via npm.
+resume.scm processes additions to the original [schema](https://github.com/jsonresume/resume-schema/issues), including images for projects, schools, and awards.
+
+Themes.scm exports the resume.json to HTML and PDF using [resume-cli](https://github.com/jsonresume/resume-cli) and various [themes](https://jsonresume.org/themes/) (all the ones I could find that didn't generate too many warnings or errors). It requires the themes be installed local to the project via npm.
 
