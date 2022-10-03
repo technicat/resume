@@ -649,14 +649,14 @@
   ],
   "awards": [
     {
-      "name": "Leverage for Planning/Scheduling release",
-      "issuer": "Interval Logic",
+      "title": "Leverage for Planning/Scheduling release",
+      "awarder": "Interval Logic",
       "date": "1999-05-26",
       "summary": "A plaque affixed with badges for each product and a post-it note with KFC Employee of the Week scrawled on it."
     },
     {
-      "name": "First Hubble Servicing Mission",
-      "issuer": "Space Telescope Science Institute",
+      "title": "First Hubble Servicing Mission",
+      "awarder": "Space Telescope Science Institute",
       "date": "1993-05-26",
       "summary": "Poster of the shuttle launch and crew, including a patch flown on the mission."
     }

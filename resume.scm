@@ -279,8 +279,8 @@
     (for-each (lambda (r) (markdown-award r out)) p)))))
 
 (define (markdown-award r out)
- (let ((name (res-value "name" r))
-       (issuer(res-value "issuer" r))
+ (let ((name (res-value "title" r))
+       (issuer(res-value "awarder" r))
        (date (format-date (res-value "date" r)))
        (summary (res-value "summary" r)))
   (h3 name out)
@@ -300,7 +300,14 @@
     (for-each (lambda (r) (markdown-cert r out)) p)))))
 
 (define (markdown-cert r out)
- )
+ (let ((name (res-value "name" r))
+       (issuer(res-value "issuer" r))
+       (date (format-date (res-value "date" r)))
+       (url (res-value "url" r)))
+  (h3 name out)
+  (write-string #"~[issuer](url) on ~date" out)
+  (news out)))
+
 
 ; volunteer
 
