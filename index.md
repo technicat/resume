@@ -273,12 +273,20 @@ Sep 1984 to May 1988
 
 Bachelors degree in Computer Science and Engineering
 
+
+![screenshot](https://technicat.github.io/images/mit/mit.jpg)
+![screenshot](https://technicat.github.io/images/mit/kit.jpg)
+
+
 ### [Johns Hopkins University](https://jhu.edu/)
 
 Sep 1991 to May 1993
 
 
 Masters degree in Computer Science
+
+
+
 
 ## Languages
 
