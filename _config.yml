@@ -2,5 +2,5 @@ theme: jekyll-theme-minimal
 title: Résumé
 url: http://technicat.com/
 description: résumé built with JSON and Scheme
-show_downloads: false
+show_downloads: true
 logo: /images/dakotasnow/CatGraphic300x300.jpg
