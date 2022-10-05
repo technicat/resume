@@ -307,12 +307,14 @@
 
 (define (markdown-cert r out)
  (let ((name (res-value "name" r))
-       (issuer(res-value "issuer" r))
+       (issuer (res-value "issuer" r))
+       (images (res-value "images" r))
        (date (format-date (res-value "date" r)))
        (url (res-value "url" r)))
   (h3 name out)
-  (write-string #"~[issuer](url) on ~date" out)
-  (news out)))
+  (write-string #"[!issuer](!url) on ~date" out)
+  (news out)
+  (embed-images "certificate image" images out)))
 
 
 ; volunteer
