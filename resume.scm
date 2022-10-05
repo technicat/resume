@@ -188,12 +188,10 @@
   (h3 #"[~name](~url)" out)
   (newline out)
   (markdown-date-range r out)
-  (if gpa (write-string #", ~gpa GPA" out))
-  (newline out)
-  (write-string #"~type in ~area" out)
+  (write-string #"~type in ~area, ~gpa GPA" out)
   (news out)
   (embed-images "school image" images out)
-  (if courses (write-string (comma-vector courses) out))))
+  (if courses (tags courses out))))
 
 ; language
 
