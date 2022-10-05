@@ -493,6 +493,12 @@
       "startDate": "1984-09-01",
       "endDate": "1988-05-31",
       "score": "3.x",
+      "courses": [
+        "6.001",
+        "6.002",
+        "6.003",
+        "6.004"
+      ],
       "images": [
         "https://technicat.github.io/images/mit/mit.jpg",
         "https://technicat.github.io/images/mit/kit.jpg"
@@ -505,7 +511,15 @@
       "studyType": "Masters degree",
       "endDate": "1993-05-26",
       "startDate": "1991-09-01",
-      "score": "B+"
+      "score": "B+",
+      "courses": [
+        "AI",
+        "computer graphics",
+        "automata",
+        "algorithms",
+        "compilers",
+        "functional programming"
+      ]
     }
   ],
   "publications": [
