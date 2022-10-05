@@ -292,7 +292,7 @@ Collection of software development essays.
 
 September 1984 to May 1988
 
-
+, 3.x GPA
 Bachelors degree in Computer Science and Engineering
 
 
@@ -304,7 +304,7 @@ Bachelors degree in Computer Science and Engineering
 
 September 1991 to May 1993
 
-
+, B+ GPA
 Masters degree in Computer Science
 
 
