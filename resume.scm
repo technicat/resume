@@ -188,6 +188,7 @@
   (h3 #"[~name](~url)" out)
   (newline out)
   (markdown-date-range r out)
+  (if gpa (write-string #", ~gpa GPA" out))
   (newline out)
   (write-string #"~type in ~area" out)
   (news out)
