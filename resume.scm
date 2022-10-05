@@ -181,6 +181,8 @@
  (let ((name (res-value "institution" r))
        (images (res-value "images" r))
        (url (res-value "url" r))
+       (gpa (res-value "score" r))
+       (courses (res-value "courses" r))
        (type (res-value "studyType" r))
        (area (res-value "area" r)))
   (h3 #"[~name](~url)" out)

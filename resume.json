@@ -492,6 +492,7 @@
       "studyType": "Bachelors degree",
       "startDate": "1984-09-01",
       "endDate": "1988-05-31",
+      "score": "3.x",
       "images": [
         "https://technicat.github.io/images/mit/mit.jpg",
         "https://technicat.github.io/images/mit/kit.jpg"
@@ -503,7 +504,8 @@
       "area": "Computer Science",
       "studyType": "Masters degree",
       "endDate": "1993-05-26",
-      "startDate": "1991-09-01"
+      "startDate": "1991-09-01",
+      "score": "B+"
     }
   ],
   "publications": [
