@@ -1,4 +1,4 @@
-Résumé in [JSON](https://jsonresume.org/), output to various formats using scripts written in [Gauche](https://practical-scheme.net/gauche/).
+My résumé in [JSON](https://jsonresume.org/), output to various formats using scripts written in [Gauche](https://practical-scheme.net/gauche/).
 
 Markdown output is created thus (and copied via GitHub Actions to the [GitHub page](http://philipchu.com) of this repo).
 
