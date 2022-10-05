@@ -10,3 +10,7 @@ resume.scm processes additions to the original [schema](https://github.com/jsonr
 
 Themes.scm exports the resume.json to HTML and PDF using [resume-cli](https://github.com/jsonresume/resume-cli) and various [themes](https://jsonresume.org/themes/) (all the ones I could find that didn't generate too many warnings or errors). It requires the themes be installed local to the project via npm.
 
+## License
+
+The Gauche scripts are MIT License, but my ésumé is not to be fiddled with (make your own!) and not for consumption in recruiter databases.
+
