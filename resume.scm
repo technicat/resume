@@ -155,12 +155,7 @@
   (h3 #"[~name](~url) @ ~entity" out)
   (if roles (write-string #"~(comma-vector roles) from " out))
   (markdown-date-range r out)
-  (if images
-   (for-each
-    (lambda (image)
-     (embed-inline "project image" image out))
-    images))
-  (news out)
+  (embed-images "project image" images out)
   (if description (write-string description out))
   (newline out)
   (if highlights
@@ -194,12 +189,7 @@
   (newline out)
   (write-string #"~type in ~area" out)
   (news out)
-  (if images
-   (for-each
-    (lambda (image)
-     (embed-inline "school image" image out))
-    images))
-  (news out)))
+  (embed-images "school image" images out)))
 
 ; language
 
@@ -238,12 +228,7 @@
   (newline out)
   (write-string #"Published ~date by ~pub" out)
   (news out)
-  (if images
-   (for-each
-    (lambda (image)
-     (embed-inline "book image" image out))
-    images))
-  (news out)
+  (embed-images "book image" images out)
   (if summary (write-string summary out))
   (news out)))
 
@@ -299,11 +284,11 @@
  (let ((name (res-value "title" r))
        (issuer(res-value "awarder" r))
        (date (format-date (res-value "date" r)))
-       (image (res-value "image" r))
+       (images (res-value "images" r))
        (summary (res-value "summary" r)))
   (h3 name out)
   (write-string #"~issuer on ~date" out)
-  (if image (embed "award" image out))
+  (embed-images "award" images out)
   (if summary (write-string summary out))
   (news out)))
 
@@ -358,6 +343,87 @@
   (blockquote ref out)
   (newline out)))
 
+
+(define (markdown-date-range r out)
+ (let ((start (format-date (res-value "startDate" r)))
+       (end (format-date (res-value "endDate" r))))
+  (write-string #"~start to ~end" out)
+  (news out)))
+
+(define (res-value key r)
+ (let ((b (find (lambda (item)
+                 (string=? (car item) key))
+           r)))
+  (and b (cdr b))))
+
+; markdown
+
+(define (news out)
+ (newline out)
+ (newline out))
+
+(define (h1 title out)
+ (newline out)
+ (write-string #"# ~title" out)
+ (newline out))
+
+(define (h2 title out)
+ (newline out)
+ (write-string #"## ~title" out)
+ (newline out))
+
+(define (h3 title out)
+ (newline out)
+ (write-string #"### ~title" out)
+ (newline out))
+
+(define (blockquote item out)
+ (newline out)
+ (write-string #"> ~item" out)
+ (newline out))
+
+(define (bullet item out)
+ (newline out)
+ (write-string #"- ~item" out)
+ (newline out))
+
+
+; lists
+
+(define (comma-vector v)
+ (comma-list (vector->list v)))
+
+(define (comma-list l)
+ (string-join l ", "))
+
+(define (tags keywords out)
+ (if keywords
+  (write-string #"*~(comma-vector keywords)*" out)))
+
+; other
+
+(define (code->country code)
+ ; todo - fill this out
+ "United States"
+ )
+
+(define (embed label image out)
+ (newline out)
+ (embed-inline label image out)
+ (news out))
+
+(define (embed-inline label image out)
+ (newline out)
+ (write-string #"![~label](~image)" out))
+
+(define (embed-images label images out)
+ (if images
+  (for-each
+   (lambda (images)
+    (embed-inline "project image" images out))
+   images))
+ (news out))
+
 ; date
 
 (define (format-date date)
@@ -374,77 +440,3 @@
                   (month (ref months (- (string->number (match 2)) 1)))
                   (day (match 3)))
            #"~month ~year"))
-
-
-  (define (markdown-date-range r out)
-   (let ((start (format-date (res-value "startDate" r)))
-         (end (format-date (res-value "endDate" r))))
-    (write-string #"~start to ~end" out)
-    (news out)))
-
-  (define (res-value key r)
-   (let ((b (find (lambda (item)
-                   (string=? (car item) key))
-             r)))
-    (and b (cdr b))))
-
-  ; markdown
-
-  (define (news out)
-   (newline out)
-   (newline out))
-
-  (define (h1 title out)
-   (newline out)
-   (write-string #"# ~title" out)
-   (newline out))
-
-  (define (h2 title out)
-   (newline out)
-   (write-string #"## ~title" out)
-   (newline out))
-
-  (define (h3 title out)
-   (newline out)
-   (write-string #"### ~title" out)
-   (newline out))
-
-  (define (blockquote item out)
-   (newline out)
-   (write-string #"> ~item" out)
-   (newline out))
-
-  (define (bullet item out)
-   (newline out)
-   (write-string #"- ~item" out)
-   (newline out))
-
-
-  ; lists
-
-  (define (comma-vector v)
-   (comma-list (vector->list v)))
-
-  (define (comma-list l)
-   (string-join l ", "))
-
-  (define (tags keywords out)
-   (if keywords
-    (write-string #"*~(comma-vector keywords)*" out)))
-
-  ; other
-
-  (define (code->country code)
-   ; todo - fill this out
-   "United States"
-   )
-
-  (define (embed label image out)
-   (newline out)
-   (embed-inline label image out)
-   (news out))
-
-  (define (embed-inline label image out)
-   (newline out)
-   (write-string #"![~label](~image)" out))
-

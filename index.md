@@ -270,7 +270,7 @@ Part time student work on a graph display for the the START natural language par
 Published June 2013 by Apress
 
 
-![book image](https://technicat.github.io/images/learnunity/cover.jpg)
+![project image](https://technicat.github.io/images/learnunity/cover.jpg)
 
 Introduction to mobile game development with the Unity game engine.
 
@@ -280,7 +280,7 @@ Introduction to mobile game development with the Unity game engine.
 Published January 2015 by self
 
 
-![book image](https://technicat.github.io/images/books/bn.jpg)
+![project image](https://technicat.github.io/images/books/bn.jpg)
 
 Collection of software development essays.
 
@@ -296,8 +296,8 @@ September 1984 to May 1988
 Bachelors degree in Computer Science and Engineering
 
 
-![school image](https://technicat.github.io/images/mit/mit.jpg)
-![school image](https://technicat.github.io/images/mit/kit.jpg)
+![project image](https://technicat.github.io/images/mit/mit.jpg)
+![project image](https://technicat.github.io/images/mit/kit.jpg)
 
 
 ### [Johns Hopkins University](https://jhu.edu/)
@@ -374,24 +374,21 @@ Kdrama phrases in Korean
 
 ### Leverage for Planning/Scheduling
 Interval Logic on April 1999
-
-![award](https://technicat.github.io/images/ilc/kfc.jpg)
+![project image](https://technicat.github.io/images/ilc/kfc.jpg)
 
 They misspelled my name.
 
 
 ### First Hubble Servicing Mission
 Space Telescope Science Institute on December 1993
-
-![award](https://technicat.github.io/images/stsci/sts61.jpg)
+![project image](https://technicat.github.io/images/stsci/sts61.jpg)
 
 Includes a patch flown on the first Hubble servicing mission. Best workplace award ever.
 
 
 ### Neomar stock certificate
 Neomar on July 2000
-
-![award](https://technicat.github.io/images/neomar/neostock.jpg)
+![project image](https://technicat.github.io/images/neomar/neostock.jpg)
 
 ...and all I got was this lousy stock certificate.
 
