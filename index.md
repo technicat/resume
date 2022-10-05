@@ -299,7 +299,7 @@ Bachelors degree in Computer Science and Engineering
 ![project image](https://technicat.github.io/images/mit/mit.jpg)
 ![project image](https://technicat.github.io/images/mit/kit.jpg)
 
-
+6.001, 6.002, 6.003, 6.004
 ### [Johns Hopkins University](https://jhu.edu/)
 
 September 1991 to May 1993
@@ -309,7 +309,7 @@ Masters degree in Computer Science
 
 
 
-
+AI, computer graphics, automata, algorithms, compilers, functional programming
 ## Languages
 
 Native speaker in English
@@ -390,7 +390,7 @@ Includes a patch flown on the first Hubble servicing mission. Best workplace awa
 
 
 ### Neomar stock
-[!issuer](!url) on July 2000
+[Neomar](https://googlepress.blogspot.com/2000/09/google-search-engine-now-available.html) on July 2000
 
 
 ![project image](https://technicat.github.io/images/neomar/neostock.jpg)
