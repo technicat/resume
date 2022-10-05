@@ -192,7 +192,8 @@
   (newline out)
   (write-string #"~type in ~area" out)
   (news out)
-  (embed-images "school image" images out)))
+  (embed-images "school image" images out)
+  (if courses (write-string (comma-vector courses) out))))
 
 ; language
 
@@ -312,7 +313,7 @@
        (date (format-date (res-value "date" r)))
        (url (res-value "url" r)))
   (h3 name out)
-  (write-string #"[!issuer](!url) on ~date" out)
+  (write-string #"[~issuer](~url) on ~date" out)
   (news out)
   (embed-images "certificate image" images out)))
 
