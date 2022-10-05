@@ -386,11 +386,14 @@ Space Telescope Science Institute on December 1993
 Includes a patch flown on the first Hubble servicing mission. Best workplace award ever.
 
 
-### Neomar stock certificate
-Neomar on July 2000
-![project image](https://technicat.github.io/images/neomar/neostock.jpg)
+## Certificates
 
-...and all I got was this lousy stock certificate.
+
+### Neomar stock
+[!issuer](!url) on July 2000
+
+
+![project image](https://technicat.github.io/images/neomar/neostock.jpg)
 
 
 ## References
