@@ -53,7 +53,7 @@ Be the ball! A Unity reimplementation of the classic bowling game, licensed from
 
 - Rejected by the Mac App Store because it's too much like the iOS version which was a port of the desktop version and now they want all iOS apps on the Mac App store...
 
-- Formerly available on many other stores (Amazon Appstore, Nook store, Itch.io, and those deadbeats who shall not be named...)
+- Formerly available on the Amazon Appstore, Nook store, Itch.io, and various crappy app stores (crappstores?)
 
 *game:* *bowling, 3D, Unity*
 
@@ -150,7 +150,7 @@ A vampire western for Playstation 2 and Xbox. demo builds.
 
 - Integrated Lua scripting for audio effects and HUD elements
 
-- Received programmer credit (but oddly required to list city of birth).
+- Received programmer credit (but oddly required to list city of birth)
 
 *game:* *Renderware, Xbox, Playstation 2, Lua, C++*
 
@@ -163,7 +163,7 @@ Small games released as webplayers, Mac widgets, and mobile apps.
 
 - Fugu Maze, a suspense maze walkthrough that got twenty thousand downloads on the App Store in the first week and then a trickle after I started charging for it
 
-- Fugu Bowl, a simple proof of concept for HyperBowl that got low ratings but mroe downloads than HyperBowl
+- Fugu Bowl, a simple proof of concept for HyperBowl that got low ratings but was my most downloaded app (until Apple rejected upgrades).
 
 *game:* *3D, 2D, Unity, J2ME, C#*
 
