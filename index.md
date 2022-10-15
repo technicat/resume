@@ -45,9 +45,15 @@ developer, publisher, licensee from December 2008 to December 2019
 ![project image](https://technicat.github.io/images/hyperbowl/hyperbowlforestscreenshots/hyperbowlforest.png)
 ![project image](https://technicat.github.io/images/hyperbowl/hyperbowlhighseasscreenshot/hyperbowlhighseas.png)
 
-Be the ball! A Unity reimplementation of the classic bowling game, licensed from Hyper Entertainment. Available on Itch.io, Steam, and the App Store.
+Be the ball! A Unity reimplementation of the classic bowling game, licensed from Hyper Entertainment.
 
 - One of MacLife's Greatest iPhone Apps of 2009
+
+- Available on the App Store and Steam
+
+- Rejected by the Mac App Store because it's too much like the iOS version which was a port of the desktop version and now they want all iOS apps on the Mac App store...
+
+- Formerly available on many other stores (Amazon Appstore, Nook store, Itch.io, and those deadbeats who shall not be named...)
 
 *game:* *bowling, 3D, Unity*
 
@@ -57,7 +63,19 @@ developer from April 2016 to present
 
 ![project image](https://technicat.github.io/images/cinefex/screenshots/cinefex.png)
 
-An iPad reader for the Cinefex visual effects magazine, with extras such as videos and image galleries. Kept it up and running over the march of iOS evolution, fixing, updating, and optimizing in-app purchases, user interface, video...
+An iPad reader for the Cinefex visual effects magazine, with extras such as videos and image galleries.
+
+- Facilicated transfer from original developer to Cinefex LLC
+
+- Fixed in-app-purchase issues
+
+- Updated video player after Apple dropped support for previous API
+
+- Updated issue download code after Apple dropped support for previous API (notice a trend?)
+
+- Optimized startup time and browsing
+
+- Updated to comply with ever-changing Apple requirements
 
 *app:* *iOS, magazine, visual effects*
 
@@ -69,7 +87,9 @@ programmer from September 2011 to December 2011
 
 A Playstation Home driving/shooting game with alien invader teddy bears.
 
-- Programmer credit displayed in-world.
+- Implemented collision physics among cars
+
+- Programmer credit displayed in-world
 
 *game:* *Playstation 3, Playstation Home, virtual world*
 
@@ -80,6 +100,8 @@ programmer from September 2011 to December 2011
 
 A Playstation Home multiplayer racing game.
 
+- Made some UI fixes just before release
+
 *game:* *Playstation 3, virtual world, racing*
 
 ### [Blue Mars](http://bluemars.com/) @ Avatar Reality
@@ -88,7 +110,13 @@ programmer from September 2007 to January 2011
 
 ![project image](https://technicat.github.io/images/bluemars/bluemarsgolf.png)
 
-A 3D virtual world implemented in CryEngine. Supported third-party developers, documented the Lua API and framework for creating minigames on the community wiki (a CryEngine wiki even copied part of it!), tweaked physics, updated Scaleform integration, modified CryEngine to work with Scaleform IME (for localization).
+A 3D virtual world implemented with CryEngine.
+
+- Documented the Lua API and framework for creating minigames on the community wiki (a CryEngine wiki even copied part of it!)
+
+- Integrated newer versions of Scaleform, including Scaleform IME for localization
+
+- Tweaked CryEngine physics to support an in-world golf game
 
 - Attended in-world developer meetings. Better than Zoom.
 
@@ -100,7 +128,9 @@ programmer from May 2007 to June 2007
 
 ![project image](https://technicat.github.io/images/nendo/nendo-modeling.jpg)
 
-A nifty 3D modeler originally developed at Nichimen Graphics. Updated to work on Windows XP.
+A nifty 3D modeler originally developed at Nichimen Graphics.
+
+- Updated to work on Windows XP.
 
 *graphics:* *3D, C++*
 
@@ -110,7 +140,15 @@ programmer from September 2006 to April 2007
 
 ![project image](https://technicat.github.io/images/darkwatch/darkwatch.jpg)
 
-A vampire western for Playstation 2 and Xbox. Worked on various HUD elements, PAL support, demo builds, implemented multiplayer split-screen, added designer-friendly Lua interfaces for audio, health bars, etc.
+A vampire western for Playstation 2 and Xbox. demo builds.
+
+- Worked on HUD elements for health, ammo, special powers
+
+- Implemented split-screen (multiple Renderware cameras) for multiplayer
+
+- Added PAL support
+
+- Integrated Lua scripting for audio effects and HUD elements
 
 - Received programmer credit (but oddly required to list city of birth).
 
@@ -123,6 +161,10 @@ developer from June 2007 to present
 
 Small games released as webplayers, Mac widgets, and mobile apps.
 
+- Fugu Maze, a suspense maze walkthrough that got twenty thousand downloads on the App Store in the first week and then a trickle after I started charging for it
+
+- Fugu Bowl, a simple proof of concept for HyperBowl that got low ratings but mroe downloads than HyperBowl
+
 *game:* *3D, 2D, Unity, J2ME, C#*
 
 ### [Tech Deck: Bare Knuckle Grind](https://archive.org/details/bkg-space-town) @ Visionscape Interactive
@@ -131,7 +173,13 @@ programmer from December 2003 to May 2004
 
 ![project image](https://technicat.github.io/images/techdeck/techdeck.jpg)
 
-A skateboarding game bundled with Tech Deck figures. Implemented installers, dynamic shadows, video, a build system.
+A skateboarding game bundled with Tech Deck figures.
+
+- Implemented installers so each game could be packaged separately and installed in any sequence
+
+- Added dynamic shadows to replace the placeholder blob shadows (and then switched back to the blog shadows because the art director liked them better)
+
+- Set up a push-button scripted build system so the producers could create a latest build from the subversion source at any time
 
 *game:* *Windows, Renderware, C*
 
@@ -141,7 +189,17 @@ programmer from January 2001 to June 2001
 
 ![project image](https://technicat.github.io/images/hyperbowl/metreon.jpg)
 
-A 3D bowling game, rolling in fanciful locations. Took over for the original lead programmer, updated attraction version of HyperBowl for localization, new lanes, optimization, new graphics cards, arcade and PC support.
+A 3D attraction bowling game, rolling in fanciful locations.
+
+- Added localization support, particularly for Jillian's installations in Montreal (French)
+
+- Implemented support for (potential) new lanes, e.g. a toy room, motocross slope...
+
+- Profiled, optimized (those lanes kept getting bigger and bigger)
+
+- Fixes for new graphics cards (pesky w-buffer...)
+
+- Changes to facilitate arcade and PC versions (I'm there in the mobygames credits)
 
 *game:* *3D, Windows, arcade, attraction, C++*
 
@@ -151,11 +209,13 @@ programmer from December 1999 to July 2001
 
 ![project image](https://technicat.github.io/images/neomar/neomar.png)
 
-One of the first mobile web browsers, conforming to the WAP standards. Implemented an HTTP proxy for the Neomar WAP gateway, supporting the Neomar mobile web browser on Blackberry pagers and Palm devices.
+One of the first mobile web browsers, conforming to WAP standards.
 
-- Launched on Motient's Blackberry service.
+- Implemented an HTTP proxy in Java for the Neomar WAP gateway
 
-- Company assets acquired by Good Technology.
+- Launched on Motient's Blackberry service
+
+- Company assets acquired by Good Technology
 
 *enterprise:* *WAP, HTTP, mobile, Java*
 
@@ -182,7 +242,11 @@ consultant from September 1997 to September 1997
 
 
 
-Successor to N-World. Fixed some code and visited 3D hardware vendors in Silicon Valley to get test cards and chat about OpenGL.
+Successor to N-World
+
+- Fixed some graphics code (which I eventually realized was originally written by me)
+
+- visited 3D hardware vendors in Silicon Valley (including a young nVidia) to get test cards and discuss OpenGL issues
 
 - Used to make Gollum in the Lord of the Rings movies.
 
@@ -194,7 +258,13 @@ programmer from December 1995 to June 1997
 
 ![project image](https://technicat.github.io/images/nichimen/fasttrack.jpg)
 
-A 3D modeling and animation package. Ported from IrisGL to OpenGL on SGI workstations, then from Irix to Windows NT, all in Franz Allegro Common Lisp (and a bit of C). Manager of core software group (all the libraries - graphics, audio, UI, security...)
+A 3D modeling and animation package descended once upon a time from the Symbolics Graphics Group (written in Lisp, shhh!).
+
+- Ported from IrisGL to OpenGL on SGI workstations
+
+- Ported from Irix to Windows NT
+
+- Manager of Core Software (I made up the title)
 
 - Used in the making of Mario 3D.
 
@@ -205,9 +275,13 @@ programmer from December 1992 to December 1993
 
 
 
-An expert system for submarine simulation. Added multiplayer network capability to support participation wide area networked exercises.
+An expert system for submarine simulation.
 
-- Donned a submarine uniform and took part in two exercises.
+- Added support for local area network simulations (i.e. games)
+
+- Added Distributed Interactive Simulation support for wide-area network simulations (wargames)
+
+- Donned a submarine uniform and took part in two exercises like I was in The Hunt for Red October
 
 *government:* *Distributed Interactive Simulation, Lisp, C++*
 
@@ -218,7 +292,7 @@ programmer from November 1990 to May 1992
 
 A syntax-directed Emacs mode used by astronomers and Institute staff to prepare and edit Space Telescope observation proposals.
 
-- A member of the proposal preparation staff asked for my project to be continued after I left (but no takers).
+- A member of the proposal preparation staff asked for my project to be continued after I left (but alas, no takers).
 
 *government:* *space, emacs, Lisp*
 
