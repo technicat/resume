@@ -65,9 +65,12 @@
         "https://technicat.github.io/images/hyperbowl/hyperbowlforestscreenshots/hyperbowlforest.png",
         "https://technicat.github.io/images/hyperbowl/hyperbowlhighseasscreenshot/hyperbowlhighseas.png"
       ],
-      "description": "Be the ball! A Unity reimplementation of the classic bowling game, licensed from Hyper Entertainment. Available on Itch.io, Steam, and the App Store.",
+      "description": "Be the ball! A Unity reimplementation of the classic bowling game, licensed from Hyper Entertainment.",
       "highlights": [
-        "One of MacLife's Greatest iPhone Apps of 2009"
+        "One of MacLife's Greatest iPhone Apps of 2009",
+        "Available on the App Store and Steam",
+        "Rejected by the Mac App Store because it's too much like the iOS version which was a port of the desktop version and now they want all iOS apps on the Mac App store...",
+        "Formerly available on many other stores (Amazon Appstore, Nook store, Itch.io, and those deadbeats who shall not be named...)"
       ],
       "keywords": [
         "bowling",
@@ -111,7 +114,7 @@
       ],
       "description": "A Playstation Home driving/shooting game with alien invader teddy bears.",
       "highlights": [
-        "Programmer credit displayed in-world."
+        "Programmer credit displayed in-world"
       ],
       "keywords": [
         "Playstation 3",
@@ -149,8 +152,11 @@
       "images": [
         "https://technicat.github.io/images/bluemars/bluemarsgolf.png"
       ],
-      "description": "A 3D virtual world implemented in CryEngine. Supported third-party developers, documented the Lua API and framework for creating minigames on the community wiki (a CryEngine wiki even copied part of it!), tweaked physics, updated Scaleform integration, modified CryEngine to work with Scaleform IME (for localization).",
+      "description": "A 3D virtual world implemented with CryEngine.",
       "highlights": [
+        "Documented the Lua API and framework for creating minigames on the community wiki (a CryEngine wiki even copied part of it!)",
+        "Integrated newer versions of Scaleform, including Scaleform IME for localization",
+        "Tweaked CryEngine physics to support an in-world golf game",
         "Attended in-world developer meetings. Better than Zoom."
       ],
       "keywords": [
@@ -173,7 +179,10 @@
       "images": [
         "https://technicat.github.io/images/nendo/nendo-modeling.jpg"
       ],
-      "description": "A nifty 3D modeler originally developed at Nichimen Graphics. Updated to work on Windows XP.",
+      "description": "A nifty 3D modeler originally developed at Nichimen Graphics.",
+      "highlights": [
+        "Updated to work on Windows XP."
+      ],
       "keywords": [
         "3D",
         "C++"
@@ -192,8 +201,12 @@
       "images": [
         "https://technicat.github.io/images/darkwatch/darkwatch.jpg"
       ],
-      "description": "A vampire western for Playstation 2 and Xbox. Worked on various HUD elements, PAL support, demo builds, implemented multiplayer split-screen, added designer-friendly Lua interfaces for audio, health bars, etc.",
+      "description": "A vampire western for Playstation 2 and Xbox. demo builds.",
       "highlights": [
+        "Worked on HUD elements for health, ammo, special powers",
+        "Implemented split-screen (multiple Renderware cameras) for multiplayer",
+        "Added PAL support",
+        "Integrated Lua scripting for audio effects and HUD elements",
         "Received programmer credit (but oddly required to list city of birth)."
       ],
       "keywords": [
@@ -215,6 +228,10 @@
     {
       "name": "Fugu Games",
       "description": "Small games released as webplayers, Mac widgets, and mobile apps.",
+      "highlights": [
+        "Fugu Maze, a suspense maze walkthrough that got twenty thousand downloads on the App Store in the first week and then a trickle after I started charging for it",
+        "Fugu Bowl, a simple proof of concept for HyperBowl that got low ratings but mroe downloads than HyperBowl"
+      ],
       "keywords": [
         "3D",
         "2D",
@@ -235,7 +252,12 @@
       "images": [
         "https://technicat.github.io/images/techdeck/techdeck.jpg"
       ],
-      "description": "A skateboarding game bundled with Tech Deck figures. Implemented installers, dynamic shadows, video, a build system.",
+      "description": "A skateboarding game bundled with Tech Deck figures.",
+      "highlights":[
+        "Implemented installers so each game could be packaged separately and installed in any sequence",
+        "Added dynamic shadows to replace the placeholder blob shadows (and then switched back to the blog shadows because the art director liked them better)",
+        "Set up a push-button scripted build system so the producers could create a latest build from the subversion source at any time"
+      ],
       "keywords": [
         "Windows",
         "Renderware",
@@ -255,7 +277,14 @@
       "images": [
         "https://technicat.github.io/images/hyperbowl/metreon.jpg"
       ],
-      "description": "A 3D bowling game, rolling in fanciful locations. Took over for the original lead programmer, updated attraction version of HyperBowl for localization, new lanes, optimization, new graphics cards, arcade and PC support.",
+      "description": "A 3D attraction bowling game, rolling in fanciful locations.",
+      "highlights":[
+        "Added localization support, particularly for Jillian's installations in Montreal (French)",
+        "Implemented support for (potential) new lanes, e.g. a toy room, motocross slope...",
+        "Profiled, optimized (those lanes kept getting bigger and bigger)",
+        "Fixes for new graphics cards (pesky w-buffer...)",
+        "Changes to facilitate arcade and PC versions (I'm there in the mobygames credits)"
+      ],
       "keywords": [
         "3D",
         "Windows",
