@@ -99,7 +99,8 @@
         "Fixed in-app-purchase issues",
         "Updated video player after Apple dropped support for previous API",
         "Updated issue download code after Apple dropped support for previous API (notice a trend?)",
-        "Optimized startup time and browsing"
+        "Optimized startup time and browsing",
+        "Updated to comply with ever-changing Apple requirements"
       ],
       "keywords": [
         "iOS",
