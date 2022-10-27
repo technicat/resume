@@ -162,7 +162,8 @@
     {
       "name": "Blue Mars",
       "images": [
-        "https://technicat.github.io/images/bluemars/bluemarsgolf.png"
+        "https://technicat.github.io/images/bluemars/bluemarsgolf.png",
+        "https://technicat.github.io/images/bluemars/avatarreality.jpg"
       ],
       "description": "A 3D virtual world implemented with CryEngine.",
       "highlights": [
