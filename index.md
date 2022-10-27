@@ -109,6 +109,7 @@ programmer from September 2007 to January 2011
 
 
 ![project image](https://technicat.github.io/images/bluemars/bluemarsgolf.png)
+![project image](https://technicat.github.io/images/bluemars/avatarreality.jpg)
 
 A 3D virtual world implemented with CryEngine.
 
