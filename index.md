@@ -51,8 +51,6 @@ Be the ball! A Unity reimplementation of the classic bowling game, licensed from
 
 - Available on the App Store and Steam
 
-- Rejected by the Mac App Store because it's too much like the iOS version which was a port of the desktop version and now they want all iOS apps on the Mac App store...
-
 - Formerly available on the Amazon Appstore, Nook store, Itch.io, and various crappy app stores (crappstores?)
 
 *game:* *bowling, 3D, Unity*
