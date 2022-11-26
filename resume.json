@@ -5,7 +5,7 @@
   "basics": {
     "name": "Phil Chu",
     "label": "Technicat LLC",
-    "image": "https://technicat.github.io/images/smallhack.jpg",
+    "image": "https://technicat.github.io/images/westhigh/smallhack.jpg",
     "url": "http://technicat.com",
     "summary": "Developing software since the 80s",
     "location": {
@@ -535,6 +535,23 @@
   ],
   "education": [
     {
+      "institution": "Johns Hopkins University",
+      "url": "https://jhu.edu/",
+      "area": "Computer Science",
+      "studyType": "Masters degree",
+      "endDate": "1993-05-26",
+      "startDate": "1991-09-01",
+      "score": "B+",
+      "courses": [
+        "AI",
+        "computer graphics",
+        "automata",
+        "algorithms",
+        "compilers",
+        "functional programming"
+      ]
+    },
+    {
       "institution": "Massachusetts Institute of Technology",
       "url": "https://mit.edu/",
       "area": "Computer Science and Engineering",
@@ -554,20 +571,15 @@
       ]
     },
     {
-      "institution": "Johns Hopkins University",
-      "url": "https://jhu.edu/",
-      "area": "Computer Science",
-      "studyType": "Masters degree",
-      "endDate": "1993-05-26",
-      "startDate": "1991-09-01",
-      "score": "B+",
-      "courses": [
-        "AI",
-        "computer graphics",
-        "automata",
-        "algorithms",
-        "compilers",
-        "functional programming"
+      "institution": "West Senior High School",
+      "url": "https://www.iowacityschools.org/WestHS",
+      "studyType": "High school degree",
+      "startDate": "1981-09-01",
+      "endDate": "1984-05-31",
+      "score": "A",
+      "images": [
+        "https://technicat.github.io/images/westhigh/hacker.jpg",
+        "https://technicat.github.io/images/westhigh/diploma.jpg"
       ]
     }
   ],

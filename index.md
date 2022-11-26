@@ -4,7 +4,7 @@
 Las Vegas, Nevada, United States
  [http://technicat.com](http://technicat.com)
 
-![profile](https://technicat.github.io/images/smallhack.jpg)
+![profile](https://technicat.github.io/images/westhigh/smallhack.jpg)
 
  [technicat](https://github.com/technicat) @ Github
 
@@ -361,6 +361,15 @@ Collection of software development essays.
 ## Education
 
 
+### [Johns Hopkins University](https://jhu.edu/)
+
+September 1991 to May 1993
+
+Masters degree in Computer Science, B+ GPA
+
+
+
+*AI, computer graphics, automata, algorithms, compilers, functional programming*
 ### [Massachusetts Institute of Technology](https://mit.edu/)
 
 September 1984 to May 1988
@@ -372,15 +381,17 @@ Bachelors degree in Computer Science and Engineering, 3.x GPA
 ![project image](https://technicat.github.io/images/mit/kit.jpg)
 
 *6.001, 6.002, 6.003, 6.004*
-### [Johns Hopkins University](https://jhu.edu/)
+### [West Senior High School](https://www.iowacityschools.org/WestHS)
 
-September 1991 to May 1993
+September 1981 to May 1984
 
-Masters degree in Computer Science, B+ GPA
+High school degree in #f, A GPA
 
 
+![project image](https://technicat.github.io/images/westhigh/hacker.jpg)
+![project image](https://technicat.github.io/images/westhigh/diploma.jpg)
 
-*AI, computer graphics, automata, algorithms, compilers, functional programming*
+
 ## Languages
 
 Native speaker in English
