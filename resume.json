@@ -541,7 +541,7 @@
       "studyType": "Masters degree",
       "endDate": "1993-05-26",
       "startDate": "1991-09-01",
-      "score": "B+",
+      "score": "3.x",
       "courses": [
         "AI",
         "computer graphics",
@@ -573,10 +573,11 @@
     {
       "institution": "West Senior High School",
       "url": "https://www.iowacityschools.org/WestHS",
+      "area": "Iowa",
       "studyType": "High school degree",
       "startDate": "1981-09-01",
       "endDate": "1984-05-31",
-      "score": "A",
+      "score": "3.x",
       "images": [
         "https://technicat.github.io/images/westhigh/hacker.jpg",
         "https://technicat.github.io/images/westhigh/diploma.jpg"
