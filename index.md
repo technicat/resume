@@ -240,6 +240,7 @@ Supply chain planning software for semiconductor fabs. Upgraded from Tcl to TclP
 consultant from September 1997 to September 1997
 
 
+![project image](https://technicat.github.io/images/nichimen/mirai.png)
 
 Successor to N-World
 
@@ -255,7 +256,6 @@ Successor to N-World
 programmer from December 1995 to June 1997
 
 
-![project image](https://technicat.github.io/images/nichimen/mirai.png)
 ![project image](https://technicat.github.io/images/nichimen/fasttrack.jpg)
 
 A 3D modeling and animation package descended once upon a time from the Symbolics Graphics Group (written in Lisp, shhh!).
