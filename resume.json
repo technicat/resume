@@ -395,6 +395,7 @@
     {
       "name": "N-World",
       "images": [
+        "https://technicat.github.io/images/nichimen/mirai.png",
         "https://technicat.github.io/images/nichimen/fasttrack.jpg"
       ],
       "description": "A 3D modeling and animation package descended once upon a time from the Symbolics Graphics Group (written in Lisp, shhh!).",
