@@ -353,7 +353,10 @@
       ],
       "url": "https://spinoff.nasa.gov/spinoff1998/ct11.htm",
       "entity": "Interval Logic",
-      "type": "enterprise"
+      "type": "enterprise",
+      "images": [
+        "https://technicat.github.io/images/ilc/schedlvg.jpg"
+      ]
     },
     {
       "name": "Leverage for Planning",
@@ -368,7 +371,10 @@
       ],
       "url": "https://web.archive.org/web/19991105062823/http://www.interval-logic.com/news/lsi.html",
       "entity": "Interval Logic",
-      "type": "enterprise"
+      "type": "enterprise",
+      "images": [
+        "https://technicat.github.io/images/ilc/opplnglvg.jpg"
+      ]
     },
     {
       "name": "Mirai",

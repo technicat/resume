@@ -222,6 +222,7 @@ One of the first mobile web browsers, conforming to WAP standards.
 programmer from December 1998 to December 1999
 
 
+![project image](https://technicat.github.io/images/ilc/schedlvg.jpg)
 
 Supply chain scheduling software for semiconductor fabs. Managed the group reponsible for installation, XML interoperability, and user interfaces.
 
@@ -231,6 +232,7 @@ Supply chain scheduling software for semiconductor fabs. Managed the group repon
 programmer from November 1998 to November 1998
 
 
+![project image](https://technicat.github.io/images/ilc/opplnglvg.jpg)
 
 Supply chain planning software for semiconductor fabs. Upgraded from Tcl to TclPro.
 
