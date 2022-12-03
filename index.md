@@ -255,6 +255,7 @@ Successor to N-World
 programmer from December 1995 to June 1997
 
 
+![project image](https://technicat.github.io/images/nichimen/mirai.png)
 ![project image](https://technicat.github.io/images/nichimen/fasttrack.jpg)
 
 A 3D modeling and animation package descended once upon a time from the Symbolics Graphics Group (written in Lisp, shhh!).
@@ -365,7 +366,7 @@ Collection of software development essays.
 
 September 1991 to May 1993
 
-Masters degree in Computer Science, B+ GPA
+Masters degree in Computer Science, 3.x GPA
 
 
 
@@ -385,7 +386,7 @@ Bachelors degree in Computer Science and Engineering, 3.x GPA
 
 September 1981 to May 1984
 
-High school degree in #f, A GPA
+High school degree in Iowa, 3.x GPA
 
 
 ![project image](https://technicat.github.io/images/westhigh/hacker.jpg)
