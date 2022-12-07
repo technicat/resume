@@ -4,7 +4,7 @@
 Las Vegas, Nevada, United States
  [http://technicat.com](http://technicat.com)
 
-![profile](https://technicat.github.io/images/westhigh/smallhack.jpg)
+![profile](https://technicat.github.io/images/tahoe.jpg)
 
  [technicat](https://github.com/technicat) @ Github
 
