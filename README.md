@@ -12,5 +12,5 @@ Themes.scm exports the resume.json to HTML and PDF using [resume-cli](https://gi
 
 ## License
 
-The Gauche scripts are MIT License. Feel free to use my résumé as a template, but recruiters, keep your mitts off!
+The Gauche scripts are MIT License. Feel free to use my résumé JSON file as a template. Recruiters, you do not have permission to put these in your database.
 
