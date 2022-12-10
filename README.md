@@ -30,5 +30,5 @@ This is an improvement, at least in presentation, over my old [XML résumé form
 
 ## License
 
-The Gauche scripts are MIT License. Feel free to use my résumé JSON file as a template. Recruiters, you do not have permission to put these in your database.
+The Gauche scripts are MIT License. Feel free to use my résumé JSON file as a template. Recruiters, you do not have permission to put these in your [spam database](https://recruiterspam.net/).
 
