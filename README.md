@@ -1,8 +1,4 @@
-My résumé in [JSON](https://jsonresume.org/)
-
-## Extensions
-
-resume.scm processes additions to the original [schema](https://github.com/jsonresume/resume-schema/issues), including images for projects, schools, and awards.
+My résumé in [JSON](https://jsonresume.org/) with additions to the original [schema](https://github.com/jsonresume/resume-schema/issues), including images for projects, schools, and awards.
 
 ## Scripts
 
@@ -22,7 +18,7 @@ Markdown output is created thus (and copied via GitHub Actions to the [GitHub pa
 ./themes.scm
 ```
 
-Themes.scm exports the resume.json to HTML and PDF using [resume-cli](https://github.com/jsonresume/resume-cli) and various [themes](https://jsonresume.org/themes/) (all the ones I could find that didn't generate too many warnings or errors). It requires the themes be installed local to the project via npm.
+Themes.scm exports the resume.json to HTML and PDF using [resume-cli](https://github.com/jsonresume/resume-cli) and various [themes](https://jsonresume.org/themes/) (all the ones I could find that didn't generate too many warnings or errors), plus my own [variation](https://github.com/technicat/jsonresume-theme-even-more). It requires the themes be installed local to the project via npm.
 
 ## Other
 
