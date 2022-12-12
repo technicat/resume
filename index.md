@@ -16,7 +16,7 @@ Developing software since the 80s
 January 2000 to present
 
 
-Providing consulting and contract software development, self-publishing apps and games.
+Consulting and contract development, self-publishing apps and games.
 
 ### working for the man @ [various](https://en.wikipedia.org/wiki/Working_for_the_Man_(song)) 
 
