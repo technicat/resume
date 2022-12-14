@@ -464,7 +464,7 @@ Interval Logic on April 1999
 They misspelled my name.
 
 
-### Maritime Synthetic Theater of War
+### Maritime Simulation Demonstration
 ARPA on October 1993
 ![project image](https://technicat.github.io/images/apl/arpa.jpg)
 
