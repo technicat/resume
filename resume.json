@@ -773,6 +773,15 @@
       "summary": "They misspelled my name."
     },
     {
+      "title": "Maritime Synthetic Theater of War",
+      "images": [
+        "https://technicat.github.io/images/apl/arpa.jpg"
+      ],
+      "awarder": "ARPA",
+      "date": "1993-10-01",
+      "summary": "They misspelled my name, too."
+    },
+    {
       "title": "First Hubble Servicing Mission",
       "images": [
         "https://technicat.github.io/images/stsci/sts61.jpg"

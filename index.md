@@ -464,6 +464,13 @@ Interval Logic on April 1999
 They misspelled my name.
 
 
+### Maritime Synthetic Theater of War
+ARPA on October 1993
+![project image](https://technicat.github.io/images/apl/arpa.jpg)
+
+They misspelled my name, too.
+
+
 ### First Hubble Servicing Mission
 Space Telescope Science Institute on December 1993
 ![project image](https://technicat.github.io/images/stsci/sts61.jpg)
