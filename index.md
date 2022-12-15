@@ -475,7 +475,7 @@ They misspelled my name, too.
 Space Telescope Science Institute on December 1993
 ![project image](https://technicat.github.io/images/stsci/sts61.jpg)
 
-Includes a patch flown on the first Hubble servicing mission. Best workplace award ever.
+Includes a patch flown on the first Hubble servicing mission. Best workplace award ever. And they got my name right.
 
 
 ## Certificates
