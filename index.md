@@ -2,7 +2,7 @@
 # Phil Chu, Technicat LLC
 
 Las Vegas, Nevada, United States
- [technicat.com](technicat.com)
+ [https://technicat.com/](https://technicat.com/)
 
 ![profile](https://technicat.github.io/images/tahoe.jpg)
 
