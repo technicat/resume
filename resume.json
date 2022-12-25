@@ -5,7 +5,7 @@
   "basics": {
     "name": "Phil Chu",
     "label": "Technicat LLC",
-    "image": "https://technicat.github.io/images/tahoe.jpg",
+    "image": "images/tahoe.jpg",
     "url": "https://technicat.com/",
     "summary": "Developing software since the 80s",
     "location": {
@@ -42,7 +42,7 @@
     {
       "name": "Talk Dim Sum",
       "images": [
-        "https://technicat.github.io/images/talkdimsum/screenshots/talkdimsummockup.png"
+        "images/talkdimsum/screenshots/talkdimsummockup.png"
       ],
       "description": "Your dim sum companion. Read about dim sum and learn how to pronounce the dishes. Available on Itch.io and the App Store.",
       "keywords": [
@@ -62,8 +62,8 @@
     {
       "name": "HyperBowl",
       "images": [
-        "https://technicat.github.io/images/hyperbowl/hyperbowlforestscreenshots/hyperbowlforest.png",
-        "https://technicat.github.io/images/hyperbowl/hyperbowlhighseasscreenshot/hyperbowlhighseas.png"
+        "images/hyperbowl/hyperbowlforestscreenshots/hyperbowlforest.png",
+        "images/hyperbowl/hyperbowlhighseasscreenshot/hyperbowlhighseas.png"
       ],
       "description": "Be the ball! A Unity reimplementation of the classic bowling game, licensed from Hyper Entertainment.",
       "highlights": [
@@ -78,7 +78,7 @@
       ],
       "startDate": "2008-12-01",
       "endDate": "2019-12-01",
-      "url": "http://hyperbowl.rocks/",
+      "url": "http://hyperbowl3d.com/",
       "roles": [
         "developer",
         "publisher",
@@ -90,7 +90,7 @@
     {
       "name": "Cinefex iPad Edition",
       "images": [
-        "https://technicat.github.io/images/cinefex/screenshots/cinefex.png"
+        "images/cinefex/screenshots/cinefex.png"
       ],
       "description": "An iPad reader for the Cinefex visual effects magazine, with extras such as videos and image galleries.",
       "highlights": [
@@ -117,7 +117,7 @@
     {
       "name": "Emo-Ray vs. the Intergalactic Teddy Bears",
       "images": [
-        "https://technicat.github.io/images/emoray/emoraycredits.jpg"
+        "images/emoray/emoraycredits.jpg"
       ],
       "description": "A Playstation Home driving/shooting game with alien invader teddy bears.",
       "highlights": [
@@ -161,8 +161,8 @@
     {
       "name": "Blue Mars",
       "images": [
-        "https://technicat.github.io/images/bluemars/bluemarsgolf.png",
-        "https://technicat.github.io/images/bluemars/avatarreality.jpg"
+        "images/bluemars/bluemarsgolf.png",
+        "images/bluemars/avatarreality.jpg"
       ],
       "description": "A 3D virtual world implemented with CryEngine.",
       "highlights": [
@@ -189,7 +189,7 @@
     {
       "name": "Nendo",
       "images": [
-        "https://technicat.github.io/images/nendo/nendo-modeling.jpg"
+        "images/nendo/nendo-modeling.jpg"
       ],
       "description": "A nifty 3D modeler originally developed at Nichimen Graphics.",
       "highlights": [
@@ -211,7 +211,7 @@
     {
       "name": "Darkwatch",
       "images": [
-        "https://technicat.github.io/images/darkwatch/darkwatch.jpg"
+        "images/darkwatch/darkwatch.jpg"
       ],
       "description": "A vampire western for Playstation 2 and Xbox. demo builds.",
       "highlights": [
@@ -262,7 +262,7 @@
     {
       "name": "Tech Deck: Bare Knuckle Grind",
       "images": [
-        "https://technicat.github.io/images/techdeck/techdeck.jpg"
+        "images/techdeck/techdeck.jpg"
       ],
       "description": "A skateboarding game bundled with Tech Deck figures.",
       "highlights": [
@@ -287,7 +287,7 @@
     {
       "name": "HyperBowl",
       "images": [
-        "https://technicat.github.io/images/hyperbowl/metreon.jpg"
+        "images/hyperbowl/metreon.jpg"
       ],
       "description": "A 3D attraction bowling game, rolling in fanciful locations.",
       "highlights": [
@@ -316,7 +316,7 @@
     {
       "name": "Neomar",
       "images": [
-        "https://technicat.github.io/images/neomar/neomar.png"
+        "images/neomar/neomar.png"
       ],
       "description": "One of the first mobile web browsers, conforming to WAP standards.",
       "highlights": [
@@ -355,7 +355,7 @@
       "entity": "Interval Logic",
       "type": "enterprise",
       "images": [
-        "https://technicat.github.io/images/ilc/schedlvg.jpg"
+        "images/ilc/schedlvg.jpg"
       ]
     },
     {
@@ -373,7 +373,7 @@
       "entity": "Interval Logic",
       "type": "enterprise",
       "images": [
-        "https://technicat.github.io/images/ilc/opplnglvg.jpg"
+        "images/ilc/opplnglvg.jpg"
       ]
     },
     {
@@ -398,13 +398,13 @@
       "entity": "Nichimen Graphics",
       "type": "graphics",
       "images": [
-        "https://technicat.github.io/images/nichimen/mirai.png"
+        "images/nichimen/mirai.png"
       ]
     },
     {
       "name": "N-World",
       "images": [
-        "https://technicat.github.io/images/nichimen/fasttrack.jpg"
+        "images/nichimen/fasttrack.jpg"
       ],
       "description": "A 3D modeling and animation package descended once upon a time from the Symbolics Graphics Group (written in Lisp, shhh!).",
       "highlights": [
@@ -575,8 +575,8 @@
         "6.004"
       ],
       "images": [
-        "https://technicat.github.io/images/mit/mit.jpg",
-        "https://technicat.github.io/images/mit/kit.jpg"
+        "images/mit/mit.jpg",
+        "images/mit/kit.jpg"
       ]
     },
     {
@@ -588,8 +588,8 @@
       "endDate": "1984-05-31",
       "score": "3.x",
       "images": [
-        "https://technicat.github.io/images/westhigh/hacker.jpg",
-        "https://technicat.github.io/images/westhigh/diploma.jpg"
+        "images/westhigh/hacker.jpg",
+        "images/westhigh/diploma.jpg"
       ]
     }
   ],
@@ -597,7 +597,7 @@
     {
       "name": "Learn Unity 2014 for iOS Game Development",
       "images": [
-        "https://technicat.github.io/images/learnunity/cover.jpg"
+        "images/learnunity/cover.jpg"
       ],
       "summary": "Introduction to mobile game development with the Unity game engine.",
       "publisher": "Apress",
@@ -607,7 +607,7 @@
     {
       "name": "Technicat on Software",
       "images": [
-        "https://technicat.github.io/images/books/bn.jpg"
+        "images/books/bn.jpg"
       ],
       "summary": "Collection of software development essays.",
       "publisher": "self",
@@ -766,7 +766,7 @@
     {
       "title": "Leverage for Planning/Scheduling",
       "images": [
-        "https://technicat.github.io/images/ilc/kfc.jpg"
+        "images/ilc/kfc.jpg"
       ],
       "awarder": "Interval Logic",
       "date": "1999-04-01",
@@ -775,7 +775,7 @@
     {
       "title": "Maritime Simulation Demonstration",
       "images": [
-        "https://technicat.github.io/images/apl/arpa.jpg"
+        "images/apl/arpa.jpg"
       ],
       "awarder": "ARPA",
       "date": "1993-10-01",
@@ -784,7 +784,7 @@
     {
       "title": "First Hubble Servicing Mission",
       "images": [
-        "https://technicat.github.io/images/stsci/sts61.jpg"
+        "images/stsci/sts61.jpg"
       ],
       "awarder": "Space Telescope Science Institute",
       "date": "1993-12-02",
@@ -795,7 +795,7 @@
     {
       "name": "Neomar stock",
       "images": [
-        "https://technicat.github.io/images/neomar/neostock.jpg"
+        "images/neomar/neostock.jpg"
       ],
       "issuer": "Neomar",
       "date": "2000-07-27",
