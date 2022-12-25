@@ -9,7 +9,7 @@ Output to various formats using scripts written in [Gauche](https://practical-sc
 Markdown output is created thus (and copied via GitHub Actions to the [GitHub page](http://philipchu.com) of this repo).
 
 ```sh
-./resume.scm -f resume.json -o index.md
+./md.scm -f resume.json -o index.md
 ```
 
 ## HTML and PDF
