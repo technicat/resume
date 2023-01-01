@@ -6,7 +6,7 @@ Las Vegas, Nevada, United States
 
 ![profile](images/tahoe.jpg)
 
- [technicat](https://github.com/technicat) @ Github [pc](https://technicat.cafe/pc) @ Mastodon
+ [technicat](https://github.com/technicat) @ Github [pc](https://technicat.cafe/@pc) @ Mastodon
 
 Developing software since the 80s
 ## Career
