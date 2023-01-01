@@ -4,9 +4,9 @@
 Las Vegas, Nevada, United States
  [https://technicat.com/](https://technicat.com/)
 
-![profile](https://technicat.github.io/images/tahoe.jpg)
+![profile](images/tahoe.jpg)
 
- [technicat](https://github.com/technicat) @ Github
+ [technicat](https://github.com/technicat) @ Github [pc](https://technicat.cafe/pc) @ Mastodon
 
 Developing software since the 80s
 ## Career
@@ -32,18 +32,18 @@ Journeyed through the semiconductor, defense, space, computer graphics, mobile I
 developer, publisher from January 2014 to present
 
 
-![project image](https://technicat.github.io/images/talkdimsum/screenshots/talkdimsummockup.png)
+![project image](images/talkdimsum/screenshots/talkdimsummockup.png)
 
 Your dim sum companion. Read about dim sum and learn how to pronounce the dishes. Available on Itch.io and the App Store.
 
 *app:* *iOS, Swift, dim sum*
 
-### [HyperBowl](http://hyperbowl.rocks/) @ Technicat
+### [HyperBowl](http://hyperbowl3d.com/) @ Technicat
 developer, publisher, licensee from December 2008 to December 2019
 
 
-![project image](https://technicat.github.io/images/hyperbowl/hyperbowlforestscreenshots/hyperbowlforest.png)
-![project image](https://technicat.github.io/images/hyperbowl/hyperbowlhighseasscreenshot/hyperbowlhighseas.png)
+![project image](images/hyperbowl/hyperbowlforestscreenshots/hyperbowlforest.png)
+![project image](images/hyperbowl/hyperbowlhighseasscreenshot/hyperbowlhighseas.png)
 
 Be the ball! A Unity reimplementation of the classic bowling game, licensed from Hyper Entertainment.
 
@@ -59,7 +59,7 @@ Be the ball! A Unity reimplementation of the classic bowling game, licensed from
 developer from April 2016 to present
 
 
-![project image](https://technicat.github.io/images/cinefex/screenshots/cinefex.png)
+![project image](images/cinefex/screenshots/cinefex.png)
 
 An iPad reader for the Cinefex visual effects magazine, with extras such as videos and image galleries.
 
@@ -81,7 +81,7 @@ An iPad reader for the Cinefex visual effects magazine, with extras such as vide
 programmer from September 2011 to December 2011
 
 
-![project image](https://technicat.github.io/images/emoray/emoraycredits.jpg)
+![project image](images/emoray/emoraycredits.jpg)
 
 A Playstation Home driving/shooting game with alien invader teddy bears.
 
@@ -106,8 +106,8 @@ A Playstation Home multiplayer racing game.
 programmer from September 2007 to January 2011
 
 
-![project image](https://technicat.github.io/images/bluemars/bluemarsgolf.png)
-![project image](https://technicat.github.io/images/bluemars/avatarreality.jpg)
+![project image](images/bluemars/bluemarsgolf.png)
+![project image](images/bluemars/avatarreality.jpg)
 
 A 3D virtual world implemented with CryEngine.
 
@@ -125,7 +125,7 @@ A 3D virtual world implemented with CryEngine.
 programmer from May 2007 to June 2007
 
 
-![project image](https://technicat.github.io/images/nendo/nendo-modeling.jpg)
+![project image](images/nendo/nendo-modeling.jpg)
 
 A nifty 3D modeler originally developed at Nichimen Graphics.
 
@@ -137,7 +137,7 @@ A nifty 3D modeler originally developed at Nichimen Graphics.
 programmer from September 2006 to April 2007
 
 
-![project image](https://technicat.github.io/images/darkwatch/darkwatch.jpg)
+![project image](images/darkwatch/darkwatch.jpg)
 
 A vampire western for Playstation 2 and Xbox. demo builds.
 
@@ -170,7 +170,7 @@ Small games released as webplayers, Mac widgets, and mobile apps.
 programmer from December 2003 to May 2004
 
 
-![project image](https://technicat.github.io/images/techdeck/techdeck.jpg)
+![project image](images/techdeck/techdeck.jpg)
 
 A skateboarding game bundled with Tech Deck figures.
 
@@ -186,7 +186,7 @@ A skateboarding game bundled with Tech Deck figures.
 programmer from January 2001 to June 2001
 
 
-![project image](https://technicat.github.io/images/hyperbowl/metreon.jpg)
+![project image](images/hyperbowl/metreon.jpg)
 
 A 3D attraction bowling game, rolling in fanciful locations.
 
@@ -206,7 +206,7 @@ A 3D attraction bowling game, rolling in fanciful locations.
 programmer from December 1999 to July 2001
 
 
-![project image](https://technicat.github.io/images/neomar/neomar.png)
+![project image](images/neomar/neomar.png)
 
 One of the first mobile web browsers, conforming to WAP standards.
 
@@ -222,7 +222,7 @@ One of the first mobile web browsers, conforming to WAP standards.
 programmer from December 1998 to December 1999
 
 
-![project image](https://technicat.github.io/images/ilc/schedlvg.jpg)
+![project image](images/ilc/schedlvg.jpg)
 
 Supply chain scheduling software for semiconductor fabs. Managed the group reponsible for installation, XML interoperability, and user interfaces.
 
@@ -232,7 +232,7 @@ Supply chain scheduling software for semiconductor fabs. Managed the group repon
 programmer from November 1998 to November 1998
 
 
-![project image](https://technicat.github.io/images/ilc/opplnglvg.jpg)
+![project image](images/ilc/opplnglvg.jpg)
 
 Supply chain planning software for semiconductor fabs. Upgraded from Tcl to TclPro.
 
@@ -242,7 +242,7 @@ Supply chain planning software for semiconductor fabs. Upgraded from Tcl to TclP
 consultant from September 1997 to September 1997
 
 
-![project image](https://technicat.github.io/images/nichimen/mirai.png)
+![project image](images/nichimen/mirai.png)
 
 Successor to N-World
 
@@ -258,7 +258,7 @@ Successor to N-World
 programmer from December 1995 to June 1997
 
 
-![project image](https://technicat.github.io/images/nichimen/fasttrack.jpg)
+![project image](images/nichimen/fasttrack.jpg)
 
 A 3D modeling and animation package descended once upon a time from the Symbolics Graphics Group (written in Lisp, shhh!).
 
@@ -346,7 +346,7 @@ Part time student work on a graph display for the the START natural language par
 Published June 2013 by Apress
 
 
-![project image](https://technicat.github.io/images/learnunity/cover.jpg)
+![project image](images/learnunity/cover.jpg)
 
 Introduction to mobile game development with the Unity game engine.
 
@@ -356,7 +356,7 @@ Introduction to mobile game development with the Unity game engine.
 Published January 2015 by self
 
 
-![project image](https://technicat.github.io/images/books/bn.jpg)
+![project image](images/books/bn.jpg)
 
 Collection of software development essays.
 
@@ -380,8 +380,8 @@ September 1984 to May 1988
 Bachelors degree in Computer Science and Engineering, 3.x GPA
 
 
-![project image](https://technicat.github.io/images/mit/mit.jpg)
-![project image](https://technicat.github.io/images/mit/kit.jpg)
+![project image](images/mit/mit.jpg)
+![project image](images/mit/kit.jpg)
 
 *6.001, 6.002, 6.003, 6.004*
 ### [West Senior High School](https://www.iowacityschools.org/WestHS)
@@ -391,8 +391,8 @@ September 1981 to May 1984
 High school degree in Iowa, 3.x GPA
 
 
-![project image](https://technicat.github.io/images/westhigh/hacker.jpg)
-![project image](https://technicat.github.io/images/westhigh/diploma.jpg)
+![project image](images/westhigh/hacker.jpg)
+![project image](images/westhigh/diploma.jpg)
 
 
 ## Languages
@@ -459,21 +459,21 @@ Kdrama phrases in Korean
 
 ### Leverage for Planning/Scheduling
 Interval Logic on April 1999
-![project image](https://technicat.github.io/images/ilc/kfc.jpg)
+![project image](images/ilc/kfc.jpg)
 
 They misspelled my name.
 
 
 ### Maritime Simulation Demonstration
 ARPA on October 1993
-![project image](https://technicat.github.io/images/apl/arpa.jpg)
+![project image](images/apl/arpa.jpg)
 
 They misspelled my name, too.
 
 
 ### First Hubble Servicing Mission
 Space Telescope Science Institute on December 1993
-![project image](https://technicat.github.io/images/stsci/sts61.jpg)
+![project image](images/stsci/sts61.jpg)
 
 Includes a patch flown on the first Hubble servicing mission. Best workplace award ever. And they got my name right.
 
@@ -485,7 +485,7 @@ Includes a patch flown on the first Hubble servicing mission. Best workplace awa
 [Neomar](https://googlepress.blogspot.com/2000/09/google-search-engine-now-available.html) on July 2000
 
 
-![project image](https://technicat.github.io/images/neomar/neostock.jpg)
+![project image](images/neomar/neostock.jpg)
 
 
 ## References

@@ -16,14 +16,21 @@
  (theme "github")
  (theme "jacrys")
  (theme "kendall")
- (theme "orbit"))
+ (theme "orbit")
+ (theme2html "even-more" "index"))
 
 (define (help file)
  (print "Convert JSON resume to HTML"))
 
 (define (theme theme)
  (print #"applying theme ~theme")
- (sys-system #"resume export html/~|theme|.html -t ~theme")
+ (theme2html theme theme)
+; (sys-system #"resume export html/~|theme|.html -t ~theme")
  (sys-system #"resume export pdf/~|theme|.pdf -t ~theme")
+ )
+
+(define (theme2html theme out)
+ (print #"making html ~theme")
+ (sys-system #"resume export html/~|out|.html -t ~theme")
  )
 

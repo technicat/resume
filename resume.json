@@ -18,6 +18,11 @@
         "network": "Github",
         "username": "technicat",
         "url": "https://github.com/technicat"
+      },
+      {
+        "network": "Mastodon",
+        "username": "pc",
+        "url": "https://technicat.cafe/pc"
       }
     ]
   },
