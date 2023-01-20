@@ -108,6 +108,7 @@ programmer from September 2007 to January 2011
 
 ![project image](images/bluemars/bluemarsgolf.png)
 ![project image](images/bluemars/avatarreality.jpg)
+![project image](images/bluemars/bluemarsavatar.jpg)
 
 A 3D virtual world implemented with CryEngine.
 
@@ -346,7 +347,7 @@ Part time student work on a graph display for the the START natural language par
 Published June 2013 by Apress
 
 
-![project image](images/learnunity/cover.jpg)
+![project image](images/learnunity/learnunitycoverbig.png)
 
 Introduction to mobile game development with the Unity game engine.
 

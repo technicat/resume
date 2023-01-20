@@ -167,7 +167,8 @@
       "name": "Blue Mars",
       "images": [
         "images/bluemars/bluemarsgolf.png",
-        "images/bluemars/avatarreality.jpg"
+        "images/bluemars/avatarreality.jpg",
+        "images/bluemars/bluemarsavatar.jpg"
       ],
       "description": "A 3D virtual world implemented with CryEngine.",
       "highlights": [
