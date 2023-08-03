@@ -33,10 +33,6 @@
 (define (help file)
  (print "resume.scm -f file -o outfile -v -h"))
 
-(define (write-json r file)
- (call-with-output-file file
-  (lambda (out) (construct-json r out))))
-
 (define (write-markdown r file)
  (call-with-output-file file
   (lambda (out) (markdown r out))))
