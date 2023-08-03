@@ -76,7 +76,6 @@
   (news out)
   (write-string summary out)))
 
-
 (define (basics-value key r)
  (res-value key (res-value "basics" r)))
 
@@ -369,23 +368,6 @@
  ; todo - fill this out
  "United States"
  )
-
-(define (embed label image out)
- (newline out)
- (embed-inline label image out)
- (news out))
-
-(define (embed-inline label image out)
- (newline out)
- (write-string #"![~label](~image)" out))
-
-(define (embed-images label images out)
- (if images
-  (for-each
-   (lambda (images)
-    (embed-inline "project image" images out))
-   images))
- (news out))
 
 ; date
 
