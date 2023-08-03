@@ -344,12 +344,6 @@
   (write-string #"~start to ~end" out)
   (news out)))
 
-(define (res-value key r)
- (let ((b (find (lambda (item)
-                 (string=? (car item) key))
-           r)))
-  (and b (cdr b))))
-
 ; lists
 
 (define (comma-vector v)
