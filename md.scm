@@ -346,12 +346,6 @@
 
 ; lists
 
-(define (comma-vector v)
- (comma-list (vector->list v)))
-
-(define (comma-list l)
- (string-join l ", "))
-
 (define (tags keywords out)
  (if keywords
   (write-string #"*~(comma-vector keywords)*" out)))
