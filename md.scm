@@ -301,8 +301,7 @@
        (date (format-date (res-value "date" r)))
        (url (res-value "url" r)))
   (h3 name out)
-  (link issuer url out)
-  (write-string #" on ~date" out)
+  (write-string #"~(linkstr issuer url) on ~date" out)
   (news out)
   (embed-images "certificate image" images out)))
 
