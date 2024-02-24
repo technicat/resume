@@ -68,7 +68,7 @@
   (newline out)
   (markdown-location r out)
   (newline out)
-  (if url (write-string #" ~(linkstr url)" out))
+  (if url (write-string #" ~(linkstr url url)" out))
   (if phone (write-string #" ~phone " out))
   (if email (write-string #" ~email " out))
   (if image (embed "profile" image out))
