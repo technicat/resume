@@ -99,7 +99,8 @@
  (let ((network (res-value "network" r))
        (url (res-value "url" r))
        (username (res-value "username" r)))
-  (write-string #" ~(linkstr username url) @ ~network" out)))
+  (write-string #" ~(linkstr username url)@~network" out)
+  (newline out)))
 
 ; career
 
