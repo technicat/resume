@@ -1,7 +1,7 @@
 
 # Phil Chu, Technicat LLC
 
-Las Vegas, Nevada, United States
+Salt Lake City, Utah, United States
  [https://technicat.com/](https://technicat.com/)
 
 ![profile](images/tahoe.jpg)
