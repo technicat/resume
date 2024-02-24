@@ -11,13 +11,13 @@
 
 (define (use-themes)
  (theme "actual")
- (theme "even")
- (theme "even-more")
+; (theme "even")
+; (theme "even-more")
  (theme "github")
  (theme "jacrys")
  (theme "kendall")
  (theme "orbit")
- (theme2html "even-more" "index"))
+ (theme2html "even" "index"))
 
 (define (help file)
  (print "Convert JSON resume to HTML"))
