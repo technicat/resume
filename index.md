@@ -8,7 +8,7 @@ Salt Lake City, Utah, United States
 
  [technicat](https://github.com/technicat)@Github
 
- [technicat](https://universeodon.com/@technicat)@Mastodon
+ [technicat](https://iosdev.space/@technicat)@Mastodon
 
 
 
@@ -32,7 +32,17 @@ Journeyed through the semiconductor, defense, space, computer graphics, mobile I
 ## Projects
 
 
-### [Talk Dim Sum](http://talkdimsum.com/) @ Technicat
+### [Fedicat](https://fedicat.com/) @ Technicat
+developer, publisher from March 2022 to present
+
+
+![project image](images/fedicat/screenshots/profile.jpeg)
+
+Mastodon/fediverse iOS app in progress, available on Testflight
+
+*app:* *iOS, Swift, Mastodon, fediverse*
+
+### [Talk Dim Sum](https://talkdimsum.com/) @ Technicat
 developer, publisher from January 2014 to present
 
 
@@ -42,7 +52,7 @@ Your dim sum companion. Read about dim sum and learn how to pronounce the dishes
 
 *app:* *iOS, Swift, dim sum*
 
-### [HyperBowl](http://hyperbowl3d.com/) @ Technicat
+### [HyperBowl](https://hyperbowl3d.com/) @ Technicat
 developer, publisher, licensee from December 2008 to December 2019
 
 
