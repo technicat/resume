@@ -100,7 +100,7 @@
        (url (res-value "url" r))
        (username (res-value "username" r)))
   (write-string #" ~(linkstr username url)@~network" out)
-  (newline out)))
+  (news out)))
 
 ; career
 
