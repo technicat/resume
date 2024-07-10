@@ -15,14 +15,14 @@
     },
     "profiles": [
       {
-        "network": "Github",
+        "network": "GitHub",
         "username": "technicat",
         "url": "https://github.com/technicat"
       },
       {
         "network": "Mastodon",
         "username": "technicat",
-        "url": "https://iosdev.space/@technicat"
+        "url": "https://pc.cafe/@pc"
       }
     ]
   },
@@ -602,8 +602,7 @@
         "6.004"
       ],
       "images": [
-        "images/mit/mit.jpg",
-        "images/mit/kit.jpg"
+        "images/mit/mit.jpg"
       ]
     },
     {
